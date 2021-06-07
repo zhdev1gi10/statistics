@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="03/07/2017 22:05:52" ReportInfo.Modified="03/07/2017 22:40:25" ReportInfo.CreatorVersion="2013.2.5.0">
+  <Dictionary>
+    <OleDbDataConnection Name="Connection" ConnectionString="rijcmlqVzFGsc+BVENiWJhr/EarGo8KURK6uFEv1yamZF9CDRlIJXb4vuQYHnmt/S7E2gWSsL9Wk8PA/98GeGirZkHcH1f+fTPnWXDVS6vfCVYxsSSMt+fdou0hcOe6vsGi23xZQSt1KQfhBUh0g+TXnYE2TPeEkHv63JbawMt8nuc6Xdo=">
+      <TableDataSource Name="dbo_WkccZbzl" DataType="System.Int32" Enabled="true" TableName="dbo.&quot;WkccZbzl&quot;">
+        <Column Name="ID" DataType="System.Int32"/>
+        <Column Name="jylsh" DataType="System.String"/>
+        <Column Name="jycs" DataType="System.String"/>
+        <Column Name="hpzl" DataType="System.String"/>
+        <Column Name="hphm" DataType="System.String"/>
+        <Column Name="clsbdh" DataType="System.String"/>
+        <Column Name="jyjgbh" DataType="System.String"/>
+        <Column Name="cllx" DataType="System.String"/>
+        <Column Name="jylb" DataType="System.String"/>
+        <Column Name="czdw" DataType="System.String"/>
+        <Column Name="cpxh" DataType="System.String"/>
+        <Column Name="fdjh" DataType="System.String"/>
+        <Column Name="zzl" DataType="System.String"/>
+        <Column Name="qdxs" DataType="System.String"/>
+        <Column Name="zbzl_bz" DataType="System.String"/>
+        <Column Name="length_bz" DataType="System.String"/>
+        <Column Name="width_bz" DataType="System.String"/>
+        <Column Name="height_bz" DataType="System.String"/>
+        <Column Name="wkcc" DataType="System.String"/>
+        <Column Name="zbzl" DataType="System.String"/>
+        <Column Name="jcflag" DataType="System.String"/>
+        <Column Name="Length" DataType="System.String"/>
+        <Column Name="width" DataType="System.String"/>
+        <Column Name="Height" DataType="System.String"/>
+        <Column Name="wkccpj" DataType="System.String"/>
+        <Column Name="zbzlval" DataType="System.String"/>
+        <Column Name="zbzlpj" DataType="System.String"/>
+        <Column Name="qychphm" DataType="System.String"/>
+        <Column Name="qyczbzl" DataType="System.String"/>
+        <Column Name="hxlength" DataType="System.String"/>
+        <Column Name="hxwidth" DataType="System.String"/>
+        <Column Name="hxheight" DataType="System.String"/>
+        <Column Name="hxlength_bz" DataType="System.String"/>
+        <Column Name="hxwidth_bz" DataType="System.String"/>
+        <Column Name="hxheight_bz" DataType="System.String"/>
+        <Column Name="hxlengthpj" DataType="System.String"/>
+        <Column Name="hxwidthpj" DataType="System.String"/>
+        <Column Name="hxheightpj" DataType="System.String"/>
+        <Column Name="lbgdpj" DataType="System.String"/>
+        <Column Name="zhoujupj" DataType="System.String"/>
+        <Column Name="jctime" DataType="System.String"/>
+        <Column Name="liechezbzl" DataType="System.String"/>
+        <Column Name="zbzlTime" DataType="System.String"/>
+        <Column Name="zbzlcs" DataType="System.String"/>
+        <Column Name="zbzlgb" DataType="System.String"/>
+      </TableDataSource>
+    </OleDbDataConnection>
+  </Dictionary>
+  <ReportPage Name="Page1">
+    <DataBand Name="Data1" Width="718.2" Height="992.25">
+      <PictureObject Name="Picture1" Left="56.7" Top="378" Width="292.95" Height="245.7" ImageLocation="D:\lib\res\da_1443439039889.jpeg"/>
+      <TextObject Name="Text1" Left="198.45" Top="18.9" Width="311.85" Height="37.8" Text="机动车外廓检测报告" Font="宋体, 24pt"/>
+      <TextObject Name="Text2" Left="11.45" Top="66.15" Width="302.4" Height="18.9" Text="检测机构名称：西平县恒通机动车检测有限公司" Font="宋体, 10pt"/>
+      <TextObject Name="Text3" Left="453.6" Top="66.15" Width="226.8" Height="18.9" Text="检测类型：[dbo_WkccZbzl.jylb]" Font="宋体, 10pt"/>
+      <TextObject Name="Text4" Left="9.45" Top="94.5" Width="122.85" Height="28.35" Border.Lines="All" Text="流水号" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text5" Left="9.45" Top="122.85" Width="122.85" Height="28.35" Border.Lines="All" Text="号牌号码" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text6" Left="9.45" Top="151.2" Width="122.85" Height="28.35" Border.Lines="All" Text="车架号(VIN)" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text7" Left="9.45" Top="179.55" Width="122.85" Height="28.35" Border.Lines="All" Text="数据项目" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text8" Left="9.45" Top="207.9" Width="122.85" Height="28.35" Border.Lines="All" Text="整车长" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text9" Left="9.45" Top="236.25" Width="122.85" Height="28.35" Border.Lines="All" Text="整车宽" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text10" Left="9.45" Top="264.6" Width="122.85" Height="28.35" Border.Lines="All" Text="整车高" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text11" Left="9.45" Top="292.95" Width="122.85" Height="28.35" Border.Lines="All" Text="整备质量" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text12" Left="9.45" Top="321.3" Width="122.85" Height="28.35" Border.Lines="All" Text="栏板高度" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text13" Left="9.45" Top="349.65" Width="122.85" Height="28.35" Border.Lines="All" Text="总轴距" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <PictureObject Name="Picture2" Left="396.9" Top="378" Width="292.95" Height="245.7" ImageLocation="D:\lib\res\da_1443439039889.jpeg"/>
+      <TextObject Name="Text14" Left="9.45" Top="378" Width="47.25" Height="245.7" Border.Lines="All" Text="车&#13;&#10;头&#13;&#10;图&#13;&#10;片" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text15" Left="349.65" Top="378" Width="47.25" Height="245.7" Border.Lines="All" Text="车&#13;&#10;身&#13;&#10;二&#13;&#10;维&#13;&#10;模&#13;&#10;型&#13;&#10;图" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text16" Left="132.3" Top="94.5" Width="217.35" Height="28.35" Border.Lines="All" Text="[dbo_WkccZbzl.jylsh]-[dbo_WkccZbzl.jycs]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text17" Left="132.3" Top="122.85" Width="217.35" Height="28.35" Border.Lines="All" Text="[dbo_WkccZbzl.hphm]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text18" Left="132.3" Top="151.2" Width="217.35" Height="28.35" Border.Lines="All" Text="[dbo_WkccZbzl.clsbdh]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text19" Left="349.65" Top="94.5" Width="122.85" Height="28.35" Border.Lines="All" Text="检测时间" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text20" Left="349.65" Top="122.85" Width="122.85" Height="28.35" Border.Lines="All" Text="号牌种类" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text21" Left="349.65" Top="151.2" Width="122.85" Height="28.35" Border.Lines="All" Text="车辆类型" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text22" Left="472.5" Top="94.5" Width="217.35" Height="28.35" Border.Lines="All" Text="[dbo_WkccZbzl.jctime]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text23" Left="472.5" Top="122.85" Width="217.35" Height="28.35" Border.Lines="All" Text="[dbo_WkccZbzl.hpzl]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text24" Left="472.5" Top="151.2" Width="217.35" Height="28.35" Border.Lines="All" Text="[dbo_WkccZbzl.cllx]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text25" Left="132.3" Top="179.55" Width="113.4" Height="28.35" Border.Lines="All" Text="机动车标准参数" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text26" Left="245.7" Top="179.55" Width="103.95" Height="28.35" Border.Lines="All" Text="测量数据" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text27" Left="349.65" Top="179.55" Width="94.5" Height="28.35" Border.Lines="All" Text="差值" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text28" Left="444.15" Top="179.55" Width="94.5" Height="28.35" Border.Lines="All" Text="百分比" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text29" Left="538.65" Top="179.55" Width="94.5" Height="28.35" Border.Lines="All" Text="限值" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text30" Left="633.15" Top="179.55" Width="56.7" Height="28.35" Border.Lines="All" Text="判定" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text31" Left="132.3" Top="207.9" Width="113.4" Height="28.35" Border.Lines="All" Text="[dbo_WkccZbzl.length_bz]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text32" Left="245.7" Top="207.9" Width="103.95" Height="28.35" Border.Lines="All" Text="[dbo_WkccZbzl.Length]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text33" Left="349.65" Top="207.9" Width="94.5" Height="28.35" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text34" Left="444.15" Top="207.9" Width="94.5" Height="28.35" Border.Lines="All" Text="百分比" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text35" Left="538.65" Top="207.9" Width="94.5" Height="28.35" Border.Lines="All" Text="限值" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text36" Left="633.15" Top="207.9" Width="56.7" Height="28.35" Border.Lines="All" Text="判定" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text37" Left="132.3" Top="236.25" Width="113.4" Height="28.35" Border.Lines="All" Text="[dbo_WkccZbzl.width_bz]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text38" Left="245.7" Top="236.25" Width="103.95" Height="28.35" Border.Lines="All" Text="[dbo_WkccZbzl.width]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text39" Left="349.65" Top="236.25" Width="94.5" Height="28.35" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text40" Left="444.15" Top="236.25" Width="94.5" Height="28.35" Border.Lines="All" Text="百分比" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text41" Left="538.65" Top="236.25" Width="94.5" Height="28.35" Border.Lines="All" Text="限值" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text42" Left="633.15" Top="236.25" Width="56.7" Height="28.35" Border.Lines="All" Text="判定" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text43" Left="132.3" Top="264.6" Width="113.4" Height="28.35" Border.Lines="All" Text="[dbo_WkccZbzl.height_bz]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text44" Left="245.7" Top="264.6" Width="103.95" Height="28.35" Border.Lines="All" Text="[dbo_WkccZbzl.Height]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text45" Left="349.65" Top="264.6" Width="94.5" Height="28.35" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text46" Left="444.15" Top="264.6" Width="94.5" Height="28.35" Border.Lines="All" Text="百分比" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text47" Left="538.65" Top="264.6" Width="94.5" Height="28.35" Border.Lines="All" Text="限值" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text48" Left="633.15" Top="264.6" Width="56.7" Height="28.35" Border.Lines="All" Text="判定" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text49" Left="132.3" Top="292.95" Width="113.4" Height="28.35" Border.Lines="All" Text="[dbo_WkccZbzl.zbzl_bz]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text50" Left="245.7" Top="292.95" Width="103.95" Height="28.35" Border.Lines="All" Text="[dbo_WkccZbzl.zbzlval]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text51" Left="349.65" Top="292.95" Width="94.5" Height="28.35" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text52" Left="444.15" Top="292.95" Width="94.5" Height="28.35" Border.Lines="All" Text="百分比" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text53" Left="538.65" Top="292.95" Width="94.5" Height="28.35" Border.Lines="All" Text="限值" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text54" Left="633.15" Top="292.95" Width="56.7" Height="28.35" Border.Lines="All" Text="判定" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text55" Left="132.3" Top="321.3" Width="113.4" Height="28.35" Border.Lines="All" Text="机动车标准参数" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text56" Left="245.7" Top="321.3" Width="103.95" Height="28.35" Border.Lines="All" Text="测量数据" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text57" Left="349.65" Top="321.3" Width="94.5" Height="28.35" Border.Lines="All" Text="差值" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text58" Left="444.15" Top="321.3" Width="94.5" Height="28.35" Border.Lines="All" Text="百分比" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text59" Left="538.65" Top="321.3" Width="94.5" Height="28.35" Border.Lines="All" Text="限值" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text60" Left="633.15" Top="321.3" Width="56.7" Height="28.35" Border.Lines="All" Text="判定" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text61" Left="132.3" Top="349.65" Width="113.4" Height="28.35" Border.Lines="All" Text="机动车标准参数" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text62" Left="245.7" Top="349.65" Width="103.95" Height="28.35" Border.Lines="All" Text="测量数据" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text63" Left="349.65" Top="349.65" Width="94.5" Height="28.35" Border.Lines="All" Text="差值" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text64" Left="444.15" Top="349.65" Width="94.5" Height="28.35" Border.Lines="All" Text="百分比" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text65" Left="538.65" Top="349.65" Width="94.5" Height="28.35" Border.Lines="All" Text="限值" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text66" Left="633.15" Top="349.65" Width="56.7" Height="28.35" Border.Lines="All" Text="判定" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text67" Left="396.9" Top="378" Width="292.95" Height="245.7" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text68" Left="56.7" Top="378" Width="292.95" Height="245.7" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <PictureObject Name="Picture3" Left="56.7" Top="623.7" Width="292.95" Height="245.7" ImageLocation="D:\lib\res\da_1443439039889.jpeg"/>
+      <PictureObject Name="Picture4" Left="396.9" Top="623.7" Width="292.95" Height="245.7" GrowToBottom="true" ImageLocation="D:\lib\res\da_1443439039889.jpeg"/>
+      <TextObject Name="Text69" Left="9.45" Top="623.7" Width="47.25" Height="245.7" Border.Lines="All" Text="车&#13;&#10;尾&#13;&#10;图&#13;&#10;片" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text70" Left="349.65" Top="623.7" Width="47.25" Height="245.7" Border.Lines="All" Text="车&#13;&#10;顶&#13;&#10;二&#13;&#10;维&#13;&#10;模&#13;&#10;型&#13;&#10;图" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text73" Left="9.45" Top="869.4" Width="340.2" Height="37.8" Border.Lines="All" Text="检测结果：" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text74" Left="9.45" Top="907.2" Width="340.2" Height="37.8" Border.Lines="All" Text="查验员" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text75" Left="9.45" Top="945" Width="680.4" Height="37.8" Border.Lines="All" Text="检验机构地址：西平县专探路口与107国道交叉口西500米路男                检验机构电话：0396-6030001" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text76" Left="349.65" Top="869.4" Width="340.2" Height="75.6" Border.Lines="All" Text="检验依据：&#13;&#10;1、GB21861-2014《机动车安全技术检验项目和方法》&#13;&#10;2、GB7258-2012《机动车运行安全技术条件》" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text71" Left="396.9" Top="623.7" Width="292.95" Height="245.7" Border.Lines="All" VertAlign="Center" Font="宋体, 10pt"/>
+    </DataBand>
+  </ReportPage>
+</Report>

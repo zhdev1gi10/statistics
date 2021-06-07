@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="03/07/2017 22:05:52" ReportInfo.Modified="11/16/2017 11:34:17" ReportInfo.CreatorVersion="2013.2.5.0" PrintSettings.Printer="Microsoft XPS Document Writer" PrintSettings.SavePrinterWithReport="true">
+  <ScriptText>using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Windows.Forms;
+using System.Drawing;
+using System.Data;
+using FastReport;
+using FastReport.Data;
+using FastReport.Dialog;
+using FastReport.Barcode;
+using FastReport.Table;
+using FastReport.Utils;
+
+namespace FastReport
+{
+  public class ReportScript
+  {  
+  }
+}
+</ScriptText>
+  <Dictionary>
+    <MsSqlDataConnection Name="Connection" ConnectionString="rijcmlq+rW0RkboK+/8CKGGYUID3ctBV8q9SvKYxl3iiE7vBnh7Tgou0+4WFf3NfmPSvHVF0AHMgLihuygF97xz7+gagpPfaxx6pxYcErrxSSpYlZKdjmaVm2oDNajmJYyfsLxYlErU88D+gdnzsHUGYHTKyHAyj0lRBDxtL/QcNo1rXjUjI3UGrNtZn1cDLJUgDZin">
+      <TableDataSource Name="Data_Modification" DataType="System.Int32" Enabled="true" TableName="Data_Modification">
+        <Column Name="检测编号" DataType="System.String"/>
+        <Column Name="车速值" DataType="System.String"/>
+        <Column Name="车速评价" DataType="System.String"/>
+        <Column Name="烟度值1" DataType="System.String"/>
+        <Column Name="烟度值2" DataType="System.String"/>
+        <Column Name="烟度值3" DataType="System.String"/>
+        <Column Name="怠速CO值" DataType="System.String"/>
+        <Column Name="怠速CO评价" DataType="System.String"/>
+        <Column Name="怠速HC值" DataType="System.String"/>
+        <Column Name="双怠速CO值" DataType="System.String"/>
+        <Column Name="双怠速HC值" DataType="System.String"/>
+        <Column Name="一轴轴重值" DataType="System.String"/>
+        <Column Name="二轴轴重值" DataType="System.String"/>
+        <Column Name="三轴轴重值" DataType="System.String"/>
+        <Column Name="四轴轴重值" DataType="System.String"/>
+        <Column Name="五轴轴重值" DataType="System.String"/>
+        <Column Name="六轴轴重值" DataType="System.String"/>
+        <Column Name="一轴求和时左制动力值" DataType="System.String"/>
+        <Column Name="一轴求和时右制动力值" DataType="System.String"/>
+        <Column Name="一轴求差时左制动力值" DataType="System.String"/>
+        <Column Name="一轴求差时右制动力值" DataType="System.String"/>
+        <Column Name="一轴制动和值" DataType="System.String"/>
+        <Column Name="一轴制动差值" DataType="System.String"/>
+        <Column Name="一轴左拖滞比值" DataType="System.String"/>
+        <Column Name="一轴右拖滞比值" DataType="System.String"/>
+        <Column Name="一轴制动和评价" DataType="System.String"/>
+        <Column Name="二轴求和时左制动力值" DataType="System.String"/>
+        <Column Name="二轴求和时右制动力值" DataType="System.String"/>
+        <Column Name="二轴求差时左制动力值" DataType="System.String"/>
+        <Column Name="二轴求差时右制动力值" DataType="System.String"/>
+        <Column Name="二轴制动和值" DataType="System.String"/>
+        <Column Name="二轴制动差值" DataType="System.String"/>
+        <Column Name="二轴左拖滞比值" DataType="System.String"/>
+        <Column Name="二轴右拖滞比值" DataType="System.String"/>
+        <Column Name="二轴制动和评价" DataType="System.String"/>
+        <Column Name="三轴求和时左制动力值" DataType="System.String"/>
+        <Column Name="三轴求和时右制动力值" DataType="System.String"/>
+        <Column Name="三轴求差时左制动力值" DataType="System.String"/>
+        <Column Name="三轴求差时右制动力值" DataType="System.String"/>
+        <Column Name="三轴制动和值" DataType="System.String"/>
+        <Column Name="三轴制动差值" DataType="System.String"/>
+        <Column Name="三轴左拖滞比值" DataType="System.String"/>
+        <Column Name="三轴右拖滞比值" DataType="System.String"/>
+        <Column Name="三轴制动和评价" DataType="System.String"/>
+        <Column Name="四轴求和时左制动力值" DataType="System.String"/>
+        <Column Name="四轴求和时右制动力值" DataType="System.String"/>
+        <Column Name="四轴求差时左制动力值" DataType="System.String"/>
+        <Column Name="四轴求差时右制动力值" DataType="System.String"/>
+        <Column Name="四轴制动和值" DataType="System.String"/>
+        <Column Name="四轴制动差值" DataType="System.String"/>
+        <Column Name="四轴左拖滞比值" DataType="System.String"/>
+        <Column Name="四轴右拖滞比值" DataType="System.String"/>
+        <Column Name="四轴制动和评价" DataType="System.String"/>
+        <Column Name="五轴求和时左制动力值" DataType="System.String"/>
+        <Column Name="五轴求和时右制动力值" DataType="System.String"/>
+        <Column Name="五轴求差时左制动力值" DataType="System.String"/>
+        <Column Name="五轴求差时右制动力值" DataType="System.String"/>
+        <Column Name="五轴制动和值" DataType="System.String"/>
+        <Column Name="五轴制动差值" DataType="System.String"/>
+        <Column Name="五轴左拖滞比值" DataType="System.String"/>
+        <Column Name="五轴右拖滞比值" DataType="System.String"/>
+        <Column Name="五轴制动和评价" DataType="System.String"/>
+        <Column Name="六轴求和时左制动力值" DataType="System.String"/>
+        <Column Name="六轴求和时右制动力值" DataType="System.String"/>
+        <Column Name="六轴求差时左制动力值" DataType="System.String"/>
+        <Column Name="六轴求差时右制动力值" DataType="System.String"/>
+        <Column Name="六轴制动和值" DataType="System.String"/>
+        <Column Name="六轴制动差值" DataType="System.String"/>
+        <Column Name="六轴左拖滞比值" DataType="System.String"/>
+        <Column Name="六轴右拖滞比值" DataType="System.String"/>
+        <Column Name="六轴制动和评价" DataType="System.String"/>
+        <Column Name="整车轴重值" DataType="System.String"/>
+        <Column Name="整车制动和值" DataType="System.String"/>
+        <Column Name="手制动和值" DataType="System.String"/>
+        <Column Name="左灯高值" DataType="System.String"/>
+        <Column Name="右灯高值" DataType="System.String"/>
+        <Column Name="左主远光强度值" DataType="System.String"/>
+        <Column Name="左主远光左右偏差值" DataType="System.String"/>
+        <Column Name="左主远光上下偏差值" DataType="System.String"/>
+        <Column Name="左主远光强度评价" DataType="System.String"/>
+        <Column Name="右主远光强度值" DataType="System.String"/>
+        <Column Name="右主远光左右偏差值" DataType="System.String"/>
+        <Column Name="右主远光上下偏差值" DataType="System.String"/>
+        <Column Name="右主远光强度评价" DataType="System.String"/>
+        <Column Name="左副远光强度值" DataType="System.String"/>
+        <Column Name="左副远光左右偏差值" DataType="System.String"/>
+        <Column Name="左副远光上下偏差值" DataType="System.String"/>
+        <Column Name="左副远光强度评价" DataType="System.String"/>
+        <Column Name="右副远光强度值" DataType="System.String"/>
+        <Column Name="右副远光左右偏差值" DataType="System.String"/>
+        <Column Name="右副远光上下偏差值" DataType="System.String"/>
+        <Column Name="右副远光强度评价" DataType="System.String"/>
+        <Column Name="喇叭声级值" DataType="System.String"/>
+        <Column Name="喇叭声级评价" DataType="System.String"/>
+        <Column Name="侧滑评价" DataType="System.String"/>
+        <Column Name="光吸收率值1" DataType="System.String"/>
+        <Column Name="光吸收率值2" DataType="System.String"/>
+        <Column Name="光吸收率评价" DataType="System.String"/>
+        <Column Name="光吸收率值3" DataType="System.String"/>
+        <Column Name="三轴右轴重值" DataType="System.String"/>
+        <Column Name="三轴左轴重值" DataType="System.String"/>
+        <Column Name="二轴右轴重值" DataType="System.String"/>
+        <Column Name="二轴左轴重值" DataType="System.String"/>
+        <Column Name="一轴右轴重值" DataType="System.String"/>
+        <Column Name="四轴右轴重值" DataType="System.String"/>
+        <Column Name="五轴右轴重值" DataType="System.String"/>
+        <Column Name="五轴左轴重值" DataType="System.String"/>
+        <Column Name="四轴左轴重值" DataType="System.String"/>
+        <Column Name="一轴左轴重值" DataType="System.String"/>
+        <Column Name="空气过量系数值" DataType="System.String"/>
+        <Column Name="一轴左轴重动态值" DataType="System.String"/>
+        <Column Name="二轴左轴重动态值" DataType="System.String"/>
+        <Column Name="三轴左轴重动态值" DataType="System.String"/>
+        <Column Name="四轴左轴重动态值" DataType="System.String"/>
+        <Column Name="一轴右轴重动态值" DataType="System.String"/>
+        <Column Name="二轴右轴重动态值" DataType="System.String"/>
+        <Column Name="三轴右轴重动态值" DataType="System.String"/>
+        <Column Name="四轴右轴重动态值" DataType="System.String"/>
+        <Column Name="悬架前左吸收率值" DataType="System.String"/>
+        <Column Name="悬架前右吸收率值" DataType="System.String"/>
+        <Column Name="悬架后左吸收率值" DataType="System.String"/>
+        <Column Name="悬架后右吸收率值" DataType="System.String"/>
+        <Column Name="悬架前轴吸收率差值" DataType="System.String"/>
+        <Column Name="悬架后轴吸收率差值" DataType="System.String"/>
+        <Column Name="悬架前轴吸收率评价" DataType="System.String"/>
+        <Column Name="悬架后轴吸收率评价" DataType="System.String"/>
+        <Column Name="工况法5025CO值" DataType="System.String"/>
+        <Column Name="工况法5025HC值" DataType="System.String"/>
+        <Column Name="工况法5025NO值" DataType="System.String"/>
+        <Column Name="工况法2540CO值" DataType="System.String"/>
+        <Column Name="工况法2540HC值" DataType="System.String"/>
+        <Column Name="工况法2540NO值" DataType="System.String"/>
+        <Column Name="车牌号码" DataType="System.String"/>
+        <Column Name="车牌颜色" DataType="System.String"/>
+        <Column Name="车轴数" DataType="System.String"/>
+        <Column Name="发动机号码" DataType="System.String"/>
+        <Column Name="底盘号码" DataType="System.String"/>
+        <Column Name="营运证号" DataType="System.String"/>
+        <Column Name="出厂日期" DataType="System.String"/>
+        <Column Name="车身颜色" DataType="System.String"/>
+        <Column Name="车主单位" DataType="System.String"/>
+        <Column Name="登记日期" DataType="System.String"/>
+        <Column Name="车辆类型" DataType="System.String"/>
+        <Column Name="行驶里程" DataType="System.String"/>
+        <Column Name="座位数" DataType="System.String"/>
+        <Column Name="总质量" DataType="System.String"/>
+        <Column Name="VIN" DataType="System.String"/>
+        <Column Name="远光光束单独调整" DataType="System.String"/>
+        <Column Name="整备质量" DataType="System.String"/>
+        <Column Name="发动机额定功率" DataType="System.String"/>
+        <Column Name="发动机额定转速" DataType="System.String"/>
+        <Column Name="检测类别" DataType="System.String"/>
+        <Column Name="检测日期" DataType="System.String"/>
+        <Column Name="检测时间" DataType="System.String"/>
+        <Column Name="线号标识" DataType="System.String"/>
+        <Column Name="登录员" DataType="System.String"/>
+        <Column Name="引车员" DataType="System.String"/>
+        <Column Name="发动机额定扭矩" DataType="System.String"/>
+        <Column Name="前轮距" DataType="System.String"/>
+        <Column Name="客车等级" DataType="System.String"/>
+        <Column Name="轮胎规格" DataType="System.String"/>
+        <Column Name="油耗标准" DataType="System.String"/>
+        <Column Name="燃油类型" DataType="System.String"/>
+        <Column Name="车长" DataType="System.String"/>
+        <Column Name="车宽" DataType="System.String"/>
+        <Column Name="车高" DataType="System.String"/>
+        <Column Name="厂牌型号" DataType="System.String"/>
+        <Column Name="型号" DataType="System.String"/>
+        <Column Name="底盘类型" DataType="System.String"/>
+        <Column Name="手刹起始轴位" DataType="System.String"/>
+        <Column Name="百公里油耗值" DataType="System.String"/>
+        <Column Name="动力性达标功率" DataType="System.String"/>
+        <Column Name="动力性加载力" DataType="System.String"/>
+        <Column Name="双转向轴" DataType="System.String"/>
+        <Column Name="侧滑值2" DataType="System.String"/>
+        <Column Name="灯制" DataType="System.String"/>
+        <Column Name="检测项目" DataType="System.String"/>
+        <Column Name="客车车长" DataType="System.String"/>
+        <Column Name="驱动轴数" DataType="System.String"/>
+        <Column Name="驱动形式" DataType="System.String"/>
+        <Column Name="业务类型" DataType="System.String"/>
+        <Column Name="货车车身型式" DataType="System.String"/>
+        <Column Name="转向轴悬架形式" DataType="System.String"/>
+        <Column Name="驱动轴空载质量" DataType="System.String"/>
+        <Column Name="牵引车满载总质量" DataType="System.String"/>
+        <Column Name="并装轴形式" DataType="System.String"/>
+        <Column Name="一轴左制动力值" DataType="System.String"/>
+        <Column Name="一轴右制动力值" DataType="System.String"/>
+        <Column Name="二轴左制动力值" DataType="System.String"/>
+        <Column Name="二轴右制动力值" DataType="System.String"/>
+        <Column Name="三轴左制动力值" DataType="System.String"/>
+        <Column Name="三轴右制动力值" DataType="System.String"/>
+        <Column Name="四轴左制动力值" DataType="System.String"/>
+        <Column Name="四轴右制动力值" DataType="System.String"/>
+        <Column Name="五轴左制动力值" DataType="System.String"/>
+        <Column Name="五轴右制动力值" DataType="System.String"/>
+        <Column Name="六轴左制动力值" DataType="System.String"/>
+        <Column Name="六轴右制动力值" DataType="System.String"/>
+        <Column Name="侧滑值1" DataType="System.String"/>
+        <Column Name="侧滑值1评定" DataType="System.String"/>
+        <Column Name="侧滑值2评定" DataType="System.String"/>
+        <Column Name="VmasCO" DataType="System.String"/>
+        <Column Name="VmasHC" DataType="System.String"/>
+        <Column Name="VmasNO" DataType="System.String"/>
+        <Column Name="VmasHCNO" DataType="System.String"/>
+        <Column Name="光吸收平均值" DataType="System.String"/>
+        <Column Name="烟度平均值" DataType="System.String"/>
+        <Column Name="Lugdown100K" DataType="System.String"/>
+        <Column Name="Lugdown90K" DataType="System.String"/>
+        <Column Name="Lugdown80K" DataType="System.String"/>
+        <Column Name="左近灯高值" DataType="System.String"/>
+        <Column Name="右近灯高值" DataType="System.String"/>
+        <Column Name="左主远光上下偏差H值" DataType="System.String"/>
+        <Column Name="左副远光上下偏差H值" DataType="System.String"/>
+        <Column Name="右副远光上下偏差H值" DataType="System.String"/>
+        <Column Name="右主远光上下偏差H值" DataType="System.String"/>
+        <Column Name="左主近光上下偏差H值" DataType="System.String"/>
+        <Column Name="左副近光上下偏差H值" DataType="System.String"/>
+        <Column Name="右副近光上下偏差H值" DataType="System.String"/>
+        <Column Name="右主近光上下偏差H值" DataType="System.String"/>
+        <Column Name="左主近光左右偏差值" DataType="System.String"/>
+        <Column Name="左副近光左右偏差值" DataType="System.String"/>
+        <Column Name="右副近光左右偏差值" DataType="System.String"/>
+        <Column Name="右主近光左右偏差值" DataType="System.String"/>
+        <Column Name="左主近光上下偏差值" DataType="System.String"/>
+        <Column Name="左副近光上下偏差值" DataType="System.String"/>
+        <Column Name="右副近光上下偏差值" DataType="System.String"/>
+        <Column Name="右主近光上下偏差值" DataType="System.String"/>
+        <Column Name="制动初速度值" DataType="System.String"/>
+        <Column Name="制动距离值" DataType="System.String"/>
+        <Column Name="制动稳定性值" DataType="System.String"/>
+        <Column Name="制动协调时间" DataType="System.String"/>
+        <Column Name="制动减速度值" DataType="System.String"/>
+        <Column Name="不合格项汇总" DataType="System.String"/>
+        <Column Name="稳定车速" DataType="System.String"/>
+        <Column Name="额定车速" DataType="System.String"/>
+        <Column Name="动力性评定" DataType="System.String"/>
+        <Column Name="经济性评定" DataType="System.String"/>
+        <Column Name="整车评定" DataType="System.String"/>
+        <Column Name="轮边功率" DataType="System.String"/>
+        <Column Name="档案编号" DataType="System.String"/>
+        <Column Name="制动工位照片" DataType="System.Byte[]" BindableControl="Picture"/>
+        <Column Name="灯光工位照片" DataType="System.Byte[]" BindableControl="Picture"/>
+        <Column Name="动力工位照片" DataType="System.Byte[]" BindableControl="Picture"/>
+        <Column Name="方向盘自由转动量值" DataType="System.String"/>
+        <Column Name="结论" DataType="System.String"/>
+        <Column Name="二维外检项" DataType="System.String"/>
+      </TableDataSource>
+    </MsSqlDataConnection>
+  </Dictionary>
+  <ReportPage Name="Page1" Landscape="true" PaperWidth="100" PaperHeight="80" TopMargin="0" BottomMargin="0" Guides="-18.9">
+    <DataBand Name="Data1" Width="302.4" Height="417.61" Fill="Glass" Fill.Color="White" Fill.Blend="0.2" Fill.Hatch="true" Indent="0">
+      <TextObject Name="Text1" Left="9.45" Top="28.35" Width="274.05" Height="18.9" Text="新郑市机动车检测服务有限公司" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text2" Left="9.45" Top="46.7" Width="94.5" Height="18.9" Text="维修通知单:" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text3" Left="9.45" Top="65.6" Width="75.6" Height="18.9" Text="车牌号码:" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text4" Left="85.05" Top="65.15" Width="179.55" Height="18.9" Text="[Data_Modification.车牌号码]/[Data_Modification.车牌颜色]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text5" Left="9.45" Top="84.5" Width="75.6" Height="18.9" Text="车辆类型:" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text6" Left="85.05" Top="84.05" Width="179.55" Height="18.9" Text="[Data_Modification.车辆类型]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text7" Left="9.45" Top="102.95" Width="75.6" Height="18.9" Text="引车员:" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text8" Left="85.05" Top="102.95" Width="179.55" Height="18.9" Text="[Data_Modification.引车员]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text478" Left="9.45" Top="121.85" Width="75.6" Height="18.9" Text="检验类别:" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text479" Left="85.05" Top="121.85" Width="179.55" Height="18.9" Text="[Data_Modification.检测类别]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text9" Left="9.45" Top="140.75" Width="75.6" Height="18.9" Text="检测日期:" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text10" Left="85.05" Top="140.75" Width="179.55" Height="18.9" Text="[Data_Modification.检测日期]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text11" Left="9.45" Top="159.65" Width="75.6" Height="18.9" Text="不合格项:" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text12" Left="9.45" Top="189" Width="255.15" Height="170.1" Text="[Data_Modification.不合格项汇总]" Font="宋体, 9pt"/>
+    </DataBand>
+  </ReportPage>
+</Report>

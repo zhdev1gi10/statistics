@@ -1,0 +1,923 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="03/07/2017 22:05:52" ReportInfo.Modified="03/16/2018 15:20:03" ReportInfo.CreatorVersion="2013.2.5.0" PrintSettings.PrintMode="Scale" PrintSettings.PrintOnSheetWidth="296.926" PrintSettings.PrintOnSheetHeight="420.116" PrintSettings.PrintOnSheetRawPaperSize="8">
+  <Dictionary>
+    <MsSqlDataConnection Name="Connection" ConnectionString="rijcmlqHwzMSgwTFaHpjtG3vsOj8U5VwE7WaYmeVwIiYDCEkUHThi75YL6pmiwzyK4DPVYR1FR3bj8Cn0DG5Mtfuxh3vIzPvT4A63IFDl7A0DbFeCpFCUUdKtcTfCJ+x1eYMJr3N2J99jbxWuWTa/zrwddQSRBhC9pXGDMCOHrfGv+8ii8Mtb1tHtSucAZpJTZkGjOD">
+      <TableDataSource Name="Data_Modification1" Alias="Data_Modification" DataType="System.Int32" Enabled="true" TableName="Data_Modification">
+        <Column Name="发动机号码" DataType="System.String"/>
+        <Column Name="底盘号码" DataType="System.String"/>
+        <Column Name="营运证号" DataType="System.String"/>
+        <Column Name="出厂日期" DataType="System.String"/>
+        <Column Name="车身颜色" DataType="System.String"/>
+        <Column Name="车主单位" DataType="System.String"/>
+        <Column Name="登记日期" DataType="System.String"/>
+        <Column Name="车辆类型" DataType="System.String"/>
+        <Column Name="型号" DataType="System.String"/>
+        <Column Name="车牌号码" DataType="System.String"/>
+        <Column Name="车牌颜色" DataType="System.String"/>
+        <Column Name="整备质量" DataType="System.String"/>
+        <Column Name="行驶里程" DataType="System.String"/>
+        <Column Name="燃油类型" DataType="System.String"/>
+        <Column Name="车轴数" DataType="System.String"/>
+        <Column Name="灯制" DataType="System.String"/>
+        <Column Name="发动机额定功率" DataType="System.String"/>
+        <Column Name="登录员" DataType="System.String"/>
+        <Column Name="检测项目" DataType="System.String"/>
+        <Column Name="检测类别" DataType="System.String"/>
+        <Column Name="引车员" DataType="System.String"/>
+        <Column Name="检测日期" DataType="System.String"/>
+        <Column Name="厂牌型号" DataType="System.String"/>
+        <Column Name="车高" DataType="System.String"/>
+        <Column Name="车长" DataType="System.String"/>
+        <Column Name="车宽" DataType="System.String"/>
+        <Column Name="VIN" DataType="System.String"/>
+        <Column Name="总质量" DataType="System.String"/>
+        <Column Name="座位数" DataType="System.String"/>
+        <Column Name="发动机额定转速" DataType="System.String"/>
+        <Column Name="检测编号" DataType="System.String"/>
+        <Column Name="远光光束单独调整" DataType="System.String"/>
+        <Column Name="双转向轴" DataType="System.String"/>
+        <Column Name="前轮距" DataType="System.String"/>
+        <Column Name="客车等级" DataType="System.String"/>
+        <Column Name="发动机额定扭矩" DataType="System.String"/>
+        <Column Name="轮胎规格" DataType="System.String"/>
+        <Column Name="底盘类型" DataType="System.String"/>
+        <Column Name="手刹起始轴位" DataType="System.String"/>
+        <Column Name="驱动轴数" DataType="System.String"/>
+        <Column Name="业务类型" DataType="System.String"/>
+        <Column Name="额定车速" DataType="System.String"/>
+        <Column Name="稳定车速" DataType="System.String"/>
+        <Column Name="一轴左轴重值" DataType="System.String"/>
+        <Column Name="一轴右轴重值" DataType="System.String"/>
+        <Column Name="一轴轴重值" DataType="System.String"/>
+        <Column Name="一轴左轴重动态值" DataType="System.String"/>
+        <Column Name="一轴右轴重动态值" DataType="System.String"/>
+        <Column Name="一轴求和时左制动力值" DataType="System.String"/>
+        <Column Name="一轴求和时右制动力值" DataType="System.String"/>
+        <Column Name="二轴左轴重值" DataType="System.String"/>
+        <Column Name="二轴右轴重值" DataType="System.String"/>
+        <Column Name="二轴轴重值" DataType="System.String"/>
+        <Column Name="二轴左轴重动态值" DataType="System.String"/>
+        <Column Name="二轴右轴重动态值" DataType="System.String"/>
+        <Column Name="二轴求和时左制动力值" DataType="System.String"/>
+        <Column Name="二轴求和时右制动力值" DataType="System.String"/>
+        <Column Name="三轴左轴重值" DataType="System.String"/>
+        <Column Name="三轴右轴重值" DataType="System.String"/>
+        <Column Name="三轴轴重值" DataType="System.String"/>
+        <Column Name="三轴左轴重动态值" DataType="System.String"/>
+        <Column Name="三轴右轴重动态值" DataType="System.String"/>
+        <Column Name="三轴求和时左制动力值" DataType="System.String"/>
+        <Column Name="三轴求和时右制动力值" DataType="System.String"/>
+        <Column Name="四轴左轴重值" DataType="System.String"/>
+        <Column Name="四轴右轴重值" DataType="System.String"/>
+        <Column Name="四轴轴重值" DataType="System.String"/>
+        <Column Name="四轴左轴重动态值" DataType="System.String"/>
+        <Column Name="四轴右轴重动态值" DataType="System.String"/>
+        <Column Name="四轴求和时左制动力值" DataType="System.String"/>
+        <Column Name="四轴求和时右制动力值" DataType="System.String"/>
+        <Column Name="五轴左轴重值" DataType="System.String"/>
+        <Column Name="五轴右轴重值" DataType="System.String"/>
+        <Column Name="五轴轴重值" DataType="System.String"/>
+        <Column Name="五轴求和时左制动力值" DataType="System.String"/>
+        <Column Name="五轴求和时右制动力值" DataType="System.String"/>
+        <Column Name="六轴轴重值" DataType="System.String"/>
+        <Column Name="六轴求和时左制动力值" DataType="System.String"/>
+        <Column Name="六轴求和时右制动力值" DataType="System.String"/>
+        <Column Name="一轴左制动力值" DataType="System.String"/>
+        <Column Name="一轴右制动力值" DataType="System.String"/>
+        <Column Name="二轴左制动力值" DataType="System.String"/>
+        <Column Name="二轴右制动力值" DataType="System.String"/>
+        <Column Name="三轴左制动力值" DataType="System.String"/>
+        <Column Name="三轴右制动力值" DataType="System.String"/>
+        <Column Name="四轴左制动力值" DataType="System.String"/>
+        <Column Name="四轴右制动力值" DataType="System.String"/>
+        <Column Name="五轴左制动力值" DataType="System.String"/>
+        <Column Name="五轴右制动力值" DataType="System.String"/>
+        <Column Name="六轴左制动力值" DataType="System.String"/>
+        <Column Name="六轴右制动力值" DataType="System.String"/>
+        <Column Name="悬架前左吸收率值" DataType="System.String"/>
+        <Column Name="悬架前右吸收率值" DataType="System.String"/>
+        <Column Name="悬架前轴吸收率差值" DataType="System.String"/>
+        <Column Name="悬架后左吸收率值" DataType="System.String"/>
+        <Column Name="悬架后右吸收率值" DataType="System.String"/>
+        <Column Name="悬架后轴吸收率差值" DataType="System.String"/>
+        <Column Name="悬架前轴吸收率评价" DataType="System.String"/>
+        <Column Name="悬架后轴吸收率评价" DataType="System.String"/>
+        <Column Name="车速值" DataType="System.String"/>
+        <Column Name="喇叭声级值" DataType="System.String"/>
+        <Column Name="车速评价" DataType="System.String"/>
+        <Column Name="喇叭声级评价" DataType="System.String"/>
+        <Column Name="一轴制动和值" DataType="System.String"/>
+        <Column Name="一轴制动差值" DataType="System.String"/>
+        <Column Name="一轴求差时左制动力值" DataType="System.String"/>
+        <Column Name="一轴求差时右制动力值" DataType="System.String"/>
+        <Column Name="一轴左拖滞比值" DataType="System.String"/>
+        <Column Name="一轴右拖滞比值" DataType="System.String"/>
+        <Column Name="二轴制动和值" DataType="System.String"/>
+        <Column Name="二轴制动差值" DataType="System.String"/>
+        <Column Name="二轴求差时左制动力值" DataType="System.String"/>
+        <Column Name="二轴求差时右制动力值" DataType="System.String"/>
+        <Column Name="二轴左拖滞比值" DataType="System.String"/>
+        <Column Name="二轴右拖滞比值" DataType="System.String"/>
+        <Column Name="三轴制动和值" DataType="System.String"/>
+        <Column Name="三轴制动差值" DataType="System.String"/>
+        <Column Name="三轴求差时左制动力值" DataType="System.String"/>
+        <Column Name="三轴求差时右制动力值" DataType="System.String"/>
+        <Column Name="三轴左拖滞比值" DataType="System.String"/>
+        <Column Name="三轴右拖滞比值" DataType="System.String"/>
+        <Column Name="四轴制动和值" DataType="System.String"/>
+        <Column Name="四轴制动差值" DataType="System.String"/>
+        <Column Name="四轴求差时左制动力值" DataType="System.String"/>
+        <Column Name="四轴求差时右制动力值" DataType="System.String"/>
+        <Column Name="四轴左拖滞比值" DataType="System.String"/>
+        <Column Name="四轴右拖滞比值" DataType="System.String"/>
+        <Column Name="五轴制动和值" DataType="System.String"/>
+        <Column Name="五轴制动差值" DataType="System.String"/>
+        <Column Name="五轴求差时左制动力值" DataType="System.String"/>
+        <Column Name="五轴求差时右制动力值" DataType="System.String"/>
+        <Column Name="五轴左拖滞比值" DataType="System.String"/>
+        <Column Name="五轴右拖滞比值" DataType="System.String"/>
+        <Column Name="六轴制动和值" DataType="System.String"/>
+        <Column Name="六轴制动差值" DataType="System.String"/>
+        <Column Name="六轴求差时左制动力值" DataType="System.String"/>
+        <Column Name="六轴求差时右制动力值" DataType="System.String"/>
+        <Column Name="六轴左拖滞比值" DataType="System.String"/>
+        <Column Name="六轴右拖滞比值" DataType="System.String"/>
+        <Column Name="一轴制动和评价" DataType="System.String"/>
+        <Column Name="二轴制动和评价" DataType="System.String"/>
+        <Column Name="三轴制动和评价" DataType="System.String"/>
+        <Column Name="四轴制动和评价" DataType="System.String"/>
+        <Column Name="五轴制动和评价" DataType="System.String"/>
+        <Column Name="六轴制动和评价" DataType="System.String"/>
+        <Column Name="双怠速CO值" DataType="System.String"/>
+        <Column Name="双怠速HC值" DataType="System.String"/>
+        <Column Name="空气过量系数值" DataType="System.String"/>
+        <Column Name="怠速CO值" DataType="System.String"/>
+        <Column Name="怠速HC值" DataType="System.String"/>
+        <Column Name="VmasCO" DataType="System.String"/>
+        <Column Name="VmasHC" DataType="System.String"/>
+        <Column Name="VmasNO" DataType="System.String"/>
+        <Column Name="VmasHCNO" DataType="System.String"/>
+        <Column Name="工况法5025CO值" DataType="System.String"/>
+        <Column Name="工况法5025HC值" DataType="System.String"/>
+        <Column Name="工况法5025NO值" DataType="System.String"/>
+        <Column Name="工况法2540CO值" DataType="System.String"/>
+        <Column Name="工况法2540HC值" DataType="System.String"/>
+        <Column Name="工况法2540NO值" DataType="System.String"/>
+        <Column Name="光吸收率值1" DataType="System.String"/>
+        <Column Name="光吸收率值2" DataType="System.String"/>
+        <Column Name="光吸收率值3" DataType="System.String"/>
+        <Column Name="光吸收平均值" DataType="System.String"/>
+        <Column Name="烟度值1" DataType="System.String"/>
+        <Column Name="烟度值2" DataType="System.String"/>
+        <Column Name="烟度值3" DataType="System.String"/>
+        <Column Name="烟度平均值" DataType="System.String"/>
+        <Column Name="Lugdown100K" DataType="System.String"/>
+        <Column Name="Lugdown90K" DataType="System.String"/>
+        <Column Name="Lugdown80K" DataType="System.String"/>
+        <Column Name="左近灯高值" DataType="System.String"/>
+        <Column Name="左灯高值" DataType="System.String"/>
+        <Column Name="左主远光强度值" DataType="System.String"/>
+        <Column Name="左主远光上下偏差H值" DataType="System.String"/>
+        <Column Name="左主远光左右偏差值" DataType="System.String"/>
+        <Column Name="左副远光强度值" DataType="System.String"/>
+        <Column Name="左副远光左右偏差值" DataType="System.String"/>
+        <Column Name="右近灯高值" DataType="System.String"/>
+        <Column Name="右灯高值" DataType="System.String"/>
+        <Column Name="右副远光强度值" DataType="System.String"/>
+        <Column Name="右副远光左右偏差值" DataType="System.String"/>
+        <Column Name="右主远光强度值" DataType="System.String"/>
+        <Column Name="右主远光上下偏差H值" DataType="System.String"/>
+        <Column Name="右主远光左右偏差值" DataType="System.String"/>
+        <Column Name="左主远光强度评价" DataType="System.String"/>
+        <Column Name="左副远光强度评价" DataType="System.String"/>
+        <Column Name="右主远光强度评价" DataType="System.String"/>
+        <Column Name="右副远光强度评价" DataType="System.String"/>
+        <Column Name="整车制动和值" DataType="System.String"/>
+        <Column Name="手制动和值" DataType="System.String"/>
+        <Column Name="整车轴重值" DataType="System.String"/>
+        <Column Name="制动初速度值" DataType="System.String"/>
+        <Column Name="制动距离值" DataType="System.String"/>
+        <Column Name="制动稳定性值" DataType="System.String"/>
+        <Column Name="制动协调时间" DataType="System.String"/>
+        <Column Name="制动减速度值" DataType="System.String"/>
+        <Column Name="线号标识" DataType="System.String"/>
+        <Column Name="油耗标准" DataType="System.String"/>
+        <Column Name="不合格项汇总" DataType="System.String"/>
+        <Column Name="百公里油耗值" DataType="System.String"/>
+        <Column Name="动力性达标功率" DataType="System.String"/>
+        <Column Name="动力性加载力" DataType="System.String"/>
+        <Column Name="左副远光上下偏差H值" DataType="System.String"/>
+        <Column Name="右副远光上下偏差H值" DataType="System.String"/>
+        <Column Name="左主近光上下偏差H值" DataType="System.String"/>
+        <Column Name="左副近光上下偏差H值" DataType="System.String"/>
+        <Column Name="右主近光上下偏差H值" DataType="System.String"/>
+        <Column Name="右副近光上下偏差H值" DataType="System.String"/>
+        <Column Name="左主近光左右偏差值" DataType="System.String"/>
+        <Column Name="左副近光左右偏差值" DataType="System.String"/>
+        <Column Name="右副近光左右偏差值" DataType="System.String"/>
+        <Column Name="右主近光左右偏差值" DataType="System.String"/>
+        <Column Name="动力性评定" DataType="System.String"/>
+        <Column Name="经济性评定" DataType="System.String"/>
+        <Column Name="整车评定" DataType="System.String"/>
+        <Column Name="驱动形式" DataType="System.String"/>
+        <Column Name="侧滑值1" DataType="System.String"/>
+        <Column Name="侧滑值2" DataType="System.String"/>
+        <Column Name="侧滑值1评定" DataType="System.String"/>
+        <Column Name="侧滑值2评定" DataType="System.String"/>
+        <Column Name="轮边功率" DataType="System.String"/>
+        <Column Name="档案编号" DataType="System.String"/>
+        <Column Name="货车车身型式" DataType="System.String"/>
+        <Column Name="转向轴悬架形式" DataType="System.String"/>
+        <Column Name="驱动轴空载质量" DataType="System.String"/>
+        <Column Name="牵引车满载总质量" DataType="System.String"/>
+        <Column Name="检测时间" DataType="System.String"/>
+        <Column Name="制动工位照片" DataType="System.Byte[]" BindableControl="Picture"/>
+        <Column Name="灯光工位照片" DataType="System.Byte[]" BindableControl="Picture"/>
+        <Column Name="动力工位照片" DataType="System.Byte[]" BindableControl="Picture"/>
+        <Column Name="并装轴形式" DataType="System.String"/>
+        <Column Name="客车车长" DataType="System.String"/>
+        <Column Name="左主远光上下偏差值" DataType="System.String"/>
+        <Column Name="左副远光上下偏差值" DataType="System.String"/>
+        <Column Name="右副远光上下偏差值" DataType="System.String"/>
+        <Column Name="右主远光上下偏差值" DataType="System.String"/>
+        <Column Name="左主近光上下偏差值" DataType="System.String"/>
+        <Column Name="左副近光上下偏差值" DataType="System.String"/>
+        <Column Name="右副近光上下偏差值" DataType="System.String"/>
+        <Column Name="右主近光上下偏差值" DataType="System.String"/>
+        <Column Name="方向盘自由转动量值" DataType="System.String"/>
+        <Column Name="结论" DataType="System.String"/>
+        <Column Name="二维外检项" DataType="System.String"/>
+        <Column Name="方向盘自由转动量判定" DataType="System.String"/>
+        <Column Name="柴油评价" DataType="System.String"/>
+        <Column Name="汽油评价" DataType="System.String"/>
+        <Column Name="驻车评定" DataType="System.String"/>
+        <Column Name="动力性限值" DataType="System.String"/>
+        <Column Name="经济性限值" DataType="System.String"/>
+        <Column Name="一轴制动率限值" DataType="System.String"/>
+        <Column Name="一轴不平衡率限值" DataType="System.String"/>
+        <Column Name="一轴左阻滞率限值" DataType="System.String"/>
+        <Column Name="一轴右阻滞率限值" DataType="System.String"/>
+        <Column Name="二轴制动率限值" DataType="System.String"/>
+        <Column Name="二轴不平衡率限值" DataType="System.String"/>
+        <Column Name="二轴左阻滞率限值" DataType="System.String"/>
+        <Column Name="二轴右阻滞率限值" DataType="System.String"/>
+        <Column Name="三轴制动率限值" DataType="System.String"/>
+        <Column Name="三轴不平衡率限值" DataType="System.String"/>
+        <Column Name="三轴左阻滞率限值" DataType="System.String"/>
+        <Column Name="三轴右阻滞率限值" DataType="System.String"/>
+        <Column Name="四轴制动率限值" DataType="System.String"/>
+        <Column Name="四轴不平衡率限值" DataType="System.String"/>
+        <Column Name="四轴左阻滞率限值" DataType="System.String"/>
+        <Column Name="四轴右阻滞率限值" DataType="System.String"/>
+        <Column Name="五轴制动率限值" DataType="System.String"/>
+        <Column Name="五轴不平衡率限值" DataType="System.String"/>
+        <Column Name="五轴左阻滞率限值" DataType="System.String"/>
+        <Column Name="五轴右阻滞率限值" DataType="System.String"/>
+        <Column Name="六轴制动率限值" DataType="System.String"/>
+        <Column Name="六轴不平衡率限值" DataType="System.String"/>
+        <Column Name="六轴左阻滞率限值" DataType="System.String"/>
+        <Column Name="六轴右阻滞率限值" DataType="System.String"/>
+        <Column Name="整车制动率限值" DataType="System.String"/>
+        <Column Name="整车驻车制动率限值" DataType="System.String"/>
+        <Column Name="侧滑1限值" DataType="System.String"/>
+        <Column Name="侧滑2限值" DataType="System.String"/>
+        <Column Name="高怠速HC限值" DataType="System.String"/>
+        <Column Name="高怠速CO限值" DataType="System.String"/>
+        <Column Name="高怠速λ限值" DataType="System.String"/>
+        <Column Name="低怠速HC限值" DataType="System.String"/>
+        <Column Name="低怠速CO限值" DataType="System.String"/>
+        <Column Name="光吸收率限值" DataType="System.String"/>
+        <Column Name="左外光强限值" DataType="System.String"/>
+        <Column Name="左外远光垂直偏移量H限值" DataType="System.String"/>
+        <Column Name="左外远光水平偏移量限值" DataType="System.String"/>
+        <Column Name="左外近光垂直偏移量H限值" DataType="System.String"/>
+        <Column Name="左外近光水平偏移量限值" DataType="System.String"/>
+        <Column Name="左内光强限值" DataType="System.String"/>
+        <Column Name="左内远光垂直偏移量H限值" DataType="System.String"/>
+        <Column Name="左内远光水平偏移量限值" DataType="System.String"/>
+        <Column Name="右外光强限值" DataType="System.String"/>
+        <Column Name="右外远光垂直偏移量H限值" DataType="System.String"/>
+        <Column Name="右外远光水平偏移量限值" DataType="System.String"/>
+        <Column Name="右外近光垂直偏移量H限值" DataType="System.String"/>
+        <Column Name="右外近光水平偏移量限值" DataType="System.String"/>
+        <Column Name="右内光强限值" DataType="System.String"/>
+        <Column Name="右内远光垂直偏移量H限值" DataType="System.String"/>
+        <Column Name="右内远光水平偏移量限值" DataType="System.String"/>
+        <Column Name="车速限值" DataType="System.String"/>
+        <Column Name="喇叭限值" DataType="System.String"/>
+        <Column Name="一轴制动率评价" DataType="System.String"/>
+        <Column Name="一轴不平衡率评价" DataType="System.String"/>
+        <Column Name="一轴左阻滞率评价" DataType="System.String"/>
+        <Column Name="一轴右阻滞率评价" DataType="System.String"/>
+        <Column Name="二轴制动率评价" DataType="System.String"/>
+        <Column Name="二轴不平衡率评价" DataType="System.String"/>
+        <Column Name="二轴左阻滞率评价" DataType="System.String"/>
+        <Column Name="二轴右阻滞率评价" DataType="System.String"/>
+        <Column Name="三轴制动率评价" DataType="System.String"/>
+        <Column Name="三轴不平衡率评价" DataType="System.String"/>
+        <Column Name="三轴左阻滞率评价" DataType="System.String"/>
+        <Column Name="三轴右阻滞率评价" DataType="System.String"/>
+        <Column Name="四轴制动率评价" DataType="System.String"/>
+        <Column Name="四轴不平衡率评价" DataType="System.String"/>
+        <Column Name="四轴左阻滞率评价" DataType="System.String"/>
+        <Column Name="四轴右阻滞率评价" DataType="System.String"/>
+        <Column Name="五轴制动率评价" DataType="System.String"/>
+        <Column Name="五轴不平衡率评价" DataType="System.String"/>
+        <Column Name="五轴左阻滞率评价" DataType="System.String"/>
+        <Column Name="五轴右阻滞率评价" DataType="System.String"/>
+        <Column Name="六轴制动率评价" DataType="System.String"/>
+        <Column Name="六轴不平衡率评价" DataType="System.String"/>
+        <Column Name="六轴左阻滞率评价" DataType="System.String"/>
+        <Column Name="六轴右阻滞率评价" DataType="System.String"/>
+        <Column Name="整车制动率评价" DataType="System.String"/>
+        <Column Name="整车驻车制动率评价" DataType="System.String"/>
+        <Column Name="高怠速HC评价" DataType="System.String"/>
+        <Column Name="高怠速CO评价" DataType="System.String"/>
+        <Column Name="高怠速λ评价" DataType="System.String"/>
+        <Column Name="低怠速HC评价" DataType="System.String"/>
+        <Column Name="低怠速CO评价" DataType="System.String"/>
+        <Column Name="左外灯远光光强评价" DataType="System.String"/>
+        <Column Name="左外灯远光垂直偏移量H评价" DataType="System.String"/>
+        <Column Name="左外灯远光水平偏移量评价" DataType="System.String"/>
+        <Column Name="左外灯近光垂直偏移量H评价" DataType="System.String"/>
+        <Column Name="左外灯近光水平偏移量评价" DataType="System.String"/>
+        <Column Name="左内灯远光光强评价" DataType="System.String"/>
+        <Column Name="左内灯远光垂直偏移量H评价" DataType="System.String"/>
+        <Column Name="左内灯远光水平偏移量评价" DataType="System.String"/>
+        <Column Name="右外灯远光光强评价" DataType="System.String"/>
+        <Column Name="右外灯远光垂直偏移量H评价" DataType="System.String"/>
+        <Column Name="右外灯远光水平偏移量评价" DataType="System.String"/>
+        <Column Name="右外灯近光垂直偏移量H评价" DataType="System.String"/>
+        <Column Name="右外灯近光水平偏移量评价" DataType="System.String"/>
+        <Column Name="右内灯远光光强评价" DataType="System.String"/>
+        <Column Name="右内灯远光垂直偏移量H评价" DataType="System.String"/>
+        <Column Name="右内灯远光水平偏移量评价" DataType="System.String"/>
+        <Column Name="检验结论" DataType="System.String"/>
+        <Column Name="地址" DataType="System.String"/>
+        <Column Name="公司名称" DataType="System.String"/>
+        <Column Name="联系方式" DataType="System.String"/>
+        <Column Name="唯一性认定" DataType="System.String"/>
+        <Column Name="故障信息诊断" DataType="System.String"/>
+        <Column Name="外观检查" DataType="System.String"/>
+        <Column Name="运行检查" DataType="System.String"/>
+        <Column Name="底盘检查" DataType="System.String"/>
+        <Column Name="核查评定" DataType="System.String"/>
+        <Column Name="唯一性认定判定" DataType="System.String"/>
+        <Column Name="故障信息诊断判定" DataType="System.String"/>
+        <Column Name="外观检查判定" DataType="System.String"/>
+        <Column Name="运行检查判定" DataType="System.String"/>
+        <Column Name="底盘检查判定" DataType="System.String"/>
+        <Column Name="核查评定判定" DataType="System.String"/>
+        <Column Name="车速值评价" DataType="System.String"/>
+        <Column Name="侧滑评价1" DataType="System.String"/>
+        <Column Name="侧滑评价2" DataType="System.String"/>
+        <Column Name="喇叭评价" DataType="System.String"/>
+        <Column Name="光吸收率评价" DataType="System.String"/>
+        <Column Name="稳定车速评价" DataType="System.String"/>
+        <Column Name="柴油评定" DataType="System.String"/>
+        <Column Name="油耗评定" DataType="System.String"/>
+        <Column Name="怠速CO评价" DataType="System.String"/>
+        <Column Name="等级评定结论" DataType="System.String"/>
+        <Column Name="人工评论" DataType="System.String"/>
+      </TableDataSource>
+    </MsSqlDataConnection>
+  </Dictionary>
+  <ReportPage Name="Page1" PaperWidth="420" RawPaperSize="8" LeftMargin="5" TopMargin="5" RightMargin="5" BottomMargin="5" FirstPageSource="15" OtherPagesSource="15">
+    <DataBand Name="Data1" Top="20" Width="1549.8" Height="1080.04" FirstRowStartsNewPage="true">
+      <TextObject Name="Text1" Left="322.15" Top="2.45" Width="727.65" Height="37.8" Text="道 路 运 输 车 辆 性 能 检 验 记 录 单" HorzAlign="Center" VertAlign="Center" Font="黑体, 25pt"/>
+      <TextObject Name="Text2" Left="20.79" Top="44.25" Width="62.37" Height="22.68" Text="委托人:" VertAlign="Bottom" Font="宋体, 11pt, style=Bold"/>
+      <TextObject Name="Text3" Left="83.16" Top="44.25" Width="226.8" Height="22.68" Text="[Data_Modification.车主单位]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text4" Left="310.86" Top="44.25" Width="107.73" Height="22.68" Text="道路运输证号:" VertAlign="Bottom" Font="宋体, 11pt, style=Bold"/>
+      <TextObject Name="Text5" Left="418.59" Top="44.25" Width="103.95" Height="22.68" Text="[Data_Modification.营运证号]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text6" Left="522.62" Top="44.25" Width="77.49" Height="22.68" Text="检验类别:" VertAlign="Bottom" Font="宋体, 11pt, style=Bold"/>
+      <TextObject Name="Text7" Left="600.11" Top="44.25" Width="162.54" Height="22.68" Text="[Data_Modification.检测类别]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text8" Left="763.43" Top="44.25" Width="77.49" Height="22.68" Text="业务类别:" VertAlign="Bottom" Font="宋体, 11pt, style=Bold"/>
+      <TextObject Name="Text9" Left="840.92" Top="44.25" Width="45.36" Height="22.68" Text="[Data_Modification.业务类型]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text10" Left="886.28" Top="44.25" Width="77.49" Height="22.68" Text="检测线别:" VertAlign="Bottom" Font="宋体, 11pt, style=Bold"/>
+      <TextObject Name="Text11" Left="963.77" Top="44.25" Width="22.68" Height="22.68" Text="[Data_Modification.线号标识]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text12" Left="986.45" Top="44.25" Width="77.49" Height="22.68" Text="检验日期:" VertAlign="Bottom" Font="宋体, 11pt, style=Bold"/>
+      <TextObject Name="Text13" Left="1063.09" Top="44.25" Width="176.9" Height="22.68" Text="[Data_Modification.检测日期] [Data_Modification.检测时间]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text14" Left="1239.08" Top="44.25" Width="122.85" Height="22.68" Text="检验记录单编号:" VertAlign="Bottom" Font="宋体, 11pt, style=Bold"/>
+      <TextObject Name="Text15" Left="1361.93" Top="44.25" Width="160.65" Height="22.68" Text="[Data_Modification.检测编号]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text16" Left="20.75" Top="70.15" Width="126.63" Height="26.46" Border.Lines="All" Text="号牌号码" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text17" Left="20.75" Top="96.77" Width="126.63" Height="26.46" Border.Lines="All" Text="注册登记日期" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text18" Left="20.75" Top="123.23" Width="126.63" Height="26.46" Border.Lines="All" Text="行驶总里程(km)" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text19" Left="20.75" Top="149.69" Width="126.63" Height="26.46" Border.Lines="All" Text="点燃式额定扭矩/转速" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text20" Left="20.75" Top="176.15" Width="126.63" Height="26.46" Border.Lines="All" Text="前轮距(mm)" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text21" Left="20.75" Top="202.61" Width="126.63" Height="26.46" Border.Lines="All" Text="驱动轴空载质量(kg)" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text22" Left="20.75" Top="229.07" Width="126.63" Height="26.46" Border.Lines="All" Text="客车座位(铺)数" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text23" Left="20.75" Top="255.53" Width="126.63" Height="26.46" Border.Lines="All" Text="远光束能否单独调整" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text24" Left="147.42" Top="70.15" Width="151.2" Height="26.46" Border.Lines="All" Text="[Data_Modification.车牌号码]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text25" Left="147.42" Top="96.77" Width="151.2" Height="26.46" Border.Lines="All" Text="[Data_Modification.登记日期]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text26" Left="147.42" Top="123.23" Width="151.2" Height="26.46" Border.Lines="All" Text="[Data_Modification.行驶里程]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text28" Left="147.42" Top="176.15" Width="151.2" Height="26.46" Border.Lines="All" Text="[Data_Modification.前轮距]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text29" Left="147.42" Top="202.61" Width="151.2" Height="26.46" Border.Lines="All" Text="[Data_Modification.驱动轴空载质量]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text30" Left="147.42" Top="229.07" Width="151.2" Height="26.46" Border.Lines="All" Text="[Data_Modification.座位数]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text31" Left="147.42" Top="255.53" Width="151.2" Height="26.46" Border.Lines="All" Text="[Data_Modification.远光光束单独调整]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text32" Left="298.62" Top="70.15" Width="132.3" Height="26.46" Border.Lines="All" Text="号牌种类" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text33" Left="298.62" Top="96.77" Width="132.3" Height="26.46" Border.Lines="All" Text="VIN号" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text34" Left="298.62" Top="123.23" Width="132.3" Height="26.46" Border.Lines="All" Text="驱动形式" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text35" Left="298.62" Top="149.69" Width="132.3" Height="26.46" Border.Lines="All" Text="燃料类别" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text36" Left="298.62" Top="176.15" Width="132.3" Height="26.46" Border.Lines="All" Text="客车车长(mm)" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text37" Left="298.62" Top="202.61" Width="132.3" Height="26.46" Border.Lines="All" Text="牵引车满载总质量(kg)" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text38" Left="298.62" Top="229.07" Width="132.3" Height="26.46" Border.Lines="All" Text="单车(驻车)轴数" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text39" Left="298.62" Top="255.53" Width="132.3" Height="26.46" Border.Lines="All" Text="驻车轴" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text40" Left="430.92" Top="70.15" Width="147.42" Height="26.46" Border.Lines="All" Text="[Data_Modification.车牌颜色]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text41" Left="430.92" Top="96.77" Width="147.42" Height="26.46" Border.Lines="All" Text="[Data_Modification.底盘号码]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text42" Left="430.92" Top="123.23" Width="147.42" Height="26.46" Border.Lines="All" Text="[Data_Modification.驱动形式]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text43" Left="430.92" Top="149.69" Width="147.42" Height="26.46" Border.Lines="All" Text="[Data_Modification.燃油类型]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text44" Left="430.92" Top="176.15" Width="147.42" Height="26.46" Border.Lines="All" Text="[Data_Modification.客车车长]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text45" Left="430.92" Top="202.61" Width="147.42" Height="26.46" Border.Lines="All" Text="[Data_Modification.牵引车满载总质量]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text46" Left="430.92" Top="229.07" Width="147.42" Height="26.46" Border.Lines="All" Text="[Data_Modification.车轴数]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text47" Left="430.92" Top="255.53" Width="147.42" Height="26.46" Border.Lines="All" Text="[Data_Modification.手刹起始轴位]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text48" Left="578.12" Top="70.15" Width="160.65" Height="26.46" Border.Lines="All" Text="挂车牌照号" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text49" Left="578.12" Top="96.77" Width="160.65" Height="26.46" Border.Lines="All" Text="车辆型号" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text50" Left="578.12" Top="123.23" Width="160.65" Height="26.46" Border.Lines="All" Text="转向轴悬架形式" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text51" Left="578.12" Top="149.69" Width="160.65" Height="26.46" Border.Lines="All" Text="驱动轮轮胎规格型号" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text52" Left="578.12" Top="176.15" Width="160.65" Height="26.46" Border.Lines="All" Text="客车类型等级" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text53" Left="578.12" Top="202.61" Width="160.65" Height="26.46" Border.Lines="All" Text="并装轴形式" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text54" Left="578.12" Top="229.07" Width="160.65" Height="26.46" Border.Lines="All" Text="外廓尺寸(长×宽×高)(mm)" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text55" Left="578.12" Top="255.53" Width="160.65" Height="26.46" Border.Lines="All" Text="车厢栏板高度(mm)" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text56" Left="738.99" Top="70.15" Width="132.3" Height="26.46" Border.Lines="All" Text="/" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text57" Left="738.99" Top="96.77" Width="132.3" Height="26.46" Border.Lines="All" Text="[Data_Modification.型号]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text58" Left="738.99" Top="123.23" Width="132.3" Height="26.46" Border.Lines="All" Text="[Data_Modification.转向轴悬架形式]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text59" Left="738.99" Top="149.69" Width="132.3" Height="26.46" Border.Lines="All" Text="[Data_Modification.轮胎规格]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text60" Left="738.99" Top="176.15" Width="132.3" Height="26.46" Border.Lines="All" Text="[Data_Modification.客车等级]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text61" Left="738.99" Top="202.61" Width="132.3" Height="26.46" Border.Lines="All" Text="[Data_Modification.并装轴形式]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text62" Left="738.99" Top="229.07" Width="60.86" Height="26.46" Border.Lines="Left, Top, Bottom" Text="单车:" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text63" Left="738.99" Top="255.53" Width="60.86" Height="26.46" Border.Lines="Left, Top, Bottom" Text="单车:" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text64" Left="871.29" Top="70.15" Width="148.55" Height="26.46" Border.Lines="All" Text="挂车类型" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text65" Left="871.29" Top="96.77" Width="148.55" Height="26.46" Border.Lines="All" Text="发动机号" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text66" Left="871.29" Top="123.23" Width="148.55" Height="26.46" Border.Lines="All" Text="挂车轴数" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text67" Left="871.29" Top="149.69" Width="148.55" Height="26.46" Border.Lines="All" Text="总质量(kg)" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text68" Left="871.29" Top="176.15" Width="148.55" Height="26.46" Border.Lines="All" Text="货车车身型式" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text69" Left="871.29" Top="202.61" Width="148.55" Height="26.46" Border.Lines="All" Text="转向轴数" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text70" Left="1118.48" Top="229.07" Width="60.86" Height="26.46" Border.Lines="Left, Top, Bottom" Text="挂车:" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text72" Left="1019.84" Top="70.15" Width="158.76" Height="26.46" Border.Lines="All" Text="/" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text73" Left="1019.84" Top="96.77" Width="158.76" Height="26.46" Border.Lines="All" Text="[Data_Modification.发动机号码]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text74" Left="1019.84" Top="123.23" Width="158.76" Height="26.46" Border.Lines="All" Text="/" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text75" Left="1019.84" Top="149.69" Width="158.76" Height="26.46" Border.Lines="All" Text="[Data_Modification.总质量]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text76" Left="1019.84" Top="176.15" Width="158.76" Height="26.46" Border.Lines="All" Text="[Data_Modification.货车车身型式]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text77" Left="1019.84" Top="202.61" Width="158.76" Height="26.46" Border.Lines="All" Text="[Data_Modification.双转向轴]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text80" Left="1178.6" Top="70.15" Width="160.65" Height="26.46" Border.Lines="All" Text="车辆出厂日期" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text81" Left="1178.6" Top="96.77" Width="160.65" Height="26.46" Border.Lines="All" Text="车身颜色" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text82" Left="1178.6" Top="123.23" Width="160.65" Height="26.46" Border.Lines="All" Text="压燃式发动机额定功率(kW)" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text83" Left="1178.6" Top="149.69" Width="160.65" Height="26.46" Border.Lines="All" Text="车高(mm)" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text84" Left="1178.6" Top="176.15" Width="160.65" Height="26.46" Border.Lines="All" Text="驱动轴数" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text85" Left="1178.6" Top="202.61" Width="160.65" Height="26.46" Border.Lines="All" Text="前照灯制式" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text88" Left="1339.25" Top="70.15" Width="189" Height="26.46" Border.Lines="All" Text="[Data_Modification.出厂日期]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text89" Left="1339.25" Top="96.77" Width="189" Height="26.46" Border.Lines="All" Text="[Data_Modification.车身颜色]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text90" Left="1339.25" Top="123.23" Width="189" Height="26.46" Border.Lines="All" Text="[Data_Modification.发动机额定功率]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text91" Left="1339.25" Top="149.69" Width="189" Height="26.46" Border.Lines="All" Text="[Data_Modification.车高]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text92" Left="1339.25" Top="176.15" Width="189" Height="26.46" Border.Lines="All" Text="[Data_Modification.驱动轴数]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text93" Left="1339.25" Top="202.61" Width="189" Height="26.46" Border.Lines="All" Text="[Data_Modification.灯制]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text78" Left="20.9" Top="281.99" Width="103.95" Height="26.46" Border.Lines="All" Text="项目" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text79" Left="124.74" Top="281.99" Width="453.6" Height="26.46" Border.Lines="All" Text="检验结果" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text86" Left="578.34" Top="281.99" Width="75.6" Height="26.46" Border.Lines="All" Text="判定" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text94" Left="20.9" Top="308.45" Width="103.95" Height="56.7" Border.Lines="All" Text="动力性" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text95" Left="219.34" Top="308.45" Width="132.3" Height="30.24" Border.Lines="All" Text="额定车速km/h" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text96" Left="351.55" Top="308.45" Width="113.4" Height="30.24" Border.Lines="All" Text="加载力N" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text99" Left="124.85" Top="308.45" Width="94.5" Height="30.24" Border.Lines="All" Text="达标功率kW" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text100" Left="219.34" Top="338.54" Width="132.3" Height="26.46" Border.Lines="All" Text="[Data_Modification.额定车速]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text101" Left="351.54" Top="338.54" Width="113.4" Height="26.46" Border.Lines="All" Text="[Data_Modification.动力性加载力]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text102" Left="464.94" Top="338.54" Width="113.4" Height="26.46" Border.Lines="All" Text="[Data_Modification.稳定车速]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text103" Left="578.34" Top="338.54" Width="75.6" Height="26.46" Border.Lines="All" Text="[Data_Modification.稳定车速评价]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text104" Left="464.94" Top="308.45" Width="113.4" Height="30.24" Border.Lines="All" Text="稳定车速km/h" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text105" Left="578.45" Top="308.45" Width="75.6" Height="30.24" Border.Lines="All" Text="/" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text97" Left="20.79" Top="365" Width="103.95" Height="26.46" Border.Lines="All" Text="燃料经济性" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text106" Left="449.82" Top="365" Width="71.82" Height="26.46" Border.Lines="Top, Bottom" Text="[Data_Modification.百公里油耗值]  " HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text107" Left="578.34" Top="365" Width="75.6" Height="26.46" Border.Lines="All" Text="[Data_Modification.油耗评定]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text98" Left="20.9" Top="391.23" Width="22.68" Height="646.38" Border.Lines="All" Text="制动性" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text108" Left="43.85" Top="391.23" Width="22.68" Height="545.08" Border.Lines="All" Text="台架检验" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text109" Left="66.53" Top="391.23" Width="22.68" Height="189" Border.Lines="All" Text="原始数据" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text110" Left="88.83" Top="391.23" Width="35.91" Height="52.92" Border.Lines="All" Text="车轴" Padding="0, 0, 0, 0" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text111" Left="124.74" Top="391.23" Width="94.5" Height="30.24" Border.Lines="All" Text="水平称重轮荷daN" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text112" Left="219.24" Top="391.23" Width="75.6" Height="30.24" Border.Lines="All" Text="复合台称重轴荷daN" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text113" Left="294.84" Top="391.23" Width="94.5" Height="30.24" Border.Lines="All" Text="动态轮荷daN" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text114" Left="389.34" Top="391.23" Width="94.5" Height="30.24" Border.Lines="All" Text="行车制动力daN" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text115" Left="483.84" Top="391.23" Width="94.5" Height="30.24" Border.Lines="All" Text="驻车制动力daN" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text116" Left="578.34" Top="391.23" Width="75.6" Height="52.92" Border.Lines="All" Text="/" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text117" Left="124.74" Top="421.47" Width="47.25" Height="22.68" Border.Lines="All" Text="左轮" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text118" Left="171.99" Top="421.47" Width="47.25" Height="22.68" Border.Lines="All" Text="右轮" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text119" Left="219.24" Top="421.47" Width="75.6" Height="22.68" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text120" Left="294.85" Top="421.47" Width="47.25" Height="22.68" Border.Lines="All" Text="左轮" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text121" Left="342.1" Top="421.47" Width="47.25" Height="22.68" Border.Lines="All" Text="右轮" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text122" Left="389.34" Top="421.47" Width="47.25" Height="22.68" Border.Lines="All" Text="左轮" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text123" Left="436.59" Top="421.47" Width="47.25" Height="22.68" Border.Lines="All" Text="右轮" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text124" Left="483.84" Top="421.47" Width="47.25" Height="22.68" Border.Lines="All" Text="左轮" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text125" Left="531.09" Top="421.47" Width="47.25" Height="22.68" Border.Lines="All" Text="右轮" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text126" Left="124.74" Top="444.38" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.一轴左轴重值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text127" Left="171.99" Top="444.38" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.一轴右轴重值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text128" Left="219.24" Top="444.38" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.一轴轴重值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text129" Left="294.84" Top="444.38" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.一轴左轴重动态值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text130" Left="342.09" Top="444.38" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.一轴右轴重动态值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text131" Left="389.34" Top="444.38" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.一轴求和时左制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text132" Left="436.59" Top="444.38" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.一轴求和时右制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text133" Left="483.84" Top="444.38" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.一轴左制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text134" Left="531.09" Top="444.38" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.一轴右制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text135" Left="124.74" Top="467.06" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.二轴左轴重值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text136" Left="171.99" Top="467.06" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.二轴右轴重值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text137" Left="219.24" Top="467.06" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.二轴轴重值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text138" Left="294.84" Top="467.06" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.二轴左轴重动态值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text139" Left="342.09" Top="467.06" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.二轴右轴重动态值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text140" Left="389.34" Top="467.06" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.二轴求和时左制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text141" Left="436.59" Top="467.06" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.二轴求和时右制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text142" Left="483.84" Top="467.06" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.二轴左制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text143" Left="531.09" Top="467.06" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.二轴右制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text144" Left="124.74" Top="489.74" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.三轴左轴重值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text145" Left="171.99" Top="489.74" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.三轴右轴重值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text146" Left="219.24" Top="489.74" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.三轴轴重值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text147" Left="294.84" Top="489.74" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.三轴左轴重动态值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text148" Left="342.09" Top="489.74" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.三轴右轴重动态值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text149" Left="389.34" Top="489.74" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.三轴求和时左制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text150" Left="436.59" Top="489.74" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.三轴求和时右制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text151" Left="483.84" Top="489.74" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.三轴左制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text152" Left="531.09" Top="489.74" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.三轴右制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text153" Left="124.74" Top="512.42" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.四轴左轴重值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text154" Left="171.99" Top="512.42" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.四轴右轴重值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text155" Left="219.24" Top="512.42" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.四轴轴重值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text156" Left="294.84" Top="512.42" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.四轴左轴重动态值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text157" Left="342.09" Top="512.42" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.四轴右轴重动态值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text158" Left="389.34" Top="512.42" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.四轴求和时左制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text159" Left="436.59" Top="512.42" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.四轴求和时右制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text160" Left="483.84" Top="512.42" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.四轴左制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text161" Left="531.09" Top="512.42" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.四轴右制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text162" Left="124.85" Top="535.1" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.五轴左轴重值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text164" Left="219.14" Top="535.1" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.五轴轴重值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text165" Left="294.96" Top="535.1" Width="47.25" Height="22.68" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text166" Left="342.21" Top="535.1" Width="47.25" Height="22.68" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text167" Left="389.45" Top="535.1" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.五轴求和时左制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text168" Left="436.7" Top="535.1" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.五轴求和时右制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text169" Left="483.95" Top="535.1" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.五轴左制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text170" Left="531.2" Top="535.1" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.五轴右制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text171" Left="124.74" Top="557.78" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.五轴左轴重值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text172" Left="171.99" Top="557.78" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.五轴右轴重值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text173" Left="219.24" Top="557.78" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.六轴轴重值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text174" Left="294.84" Top="557.78" Width="47.25" Height="22.68" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text175" Left="342.09" Top="557.78" Width="47.25" Height="22.68" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text176" Left="389.34" Top="557.78" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.六轴求和时左制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text177" Left="436.59" Top="557.78" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.六轴求和时右制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text178" Left="483.84" Top="557.78" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.六轴左制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text179" Left="531.09" Top="557.78" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.六轴右制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text180" Left="88.83" Top="444.38" Width="35.91" Height="22.68" Border.Lines="All" Text="一轴" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text181" Left="88.83" Top="467.06" Width="35.91" Height="22.68" Border.Lines="All" Text="二轴" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text182" Left="88.83" Top="489.74" Width="35.91" Height="22.68" Border.Lines="All" Text="三轴" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text183" Left="88.83" Top="512.42" Width="35.91" Height="22.68" Border.Lines="All" Text="四轴" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text184" Left="88.83" Top="535.1" Width="35.91" Height="22.68" Border.Lines="All" Text="五轴&#13;&#10;" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text185" Left="88.83" Top="557.78" Width="35.91" Height="22.68" Border.Lines="All" Text="六轴" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text186" Left="578.34" Top="444.38" Width="75.6" Height="136.08" Border.Lines="All" Text="/" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text187" Left="66.53" Top="580.46" Width="22.68" Height="173.88" Border.Lines="All" Text="整车" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text188" Left="88.83" Top="580.46" Width="35.91" Height="22.68" Border.Lines="All" Text="单车" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text189" Left="88.83" Top="603.14" Width="35.91" Height="151.2" Border.Lines="All" Text="汽车列车" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text190" Left="245.7" Top="580.46" Width="30.24" Height="22.68" Border.Lines="Right, Top, Bottom" Text="daN" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text191" Left="415.8" Top="580.46" Width="11.34" Height="22.68" Border.Lines="Top, Bottom" Text="%" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text192" Left="567" Top="580.46" Width="11.34" Height="22.68" Border.Lines="Right, Top, Bottom" Text="%" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text193" Left="578.34" Top="580.46" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.整车评定]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text194" Left="182.2" Top="625.82" Width="37.04" Height="22.68" Border.Lines="Right, Bottom" Text="daN" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text195" Left="219.24" Top="603.14" Width="56.7" Height="45.36" Border.Lines="All" Text="整车制动率%" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text196" Left="275.94" Top="603.14" Width="26.46" Height="22.68" Border.Lines="All" Text="牵" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text197" Left="275.94" Top="625.82" Width="26.46" Height="22.68" Border.Lines="All" Text="挂" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text198" Left="302.4" Top="603.14" Width="49.14" Height="22.68" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text199" Left="302.4" Top="625.82" Width="49.14" Height="22.68" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text200" Left="351.54" Top="603.14" Width="56.7" Height="45.36" Border.Lines="All" Text="驻车制动率%" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text201" Left="408.24" Top="603.14" Width="56.7" Height="45.36" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text202" Left="465.05" Top="603.14" Width="56.7" Height="45.36" Border.Lines="All" Text="制动协调时间s" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text203" Left="521.64" Top="603.14" Width="56.7" Height="45.36" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text204" Left="578.34" Top="603.14" Width="75.6" Height="45.36" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text205" Left="124.74" Top="648.5" Width="18.9" Height="68.04" Border.Lines="All" Text="制动时序" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text206" Left="143.64" Top="648.5" Width="198.45" Height="22.68" Border.Lines="All" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text207" Left="143.64" Top="671.18" Width="47.25" Height="22.68" Border.Lines="All" Text="时间S" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text208" Left="143.64" Top="693.86" Width="47.25" Height="22.68" Border.Lines="All" Text="时序" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text209" Left="190.89" Top="671.18" Width="151.2" Height="22.68" Border.Lines="All" Text="轴制动率达到5%静态轴荷" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text210" Left="190.89" Top="693.86" Width="151.2" Height="22.68" Border.Lines="All" Text="轴制动率达到5%静态轴荷" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text211" Left="342.09" Top="648.5" Width="39.31" Height="22.68" Border.Lines="All" Text="1轴" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text212" Left="381.4" Top="648.5" Width="39.31" Height="22.68" Border.Lines="All" Text="2轴" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text213" Left="420.71" Top="648.5" Width="39.31" Height="22.68" Border.Lines="All" Text="3轴" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text214" Left="460.03" Top="648.5" Width="39.31" Height="22.68" Border.Lines="All" Text="4轴" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text215" Left="499.34" Top="648.5" Width="39.31" Height="22.68" Border.Lines="All" Text="5轴" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text216" Left="538.65" Top="648.5" Width="39.69" Height="22.68" Border.Lines="All" Text="6轴" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text218" Left="381.4" Top="671.18" Width="39.31" Height="22.68" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text219" Left="420.71" Top="671.18" Width="39.31" Height="22.68" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text220" Left="460.03" Top="671.18" Width="39.31" Height="22.68" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text221" Left="499.34" Top="671.18" Width="39.31" Height="22.68" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text222" Left="538.65" Top="671.18" Width="39.69" Height="22.68" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text224" Left="381.4" Top="693.86" Width="39.31" Height="22.68" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text225" Left="420.71" Top="693.86" Width="39.31" Height="22.68" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text226" Left="460.03" Top="693.86" Width="39.31" Height="22.68" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text227" Left="499.34" Top="693.86" Width="39.31" Height="22.68" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text228" Left="538.65" Top="693.86" Width="39.69" Height="22.68" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text229" Left="578.34" Top="648.5" Width="75.6" Height="22.68" Border.Lines="All" Text="/" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text230" Left="578.34" Top="671.18" Width="75.6" Height="22.68" Border.Lines="All" Text="/" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text231" Left="578.34" Top="693.86" Width="75.6" Height="22.68" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text232" Left="124.74" Top="716.54" Width="113.4" Height="37.8" Border.Lines="All" Text="整车制动率比%(牵引车/列车)" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text233" Left="238.15" Top="716.54" Width="113.4" Height="37.8" Border.Lines="All" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text234" Left="351.55" Top="716.54" Width="113.4" Height="37.8" Border.Lines="All" Text="整车制动率比%(挂车/列车)" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text235" Left="464.94" Top="716.54" Width="113.4" Height="37.8" Border.Lines="All" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text236" Left="578.34" Top="716.54" Width="75.6" Height="37.8" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text237" Left="66.53" Top="754.34" Width="22.68" Height="181.44" Border.Lines="All" Text="单轴" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text238" Left="88.83" Top="754.34" Width="35.91" Height="45.36" Border.Lines="All" Text="车轴" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text239" Left="88.83" Top="800.14" Width="35.91" Height="22.68" Border.Lines="All" Text="一轴" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text240" Left="88.83" Top="822.82" Width="35.91" Height="22.68" Border.Lines="All" Text="二轴" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text241" Left="88.83" Top="845.5" Width="35.91" Height="22.68" Border.Lines="All" Text="三轴" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text242" Left="88.83" Top="868.18" Width="35.91" Height="22.68" Border.Lines="All" Text="四轴" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text243" Left="88.83" Top="890.86" Width="35.91" Height="22.68" Border.Lines="All" Text="五轴" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text244" Left="88.83" Top="913.54" Width="35.91" Height="22.68" Border.Lines="All" Text="六轴" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text245" Left="124.85" Top="754.34" Width="75.6" Height="45.36" Border.Lines="All" Text="轴制动率%" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text246" Left="200.35" Top="754.34" Width="75.6" Height="45.36" Border.Lines="All" Text="制动不平衡率%" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text247" Left="275.94" Top="754.34" Width="151.2" Height="22.68" Border.Lines="All" Text="过程差最大点daN" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text248" Left="275.94" Top="777.24" Width="75.6" Height="22.68" Border.Lines="All" Text="左轮" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text249" Left="351.54" Top="777.24" Width="75.6" Height="22.68" Border.Lines="All" Text="右轮" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text250" Left="427.15" Top="754.34" Width="151.2" Height="22.68" Border.Lines="All" Text="车轮阻滞率%" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text251" Left="427.15" Top="777.24" Width="75.6" Height="22.68" Border.Lines="All" Text="左轮" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text252" Left="502.74" Top="777.24" Width="75.6" Height="22.68" Border.Lines="All" Text="右轮" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text253" Left="578.45" Top="754.34" Width="75.6" Height="22.68" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text254" Left="578.35" Top="777.24" Width="75.6" Height="22.68" Border.Lines="All" Text="/" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text255" Left="124.85" Top="800.14" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.一轴制动和值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text256" Left="200.45" Top="800.14" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.一轴制动差值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text257" Left="276.05" Top="800.14" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.一轴求差时左制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text258" Left="351.54" Top="800.14" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.一轴求差时右制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text259" Left="427.14" Top="800.14" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.一轴左拖滞比值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text260" Left="502.74" Top="800.14" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.一轴右拖滞比值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text261" Left="578.34" Top="800.14" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.一轴制动和评价]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text262" Left="124.74" Top="822.82" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.二轴制动和值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text263" Left="200.34" Top="822.82" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.二轴制动差值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text264" Left="275.94" Top="822.82" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.二轴求差时左制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text265" Left="351.55" Top="822.82" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.二轴求差时右制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text266" Left="427.15" Top="822.82" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.二轴左拖滞比值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text267" Left="502.75" Top="822.82" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.二轴右拖滞比值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text268" Left="578.35" Top="822.82" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.二轴制动和评价]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text269" Left="124.74" Top="845.5" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.三轴制动和值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text270" Left="200.34" Top="845.5" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.三轴制动差值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text271" Left="275.94" Top="845.5" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.三轴求差时左制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text272" Left="351.55" Top="845.5" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.三轴求差时右制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text273" Left="427.15" Top="845.5" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.三轴左拖滞比值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text274" Left="502.75" Top="845.5" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.三轴右拖滞比值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text275" Left="578.35" Top="845.5" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.三轴制动和评价]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text276" Left="124.74" Top="868.18" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.四轴制动和值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text277" Left="200.34" Top="868.18" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.四轴制动差值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text278" Left="275.94" Top="868.18" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.四轴求差时左制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text279" Left="351.55" Top="868.18" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.四轴求差时右制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text280" Left="427.15" Top="868.18" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.四轴左拖滞比值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text281" Left="502.75" Top="868.18" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.四轴右拖滞比值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text282" Left="578.35" Top="868.18" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.四轴制动和评价]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text283" Left="124.74" Top="890.86" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.五轴制动和值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text284" Left="200.34" Top="890.86" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.五轴制动差值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text285" Left="275.94" Top="890.86" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.五轴求差时左制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text286" Left="351.55" Top="890.86" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.五轴求差时右制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text287" Left="427.15" Top="890.86" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.五轴左拖滞比值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text288" Left="502.75" Top="890.86" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.五轴右拖滞比值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text289" Left="578.35" Top="890.86" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.五轴制动和评价]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text290" Left="124.74" Top="913.54" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.六轴制动和值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text291" Left="200.34" Top="913.54" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.六轴制动差值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text292" Left="275.94" Top="913.54" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.六轴求差时左制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text293" Left="351.55" Top="913.54" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.六轴求差时右制动力值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text294" Left="427.15" Top="913.54" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.六轴左拖滞比值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text295" Left="502.75" Top="913.54" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.六轴右拖滞比值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text296" Left="578.35" Top="913.54" Width="75.6" Height="22.68" Border.Lines="All" Text="[Data_Modification.六轴制动和评价]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text297" Left="43.85" Top="936.21" Width="22.68" Height="101.3" Border.Lines="All" Text="路试" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text298" Left="66.53" Top="936.22" Width="58.59" Height="56.7" Border.Lines="All" Text="行车制动" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text299" Left="66.53" Top="992.63" Width="58.59" Height="45.36" Border.Lines="All" Text="驻车制动" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text300" Left="176.99" Top="936.22" Width="27.22" Height="30.24" Border.Lines="Top, Bottom" Text="[Data_Modification.制动初速度值]    " HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text301" Left="314.12" Top="966.45" Width="56.32" Height="26.46" Border.Lines="Top, Bottom" Text="      " HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text303" Left="578.34" Top="936.4" Width="75.6" Height="56.7" Border.Lines="Left, Right, Top" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text304" Left="163.67" Top="966.07" Width="40.45" Height="26.46" Border.Lines="Top, Bottom" Text="[Data_Modification.制动减速度值]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text307" Left="189" Top="992.93" Width="105.84" Height="45.36" Border.Lines="Top, Bottom" Text="-" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text308" Left="464.94" Top="992.93" Width="113.4" Height="45.36" Border.Lines="Right, Top, Bottom" Text="-" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text309" Left="578.34" Top="992.93" Width="75.6" Height="45.36" Border.Lines="All" Text="-" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text310" Left="171.99" Top="535.1" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.五轴右轴重值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text311" Left="342.09" Top="671.18" Width="39.31" Height="22.68" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text313" Left="656.05" Top="281.99" Width="83.16" Height="26.46" Border.Lines="All" Text="项目" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text314" Left="739.14" Top="281.99" Width="677.38" Height="26.46" Border.Lines="All" Text="检验结果" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text315" Left="1417.04" Top="281.99" Width="111.13" Height="26.46" Border.Lines="All" Text="判定" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text163" Left="655.93" Top="308.45" Width="83.16" Height="193.91" Border.Lines="All" Text="排放性" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text217" Left="738.98" Top="307.69" Width="37.8" Height="107.73" Border.Lines="All" Text="汽油车" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text316" Left="738.98" Top="415.25" Width="37.8" Height="86.94" Border.Lines="All" Text="柴油车" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text223" Left="776.88" Top="308.45" Width="189" Height="18.9" Border.Lines="All" Text="双怠速法" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text317" Left="965.88" Top="308.45" Width="226.8" Height="18.9" Border.Lines="All" Text="稳态工况" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text318" Left="1192.68" Top="308.45" Width="224.15" Height="37.8" Border.Lines="All" Text="简易瞬态工况" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text319" Left="776.88" Top="326.63" Width="113.4" Height="18.9" Border.Lines="All" Text="高怠速" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text320" Left="890.28" Top="326.63" Width="75.6" Height="18.9" Border.Lines="All" Text="低怠速" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text321" Left="966" Top="326.63" Width="113.4" Height="18.9" Border.Lines="All" Text="5025" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text322" Left="1079.28" Top="326.63" Width="113.4" Height="18.9" Border.Lines="All" Text="2540" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text324" Left="776.88" Top="345.53" Width="37.8" Height="47.25" Border.Lines="All" Text="CO%" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text326" Left="852.48" Top="345.53" Width="37.8" Height="47.25" Border.Lines="All" Text="λ" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text327" Left="890.28" Top="345.53" Width="37.8" Height="47.25" Border.Lines="All" Text="CO%" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text328" Left="928.2" Top="345.53" Width="37.8" Height="47.25" Border.Lines="All" Text="HC&#13;&#10;10" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text329" Left="965.88" Top="345.53" Width="37.8" Height="47.25" Border.Lines="All" Text="CO%" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text330" Left="1003.68" Top="345.53" Width="37.8" Height="47.25" Border.Lines="All" Text="HC&#13;&#10;10" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text331" Left="1041.48" Top="345.53" Width="37.8" Height="47.25" Border.Lines="All" Text="NO&#13;&#10;10" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text332" Left="1079.28" Top="345.53" Width="37.8" Height="47.25" Border.Lines="All" Text="CO%" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text333" Left="1117.2" Top="345.53" Width="37.8" Height="47.25" Border.Lines="All" Text="HC&#13;&#10;10" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text334" Left="1154.88" Top="345.53" Width="37.8" Height="47.25" Border.Lines="All" Text="NO&#13;&#10;10" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text335" Left="1192.68" Top="345.53" Width="66.53" Height="47.25" Border.Lines="All" Text="CO g/km" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text336" Left="1258.83" Top="345.53" Width="57.08" Height="47.25" Border.Lines="All" Text="HC g/km" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text337" Left="1315.53" Top="345.53" Width="55.94" Height="47.25" Border.Lines="All" Text="NO g/km" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text338" Left="1371.23" Top="345.53" Width="45.36" Height="47.25" Border.Lines="All" Text="HC+NO g/km" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text339" Left="1417.03" Top="308.45" Width="111.13" Height="37.8" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text340" Left="1417.03" Top="345.53" Width="111.13" Height="47.25" Border.Lines="All" Text="&#13;&#10;" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text323" Left="776.88" Top="392.78" Width="37.8" Height="22.68" Border.Lines="All" Text="[Data_Modification.双怠速CO值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text341" Left="814.68" Top="392.78" Width="37.8" Height="22.68" Border.Lines="All" Text="[Data_Modification.双怠速HC值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text342" Left="852.48" Top="392.78" Width="37.8" Height="22.68" Border.Lines="All" Text="[Data_Modification.空气过量系数值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text343" Left="890.28" Top="392.78" Width="37.8" Height="22.68" Border.Lines="All" Text="[Data_Modification.怠速CO值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text344" Left="928.08" Top="392.78" Width="37.8" Height="22.68" Border.Lines="All" Text="[Data_Modification.怠速HC值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text345" Left="966" Top="392.78" Width="37.8" Height="22.68" Border.Lines="All" Text="[Data_Modification.工况法5025CO值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text346" Left="1003.8" Top="392.78" Width="37.8" Height="22.68" Border.Lines="All" Text="[Data_Modification.工况法5025HC值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text347" Left="1041.6" Top="392.78" Width="37.8" Height="22.68" Border.Lines="All" Text="[Data_Modification.工况法5025NO值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text348" Left="1079.4" Top="392.78" Width="37.8" Height="22.68" Border.Lines="All" Text="[Data_Modification.工况法2540CO值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text349" Left="1117.2" Top="392.78" Width="37.8" Height="22.68" Border.Lines="All" Text="[Data_Modification.工况法2540HC值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text350" Left="1154.88" Top="392.78" Width="37.8" Height="22.68" Border.Lines="All" Text="[Data_Modification.工况法2540NO值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text351" Left="1192.68" Top="392.78" Width="66.53" Height="22.68" Border.Lines="All" Text="[Data_Modification.VmasCO]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text352" Left="1258.83" Top="392.78" Width="57.08" Height="22.68" Border.Lines="All" Text="[Data_Modification.VmasHC]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text353" Left="1315.53" Top="392.78" Width="55.94" Height="22.68" Border.Lines="All" Text="[Data_Modification.VmasNO]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text354" Left="1371.23" Top="392.78" Width="45.36" Height="22.68" Border.Lines="All" Text="[Data_Modification.VmasHCNO]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text355" Left="1417.03" Top="392.78" Width="111.13" Height="22.68" Border.Lines="All" Text="[Data_Modification.汽油评价]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text356" Left="776.78" Top="415.25" Width="415.8" Height="18.9" Border.Lines="All" Text="自由加速法" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text358" Left="1192.97" Top="415.25" Width="223.78" Height="18.9" Border.Lines="All" Text="加载减速工况" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text357" Left="776.78" Top="434.15" Width="189" Height="22.68" Border.Lines="All" Text="光吸收系数 m¯¹" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text362" Left="965.78" Top="434.15" Width="226.8" Height="22.68" Border.Lines="All" Text="滤纸烟度 BSU" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text366" Left="1192.97" Top="434.15" Width="152.71" Height="22.68" Border.Lines="All" Text="光吸收系数 m¯¹" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text369" Left="1345.67" Top="434.15" Width="71.82" Height="45.36" Border.Lines="All" Text="实测最大轮边功率/kW" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text370" Left="1416.93" Top="415.25" Width="111.13" Height="86.94" Border.Lines="All" Text="[Data_Modification.光吸收率评价]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text371" Left="776.78" Top="456.83" Width="45.36" Height="22.68" Border.Lines="All" Text="1" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text372" Left="822.14" Top="456.83" Width="45.36" Height="22.68" Border.Lines="All" Text="2" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text373" Left="867.5" Top="456.83" Width="45.36" Height="22.68" Border.Lines="All" Text="3" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text374" Left="912.86" Top="456.83" Width="52.92" Height="22.68" Border.Lines="All" Text="平均" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text375" Left="965.78" Top="456.83" Width="45.36" Height="22.68" Border.Lines="All" Text="1" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text376" Left="1011.14" Top="456.83" Width="45.36" Height="22.68" Border.Lines="All" Text="2" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text377" Left="1056.5" Top="456.83" Width="45.36" Height="22.68" Border.Lines="All" Text="3" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text378" Left="1101.86" Top="456.83" Width="90.72" Height="22.68" Border.Lines="All" Text="平均" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text381" Left="1292.64" Top="456.83" Width="52.92" Height="22.68" Border.Lines="All" Text="80%" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text383" Left="776.78" Top="479.51" Width="45.36" Height="22.68" Border.Lines="All" Text="[Data_Modification.光吸收率值1]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text384" Left="822.14" Top="479.51" Width="45.36" Height="22.68" Border.Lines="All" Text="[Data_Modification.光吸收率值2]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text385" Left="867.5" Top="479.51" Width="45.36" Height="22.68" Border.Lines="All" Text="[Data_Modification.光吸收率值3]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text386" Left="912.86" Top="479.51" Width="52.92" Height="22.68" Border.Lines="All" Text="[Data_Modification.光吸收平均值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text387" Left="965.78" Top="479.51" Width="45.36" Height="22.68" Border.Lines="All" Text="[Data_Modification.烟度值1]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text388" Left="1011.14" Top="479.51" Width="45.36" Height="22.68" Border.Lines="All" Text="[Data_Modification.烟度值2]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text389" Left="1056.5" Top="479.51" Width="45.36" Height="22.68" Border.Lines="All" Text="[Data_Modification.烟度值3]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text390" Left="1101.86" Top="479.51" Width="90.72" Height="22.68" Border.Lines="All" Text="[Data_Modification.烟度平均值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text391" Left="1192.97" Top="479.51" Width="47.25" Height="22.68" Border.Lines="All" Text="[Data_Modification.Lugdown100K]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text392" Left="1240.16" Top="479.51" Width="52.92" Height="22.68" Border.Lines="All" Text="[Data_Modification.Lugdown90K]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text393" Left="1292.64" Top="479.51" Width="52.92" Height="22.68" Border.Lines="All" Text="[Data_Modification.Lugdown80K]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text394" Left="1345.67" Top="479.51" Width="71.82" Height="22.68" Border.Lines="All" Text="[Data_Modification.轮边功率]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text395" Left="1192.97" Top="456.83" Width="47.25" Height="22.68" Border.Lines="All" Text="100%" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text396" Left="1240.16" Top="456.83" Width="52.92" Height="22.68" Border.Lines="All" Text="90%" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text359" Left="655.93" Top="501.85" Width="83.16" Height="45.36" Border.Lines="All" Text="悬架" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text360" Left="840.94" Top="501.85" Width="105.84" Height="22.68" Border.Lines="Top, Bottom" Text="[Data_Modification.悬架前左吸收率值]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text399" Left="1416.83" Top="501.85" Width="111.13" Height="22.68" Border.Lines="All" Text="[Data_Modification.悬架前轴吸收率评价]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text361" Left="655.93" Top="547.21" Width="83.16" Height="134.95" Border.Lines="All" Text="前照灯" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text363" Left="738.98" Top="547.21" Width="66.91" Height="44.6" Border.Lines="All" Text="项目" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text364" Left="805.52" Top="547.21" Width="166.7" Height="22.68" Border.Lines="Left, Right, Top" Text="灯高(mm)" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text365" Left="971.78" Top="547.21" Width="113.4" Height="44.6" Border.Lines="All" Text="远光光强cd" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text367" Left="1085.08" Top="547.21" Width="164.43" Height="22.68" Border.Lines="Left, Right, Top" Text="远光偏移" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text368" Left="1250.42" Top="547.21" Width="167.08" Height="22.68" Border.Lines="Left, Right, Top" Text="近光偏移" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text379" Left="1416.83" Top="547.21" Width="111.13" Height="22.68" Border.Lines="Left, Right, Top" Text="/" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text380" Left="805.58" Top="569.67" Width="83.16" Height="22.68" Border.Lines="All" Text="近光" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text408" Left="888.63" Top="569.67" Width="83.16" Height="22.68" Border.Lines="All" Text="远光" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text382" Left="1085.08" Top="569.67" Width="83.16" Height="22.68" Border.Lines="All" Text="垂直H" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text409" Left="1168.13" Top="569.67" Width="83.16" Height="22.68" Border.Lines="All" Text="水平 mm/10m" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text410" Left="1250.73" Top="569.67" Width="83.16" Height="22.68" Border.Lines="All" Text="垂直H" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text411" Left="1333.78" Top="569.67" Width="83.16" Height="22.68" Border.Lines="All" Text="水平 mm/10m" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text412" Left="1416.83" Top="569.67" Width="111.13" Height="22.68" Border.Lines="All" Text="/" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text413" Left="738.98" Top="592.13" Width="66.91" Height="22.68" Border.Lines="All" Text="左外" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text414" Left="738.98" Top="614.59" Width="66.91" Height="22.68" Border.Lines="All" Text="左内" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text415" Left="738.98" Top="637.05" Width="66.91" Height="22.68" Border.Lines="All" Text="右内" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text416" Left="738.98" Top="659.51" Width="66.91" Height="22.68" Border.Lines="All" Text="右外" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text417" Left="805.58" Top="592.13" Width="83.16" Height="22.68" Border.Lines="All" Text="[Data_Modification.左近灯高值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text418" Left="888.63" Top="592.13" Width="83.16" Height="22.68" Border.Lines="All" Text="[Data_Modification.左灯高值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text419" Left="971.78" Top="592.13" Width="113.4" Height="22.68" Border.Lines="All" Text="[Data_Modification.左主远光强度值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text420" Left="1085.08" Top="592.13" Width="83.16" Height="22.68" Border.Lines="All" Text="[Data_Modification.左主远光上下偏差H值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text421" Left="1168.13" Top="592.13" Width="83.16" Height="22.68" Border.Lines="All" Text="[Data_Modification.左主远光左右偏差值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text422" Left="1250.73" Top="592.13" Width="83.16" Height="22.68" Border.Lines="All" Text="[Data_Modification.左主近光上下偏差H值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text423" Left="1333.78" Top="592.13" Width="83.16" Height="22.68" Border.Lines="All" Text="[Data_Modification.左主近光左右偏差值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text424" Left="1416.83" Top="592.13" Width="111.13" Height="22.68" Border.Lines="All" Text="[Data_Modification.左主远光强度评价]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text425" Left="805.58" Top="614.59" Width="83.16" Height="22.68" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text426" Left="888.63" Top="614.59" Width="83.16" Height="22.68" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text427" Left="971.78" Top="614.59" Width="113.4" Height="22.68" Border.Lines="All" Text="[Data_Modification.左副远光强度值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text428" Left="1085.08" Top="614.59" Width="83.16" Height="22.68" Border.Lines="All" Text="[Data_Modification.左副远光上下偏差H值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text429" Left="1168.13" Top="614.59" Width="83.16" Height="22.68" Border.Lines="All" Text="[Data_Modification.左副远光左右偏差值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text430" Left="1250.73" Top="614.59" Width="83.16" Height="22.68" Border.Lines="All" Text="[Data_Modification.左副近光上下偏差H值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text431" Left="1333.78" Top="614.59" Width="83.16" Height="22.68" Border.Lines="All" Text="[Data_Modification.左副近光左右偏差值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text432" Left="1416.83" Top="614.59" Width="111.13" Height="22.68" Border.Lines="All" Text="[Data_Modification.左副远光强度评价]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text435" Left="971.78" Top="637.05" Width="113.4" Height="22.68" Border.Lines="All" Text="[Data_Modification.右副远光强度值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text436" Left="1085.08" Top="637.05" Width="83.16" Height="22.68" Border.Lines="All" Text="[Data_Modification.右副远光上下偏差H值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text437" Left="1168.13" Top="637.05" Width="83.16" Height="22.68" Border.Lines="All" Text="[Data_Modification.右副远光左右偏差值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text438" Left="1250.73" Top="637.05" Width="83.16" Height="22.68" Border.Lines="All" Text="[Data_Modification.右副近光上下偏差H值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text439" Left="1333.78" Top="637.05" Width="83.16" Height="22.68" Border.Lines="All" Text="[Data_Modification.右副近光左右偏差值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text440" Left="1416.83" Top="637.05" Width="111.13" Height="22.68" Border.Lines="All" Text="[Data_Modification.右副远光强度评价]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text441" Left="805.58" Top="659.51" Width="83.16" Height="22.68" Border.Lines="All" Text="[Data_Modification.右近灯高值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text442" Left="888.63" Top="659.51" Width="83.16" Height="22.68" Border.Lines="All" Text="[Data_Modification.右灯高值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text444" Left="1085.08" Top="659.51" Width="83.16" Height="22.68" Border.Lines="All" Text="[Data_Modification.右主远光上下偏差H值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text445" Left="1168.13" Top="659.51" Width="83.16" Height="22.68" Border.Lines="All" Text="[Data_Modification.右主远光左右偏差值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text446" Left="1250.73" Top="659.51" Width="83.16" Height="22.68" Border.Lines="All" Text="[Data_Modification.右主近光上下偏差H值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text447" Left="1333.78" Top="659.51" Width="83.16" Height="22.68" Border.Lines="All" Text="[Data_Modification.右主近光左右偏差值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text448" Left="1416.83" Top="659.51" Width="111.13" Height="22.68" Border.Lines="All" Text="[Data_Modification.右主远光强度评价]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text449" Left="805.68" Top="637.05" Width="83.16" Height="22.68" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text450" Left="888.63" Top="637.05" Width="83.16" Height="22.68" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text433" Left="655.93" Top="681.62" Width="83.16" Height="22.68" Border.Lines="All" Text="车速表" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text434" Left="1116.98" Top="681.62" Width="300.51" Height="22.68" Border.Lines="Right, Top, Bottom" Text="km/h" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text451" Left="1416.83" Top="681.62" Width="111.13" Height="22.68" Border.Lines="All" Text="[Data_Modification.车速值评价]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text452" Left="655.93" Top="704.41" Width="83.16" Height="45.36" Border.Lines="All" Text="侧滑量" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text453" Left="1003.58" Top="704.41" Width="113.4" Height="22.68" Border.Lines="Top, Bottom" Text="[Data_Modification.侧滑值1]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text454" Left="1416.83" Top="704.41" Width="111.13" Height="22.68" Border.Lines="All" Text="[Data_Modification.侧滑评价1]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text455" Left="1116.98" Top="727.09" Width="300.51" Height="22.68" Border.Lines="Right, Top, Bottom" Text="m/km" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text456" Left="1416.83" Top="727.09" Width="111.13" Height="22.68" Border.Lines="All" Text="[Data_Modification.侧滑评价2]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text457" Left="655.93" Top="749.77" Width="83.16" Height="22.68" Border.Lines="All" Text="喇叭" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text458" Left="1116.98" Top="749.77" Width="300.51" Height="22.68" Border.Lines="Right, Top, Bottom" Text="dB(A)" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text459" Left="1416.83" Top="749.77" Width="111.13" Height="22.68" Border.Lines="All" Text="[Data_Modification.喇叭评价]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text460" Left="655.93" Top="771.68" Width="83.16" Height="39.31" Border.Lines="All" Text="不合格项汇总" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text461" Left="738.88" Top="771.68" Width="789.26" Height="39.31" Border.Lines="All" Text="[Data_Modification.不合格项汇总]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text463" Left="971.78" Top="659.51" Width="113.4" Height="22.68" Border.Lines="All" Text="[Data_Modification.右主远光强度值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text443" Left="655.93" Top="810.59" Width="28.35" Height="227.56" Border.Lines="All" Text="检验工位照片" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text464" Left="684.28" Top="810.59" Width="843.7" Height="227.56" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text465" Left="124.74" Top="365" Width="145.53" Height="26.46" Border.Lines="Left, Top, Bottom" Text="等速百公里油耗标准限值" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text466" Left="270.27" Top="365" Width="70.69" Height="26.46" Border.Lines="Top, Bottom" Text=" [Data_Modification.油耗标准] " VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text467" Left="340.96" Top="365" Width="57.46" Height="26.46" Border.Lines="Top, Bottom" Text="L/100km;" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text468" Left="398.41" Top="365" Width="51.41" Height="26.46" Border.Lines="Top, Bottom" Text="实测值:" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text469" Left="521.75" Top="365" Width="56.7" Height="26.46" Border.Lines="Top, Bottom" Text="L/100km" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text470" Left="124.85" Top="580.46" Width="58.59" Height="22.68" Border.Lines="Top, Bottom" Text="水平称重" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text471" Left="183.33" Top="580.46" Width="62.37" Height="22.68" Border.Lines="Top, Bottom" Text="[Data_Modification.整车轴重值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text472" Left="275.94" Top="580.46" Width="71.82" Height="22.68" Border.Lines="Top, Bottom" Text="整车制动率" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text473" Left="347.65" Top="580.46" Width="68.04" Height="22.68" Border.Lines="Top, Bottom" Text="[Data_Modification.整车制动和值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text474" Left="427.15" Top="580.46" Width="71.82" Height="22.68" Border.Lines="Left, Top, Bottom" Text="驻车制动率" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text475" Left="499.07" Top="580.46" Width="68.04" Height="22.68" Border.Lines="Top, Bottom" Text="[Data_Modification.手制动和值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text476" Left="124.74" Top="603.14" Width="57.46" Height="45.36" Border.Lines="Left, Top, Bottom" Text="水平称重" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text477" Left="182.2" Top="603.14" Width="37.04" Height="22.68" Border.Lines="Right, Top" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text478" Left="124.74" Top="936.22" Width="52.16" Height="30.24" Border.Lines="Left, Top, Bottom" Text="初速度:" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text479" Left="204.2" Top="966.45" Width="34.02" Height="26.46" Border.Lines="Right, Top, Bottom" Text="km/h" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text480" Left="238.14" Top="966.45" Width="75.98" Height="26.46" Border.Lines="Top, Bottom" Text="试车道宽度:" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text482" Left="389.34" Top="936.22" Width="66.15" Height="30.24" Border.Lines="Top, Bottom" Text="制动距离:" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text483" Left="455.49" Top="936.22" Width="103.95" Height="30.24" Border.Lines="Top, Bottom" Text="[Data_Modification.制动距离值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text484" Left="559.55" Top="936.22" Width="18.9" Height="30.24" Border.Lines="Top, Bottom" Text="m" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text489" Left="124.74" Top="993.11" Width="64.26" Height="45.36" Border.Lines="Top, Bottom" Text="驻车坡度:" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text490" Left="294.95" Top="992.93" Width="18.9" Height="45.36" Border.Lines="Right, Top, Bottom" Text="%" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text491" Left="313.74" Top="992.93" Width="151.2" Height="45.36" Border.Lines="Left, Top, Bottom" Text="不少于5min坡道驻车情况:" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text492" Left="803.63" Top="229.07" Width="314.12" Height="26.46" Border.Lines="Right, Top, Bottom" Text="[Data_Modification.车长]*[Data_Modification.车宽]*[Data_Modification.车高]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text493" Left="800.07" Top="255.53" Width="317.9" Height="26.46" Border.Lines="Right, Top, Bottom" Text="/" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text494" Left="1180.12" Top="229.07" Width="347.76" Height="26.46" Border.Lines="Right, Top, Bottom" Text="/" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text495" Left="1118.48" Top="255.53" Width="60.86" Height="26.46" Border.Lines="Left, Top, Bottom" Text="挂车:" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text496" Left="1180.12" Top="255.53" Width="347.76" Height="26.46" Border.Lines="Right, Top, Bottom" Text="/" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text71" Left="738.88" Top="501.85" Width="37.8" Height="22.68" Border.Lines="All" Text="前轴" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text497" Left="738.88" Top="524.53" Width="37.8" Height="22.68" Border.Lines="All" Text="后轴" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text498" Left="776.68" Top="501.85" Width="64.26" Height="22.68" Border.Lines="Left, Top, Bottom" Text="左吸收率:" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text499" Left="946.78" Top="501.85" Width="18.9" Height="22.68" Border.Lines="Top, Bottom" Text="%" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text500" Left="1029.94" Top="501.85" Width="105.84" Height="22.68" Border.Lines="Top, Bottom" Text="[Data_Modification.悬架前右吸收率值]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text501" Left="965.68" Top="501.85" Width="64.26" Height="22.68" Border.Lines="Left, Top, Bottom" Text="右吸收率:" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text502" Left="1135.78" Top="501.85" Width="18.9" Height="22.68" Border.Lines="Top, Bottom" Text="%" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text503" Left="1218.94" Top="501.85" Width="160.65" Height="22.68" Border.Lines="Top, Bottom" Text="[Data_Modification.悬架前轴吸收率差值]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text504" Left="1154.68" Top="501.85" Width="64.26" Height="22.68" Border.Lines="Left, Top, Bottom" Text="左右差:" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text505" Left="1378.19" Top="501.85" Width="37.8" Height="22.68" Border.Lines="Top, Bottom" Text="%" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text506" Left="840.94" Top="524.53" Width="105.84" Height="22.68" Border.Lines="Top, Bottom" Text="[Data_Modification.悬架后左吸收率值]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text507" Left="1416.83" Top="524.53" Width="111.13" Height="22.68" Border.Lines="All" Text="[Data_Modification.悬架后轴吸收率评价]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text508" Left="776.68" Top="524.53" Width="64.26" Height="22.68" Border.Lines="Left, Top, Bottom" Text="左吸收率:" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text509" Left="946.78" Top="524.53" Width="18.9" Height="22.68" Border.Lines="Top, Bottom" Text="%" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text510" Left="1029.94" Top="524.53" Width="105.84" Height="22.68" Border.Lines="Top, Bottom" Text="[Data_Modification.悬架后右吸收率值]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text511" Left="965.68" Top="524.53" Width="64.26" Height="22.68" Border.Lines="Left, Top, Bottom" Text="右吸收率:" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text512" Left="1135.78" Top="524.53" Width="18.9" Height="22.68" Border.Lines="Top, Bottom" Text="%" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text513" Left="1218.94" Top="524.53" Width="160.65" Height="22.68" Border.Lines="Top, Bottom" Text="[Data_Modification.悬架后轴吸收率差值]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text514" Left="1154.68" Top="524.53" Width="64.26" Height="22.68" Border.Lines="Left, Top, Bottom" Text="左右差:" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text515" Left="1378.19" Top="524.53" Width="37.8" Height="22.68" Border.Lines="Top, Bottom" Text="%" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text87" Left="124.85" Top="338.54" Width="94.5" Height="26.46" Border.Lines="All" Text="[Data_Modification.动力性达标功率]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text325" Left="814.58" Top="345.53" Width="37.8" Height="47.25" Border.Lines="All" Text="HC &#13;&#10;10" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text397" Left="833.7" Top="366.5" Width="18.9" Height="11.34" Text="-6" HorzAlign="Center" VertAlign="Center" Font="宋体, 6pt, style=Bold"/>
+      <TextObject Name="Text516" Left="946.55" Top="366.5" Width="18.9" Height="11.34" Text="-6" HorzAlign="Center" VertAlign="Center" Font="宋体, 6pt, style=Bold"/>
+      <TextObject Name="Text517" Left="1023.15" Top="365.95" Width="18.9" Height="11.34" Text="-6" HorzAlign="Center" VertAlign="Center" Font="宋体, 6pt, style=Bold"/>
+      <TextObject Name="Text518" Left="1058.95" Top="365.95" Width="18.9" Height="11.34" Text="-6" HorzAlign="Center" VertAlign="Center" Font="宋体, 6pt, style=Bold"/>
+      <TextObject Name="Text519" Left="1135.55" Top="365.95" Width="18.9" Height="11.34" Text="-6" HorzAlign="Center" VertAlign="Center" Font="宋体, 6pt, style=Bold"/>
+      <TextObject Name="Text520" Left="1172.35" Top="364.95" Width="18.9" Height="11.34" Text="-6" HorzAlign="Center" VertAlign="Center" Font="宋体, 6pt, style=Bold"/>
+      <LineObject Name="Line1" Left="424.95" Top="67.15" Width="85.05"/>
+      <LineObject Name="Line2" Left="85.05" Top="66.7" Width="219.24"/>
+      <LineObject Name="Line3" Left="612.95" Top="66.15" Width="139.86"/>
+      <LineObject Name="Line4" Left="846.6" Top="66.7" Width="37.8"/>
+      <LineObject Name="Line5" Left="965.9" Top="65.7" Width="18.9"/>
+      <LineObject Name="Line6" Left="1067.4" Top="67.15" Width="160.65"/>
+      <LineObject Name="Line7" Left="1363" Top="66.15" Width="134.19"/>
+      <LineObject Name="Line8" Left="843.32" Top="252" Width="245.7"/>
+      <LineObject Name="Line9" Left="1207.25" Top="252" Width="245.7"/>
+      <LineObject Name="Line10" Left="848.5" Top="279.35" Width="245.7"/>
+      <LineObject Name="Line11" Left="1208.6" Top="279.35" Width="245.7"/>
+      <TextObject Name="Text398" Left="738.98" Top="681.62" Width="378" Height="22.68" Border.Lines="Left, Top, Bottom" Text="                                  [Data_Modification.车速值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text404" Left="738.98" Top="704.41" Width="264.6" Height="22.68" Border.Lines="Left, Top, Bottom" Text="第一转向轮" HorzAlign="Right" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text405" Left="1116.98" Top="704.41" Width="300.51" Height="22.68" Border.Lines="Top, Bottom" Text="m/km" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text406" Left="738.98" Top="727.09" Width="264.6" Height="22.68" Border.Lines="Top, Bottom" Text="第二转向轮" HorzAlign="Right" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text521" Left="1003.58" Top="727.09" Width="113.4" Height="22.68" Border.Lines="Top, Bottom" Text="[Data_Modification.侧滑值2]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text407" Left="738.98" Top="749.77" Width="264.6" Height="22.68" Border.Lines="Top, Bottom" Text="声压级" HorzAlign="Right" VertAlign="Center" Font="宋体, 11pt"/>
+      <TextObject Name="Text522" Left="1003.48" Top="749.77" Width="113.4" Height="22.68" Border.Lines="Top, Bottom" Text="[Data_Modification.喇叭声级值]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <PictureObject Name="Picture1" Left="684.18" Top="812.43" Width="279.72" Height="224.91" SizeMode="StretchImage" DataColumn="Data_Modification.制动工位照片"/>
+      <PictureObject Name="Picture2" Left="965.23" Top="812.43" Width="279.72" Height="224.91" SizeMode="StretchImage" DataColumn="Data_Modification.灯光工位照片"/>
+      <PictureObject Name="Picture3" Left="1245.88" Top="812.43" Width="279.72" Height="224.91" SizeMode="StretchImage" DataColumn="Data_Modification.动力工位照片"/>
+      <TextObject Name="Text302" Left="124.85" Top="966.07" Width="38.93" Height="26.46" Border.Lines="Left, Top, Bottom" Text="MFDD:" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text462" Left="147.42" Top="149.69" Width="37.8" Height="26.46" Text="[Data_Modification.发动机额定扭矩]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text523" Left="184.35" Top="149.69" Width="30.24" Height="26.46" Text="Nm:" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text524" Left="215.02" Top="149.69" Width="37.8" Height="26.46" Text="[Data_Modification.发动机额定转速]" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text525" Left="251.94" Top="149.69" Width="45.36" Height="26.46" Text="r/min" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text526" Left="342.2" Top="693.85" Width="38.93" Height="22.68" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text527" Left="204.12" Top="935.55" Width="34.02" Height="30.24" Border.Lines="Right, Top, Bottom" Text="m/s²" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text528" Left="238.14" Top="935.55" Width="75.98" Height="30.24" Border.Lines="Top, Bottom" Text="制动稳定性:" HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text529" Left="313.74" Top="935.55" Width="75.22" Height="30.24" Border.Lines="Right, Top, Bottom" Text="[Data_Modification.制动稳定性值]      " HorzAlign="Center" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text530" Left="370.55" Top="966.35" Width="18.9" Height="26.46" Border.Lines="Right, Top, Bottom" Text="m" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text531" Left="389.45" Top="966.35" Width="137.97" Height="26.46" Border.Lines="Top, Bottom" Text="汽车列车制动协调时间:" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text532" Left="527.2" Top="966.35" Width="32.13" Height="26.46" Border.Lines="Top, Bottom" Text="[Data_Modification.制动协调时间]" VertAlign="Center" Font="宋体, 9pt"/>
+      <TextObject Name="Text533" Left="558.55" Top="966.35" Width="18.9" Height="26.46" Border.Lines="Top, Bottom" Text="s" VertAlign="Center" Font="宋体, 9pt"/>
+    </DataBand>
+  </ReportPage>
+</Report>

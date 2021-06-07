@@ -1,0 +1,596 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="03/07/2017 22:05:52" ReportInfo.Modified="12/18/2017 15:37:53" ReportInfo.CreatorVersion="2013.2.5.0">
+  <Dictionary>
+    <MsSqlDataConnection Name="Connection" ConnectionString="rijcmlqR6aRjjcuCXI1lJd2+EzNbYQMlf0WUUNoZ4Hd/VdiFRsOsW8XFN3WRKob3iudyXN5sYdC7dmTDtHLSjEIKT98lJ7lWVQB7Gsc3wItnAkzPvch44V+9XcWtHK6Y1lIIM/S0WHHgInWwA/Uwqc7EvRaJb59/M9w6ZFCp0s9aHdjRy2mGdmwU3W+vlHwlMx0o97C">
+      <TableDataSource Name="Data_Modification1" Alias="Data_Modification" DataType="System.Int32" Enabled="true" TableName="Data_Modification">
+        <Column Name="检测编号" DataType="System.String"/>
+        <Column Name="车速值" DataType="System.String"/>
+        <Column Name="车速评价" DataType="System.String"/>
+        <Column Name="烟度值1" DataType="System.String"/>
+        <Column Name="烟度值2" DataType="System.String"/>
+        <Column Name="烟度值3" DataType="System.String"/>
+        <Column Name="怠速CO值" DataType="System.String"/>
+        <Column Name="怠速CO评价" DataType="System.String"/>
+        <Column Name="怠速HC值" DataType="System.String"/>
+        <Column Name="双怠速CO值" DataType="System.String"/>
+        <Column Name="双怠速HC值" DataType="System.String"/>
+        <Column Name="一轴轴重值" DataType="System.String"/>
+        <Column Name="二轴轴重值" DataType="System.String"/>
+        <Column Name="三轴轴重值" DataType="System.String"/>
+        <Column Name="四轴轴重值" DataType="System.String"/>
+        <Column Name="五轴轴重值" DataType="System.String"/>
+        <Column Name="六轴轴重值" DataType="System.String"/>
+        <Column Name="一轴求和时左制动力值" DataType="System.String"/>
+        <Column Name="一轴求和时右制动力值" DataType="System.String"/>
+        <Column Name="一轴求差时左制动力值" DataType="System.String"/>
+        <Column Name="一轴求差时右制动力值" DataType="System.String"/>
+        <Column Name="一轴制动和值" DataType="System.String"/>
+        <Column Name="一轴制动差值" DataType="System.String"/>
+        <Column Name="一轴左拖滞比值" DataType="System.String"/>
+        <Column Name="一轴右拖滞比值" DataType="System.String"/>
+        <Column Name="一轴制动和评价" DataType="System.String"/>
+        <Column Name="二轴求和时左制动力值" DataType="System.String"/>
+        <Column Name="二轴求和时右制动力值" DataType="System.String"/>
+        <Column Name="二轴求差时左制动力值" DataType="System.String"/>
+        <Column Name="二轴求差时右制动力值" DataType="System.String"/>
+        <Column Name="二轴制动和值" DataType="System.String"/>
+        <Column Name="二轴制动差值" DataType="System.String"/>
+        <Column Name="二轴左拖滞比值" DataType="System.String"/>
+        <Column Name="二轴右拖滞比值" DataType="System.String"/>
+        <Column Name="二轴制动和评价" DataType="System.String"/>
+        <Column Name="三轴求和时左制动力值" DataType="System.String"/>
+        <Column Name="三轴求和时右制动力值" DataType="System.String"/>
+        <Column Name="三轴求差时左制动力值" DataType="System.String"/>
+        <Column Name="三轴求差时右制动力值" DataType="System.String"/>
+        <Column Name="三轴制动和值" DataType="System.String"/>
+        <Column Name="三轴制动差值" DataType="System.String"/>
+        <Column Name="三轴左拖滞比值" DataType="System.String"/>
+        <Column Name="三轴右拖滞比值" DataType="System.String"/>
+        <Column Name="三轴制动和评价" DataType="System.String"/>
+        <Column Name="四轴求和时左制动力值" DataType="System.String"/>
+        <Column Name="四轴求和时右制动力值" DataType="System.String"/>
+        <Column Name="四轴求差时左制动力值" DataType="System.String"/>
+        <Column Name="四轴求差时右制动力值" DataType="System.String"/>
+        <Column Name="四轴制动和值" DataType="System.String"/>
+        <Column Name="四轴制动差值" DataType="System.String"/>
+        <Column Name="四轴左拖滞比值" DataType="System.String"/>
+        <Column Name="四轴右拖滞比值" DataType="System.String"/>
+        <Column Name="四轴制动和评价" DataType="System.String"/>
+        <Column Name="五轴求和时左制动力值" DataType="System.String"/>
+        <Column Name="五轴求和时右制动力值" DataType="System.String"/>
+        <Column Name="五轴求差时左制动力值" DataType="System.String"/>
+        <Column Name="五轴求差时右制动力值" DataType="System.String"/>
+        <Column Name="五轴制动和值" DataType="System.String"/>
+        <Column Name="五轴制动差值" DataType="System.String"/>
+        <Column Name="五轴左拖滞比值" DataType="System.String"/>
+        <Column Name="五轴右拖滞比值" DataType="System.String"/>
+        <Column Name="五轴制动和评价" DataType="System.String"/>
+        <Column Name="六轴求和时左制动力值" DataType="System.String"/>
+        <Column Name="六轴求和时右制动力值" DataType="System.String"/>
+        <Column Name="六轴求差时左制动力值" DataType="System.String"/>
+        <Column Name="六轴求差时右制动力值" DataType="System.String"/>
+        <Column Name="六轴制动和值" DataType="System.String"/>
+        <Column Name="六轴制动差值" DataType="System.String"/>
+        <Column Name="六轴左拖滞比值" DataType="System.String"/>
+        <Column Name="六轴右拖滞比值" DataType="System.String"/>
+        <Column Name="六轴制动和评价" DataType="System.String"/>
+        <Column Name="整车轴重值" DataType="System.String"/>
+        <Column Name="整车制动和值" DataType="System.String"/>
+        <Column Name="手制动和值" DataType="System.String"/>
+        <Column Name="左灯高值" DataType="System.String"/>
+        <Column Name="右灯高值" DataType="System.String"/>
+        <Column Name="左主远光强度值" DataType="System.String"/>
+        <Column Name="左主远光左右偏差值" DataType="System.String"/>
+        <Column Name="左主远光上下偏差值" DataType="System.String"/>
+        <Column Name="左主远光强度评价" DataType="System.String"/>
+        <Column Name="右主远光强度值" DataType="System.String"/>
+        <Column Name="右主远光左右偏差值" DataType="System.String"/>
+        <Column Name="右主远光上下偏差值" DataType="System.String"/>
+        <Column Name="右主远光强度评价" DataType="System.String"/>
+        <Column Name="左副远光强度值" DataType="System.String"/>
+        <Column Name="左副远光左右偏差值" DataType="System.String"/>
+        <Column Name="左副远光上下偏差值" DataType="System.String"/>
+        <Column Name="左副远光强度评价" DataType="System.String"/>
+        <Column Name="右副远光强度值" DataType="System.String"/>
+        <Column Name="右副远光左右偏差值" DataType="System.String"/>
+        <Column Name="右副远光上下偏差值" DataType="System.String"/>
+        <Column Name="右副远光强度评价" DataType="System.String"/>
+        <Column Name="喇叭声级值" DataType="System.String"/>
+        <Column Name="喇叭声级评价" DataType="System.String"/>
+        <Column Name="侧滑评价" DataType="System.String"/>
+        <Column Name="光吸收率值1" DataType="System.String"/>
+        <Column Name="光吸收率值2" DataType="System.String"/>
+        <Column Name="光吸收率评价" DataType="System.String"/>
+        <Column Name="光吸收率值3" DataType="System.String"/>
+        <Column Name="三轴右轴重值" DataType="System.String"/>
+        <Column Name="三轴左轴重值" DataType="System.String"/>
+        <Column Name="二轴右轴重值" DataType="System.String"/>
+        <Column Name="二轴左轴重值" DataType="System.String"/>
+        <Column Name="一轴右轴重值" DataType="System.String"/>
+        <Column Name="四轴右轴重值" DataType="System.String"/>
+        <Column Name="五轴右轴重值" DataType="System.String"/>
+        <Column Name="五轴左轴重值" DataType="System.String"/>
+        <Column Name="四轴左轴重值" DataType="System.String"/>
+        <Column Name="一轴左轴重值" DataType="System.String"/>
+        <Column Name="空气过量系数值" DataType="System.String"/>
+        <Column Name="一轴左轴重动态值" DataType="System.String"/>
+        <Column Name="二轴左轴重动态值" DataType="System.String"/>
+        <Column Name="三轴左轴重动态值" DataType="System.String"/>
+        <Column Name="四轴左轴重动态值" DataType="System.String"/>
+        <Column Name="一轴右轴重动态值" DataType="System.String"/>
+        <Column Name="二轴右轴重动态值" DataType="System.String"/>
+        <Column Name="三轴右轴重动态值" DataType="System.String"/>
+        <Column Name="四轴右轴重动态值" DataType="System.String"/>
+        <Column Name="悬架前左吸收率值" DataType="System.String"/>
+        <Column Name="悬架前右吸收率值" DataType="System.String"/>
+        <Column Name="悬架后左吸收率值" DataType="System.String"/>
+        <Column Name="悬架后右吸收率值" DataType="System.String"/>
+        <Column Name="悬架前轴吸收率差值" DataType="System.String"/>
+        <Column Name="悬架后轴吸收率差值" DataType="System.String"/>
+        <Column Name="悬架前轴吸收率评价" DataType="System.String"/>
+        <Column Name="悬架后轴吸收率评价" DataType="System.String"/>
+        <Column Name="工况法5025CO值" DataType="System.String"/>
+        <Column Name="工况法5025HC值" DataType="System.String"/>
+        <Column Name="工况法5025NO值" DataType="System.String"/>
+        <Column Name="工况法2540CO值" DataType="System.String"/>
+        <Column Name="工况法2540HC值" DataType="System.String"/>
+        <Column Name="工况法2540NO值" DataType="System.String"/>
+        <Column Name="车牌号码" DataType="System.String"/>
+        <Column Name="车牌颜色" DataType="System.String"/>
+        <Column Name="车轴数" DataType="System.String"/>
+        <Column Name="发动机号码" DataType="System.String"/>
+        <Column Name="底盘号码" DataType="System.String"/>
+        <Column Name="营运证号" DataType="System.String"/>
+        <Column Name="出厂日期" DataType="System.String"/>
+        <Column Name="车身颜色" DataType="System.String"/>
+        <Column Name="车主单位" DataType="System.String"/>
+        <Column Name="登记日期" DataType="System.String"/>
+        <Column Name="车辆类型" DataType="System.String"/>
+        <Column Name="行驶里程" DataType="System.String"/>
+        <Column Name="座位数" DataType="System.String"/>
+        <Column Name="总质量" DataType="System.String"/>
+        <Column Name="VIN" DataType="System.String"/>
+        <Column Name="远光光束单独调整" DataType="System.String"/>
+        <Column Name="整备质量" DataType="System.String"/>
+        <Column Name="发动机额定功率" DataType="System.String"/>
+        <Column Name="发动机额定转速" DataType="System.String"/>
+        <Column Name="检测类别" DataType="System.String"/>
+        <Column Name="检测日期" DataType="System.String"/>
+        <Column Name="检测时间" DataType="System.String"/>
+        <Column Name="线号标识" DataType="System.String"/>
+        <Column Name="登录员" DataType="System.String"/>
+        <Column Name="引车员" DataType="System.String"/>
+        <Column Name="发动机额定扭矩" DataType="System.String"/>
+        <Column Name="前轮距" DataType="System.String"/>
+        <Column Name="客车等级" DataType="System.String"/>
+        <Column Name="轮胎规格" DataType="System.String"/>
+        <Column Name="油耗标准" DataType="System.String"/>
+        <Column Name="燃油类型" DataType="System.String"/>
+        <Column Name="车长" DataType="System.String"/>
+        <Column Name="车宽" DataType="System.String"/>
+        <Column Name="车高" DataType="System.String"/>
+        <Column Name="厂牌型号" DataType="System.String"/>
+        <Column Name="型号" DataType="System.String"/>
+        <Column Name="底盘类型" DataType="System.String"/>
+        <Column Name="手刹起始轴位" DataType="System.String"/>
+        <Column Name="百公里油耗值" DataType="System.String"/>
+        <Column Name="动力性达标功率" DataType="System.String"/>
+        <Column Name="动力性加载力" DataType="System.String"/>
+        <Column Name="双转向轴" DataType="System.String"/>
+        <Column Name="侧滑值2" DataType="System.String"/>
+        <Column Name="左近灯高值" DataType="System.String"/>
+        <Column Name="右近灯高值" DataType="System.String"/>
+        <Column Name="灯制" DataType="System.String"/>
+        <Column Name="检测项目" DataType="System.String"/>
+        <Column Name="客车车长" DataType="System.String"/>
+        <Column Name="驱动轴数" DataType="System.String"/>
+        <Column Name="驱动形式" DataType="System.String"/>
+        <Column Name="业务类型" DataType="System.String"/>
+        <Column Name="货车车身型式" DataType="System.String"/>
+        <Column Name="转向轴悬架形式" DataType="System.String"/>
+        <Column Name="驱动轴空载质量" DataType="System.String"/>
+        <Column Name="牵引车满载总质量" DataType="System.String"/>
+        <Column Name="并装轴形式" DataType="System.String"/>
+        <Column Name="一轴左制动力值" DataType="System.String"/>
+        <Column Name="一轴右制动力值" DataType="System.String"/>
+        <Column Name="二轴左制动力值" DataType="System.String"/>
+        <Column Name="二轴右制动力值" DataType="System.String"/>
+        <Column Name="三轴左制动力值" DataType="System.String"/>
+        <Column Name="三轴右制动力值" DataType="System.String"/>
+        <Column Name="四轴左制动力值" DataType="System.String"/>
+        <Column Name="四轴右制动力值" DataType="System.String"/>
+        <Column Name="五轴左制动力值" DataType="System.String"/>
+        <Column Name="五轴右制动力值" DataType="System.String"/>
+        <Column Name="六轴左制动力值" DataType="System.String"/>
+        <Column Name="六轴右制动力值" DataType="System.String"/>
+        <Column Name="侧滑值1" DataType="System.String"/>
+        <Column Name="侧滑值1评定" DataType="System.String"/>
+        <Column Name="侧滑值2评定" DataType="System.String"/>
+        <Column Name="VmasCO" DataType="System.String"/>
+        <Column Name="VmasHC" DataType="System.String"/>
+        <Column Name="VmasNO" DataType="System.String"/>
+        <Column Name="VmasHCNO" DataType="System.String"/>
+        <Column Name="光吸收平均值" DataType="System.String"/>
+        <Column Name="烟度平均值" DataType="System.String"/>
+        <Column Name="Lugdown100K" DataType="System.String"/>
+        <Column Name="Lugdown90K" DataType="System.String"/>
+        <Column Name="Lugdown80K" DataType="System.String"/>
+        <Column Name="左主远光上下偏差H值" DataType="System.String"/>
+        <Column Name="左副远光上下偏差H值" DataType="System.String"/>
+        <Column Name="右副远光上下偏差H值" DataType="System.String"/>
+        <Column Name="右主远光上下偏差H值" DataType="System.String"/>
+        <Column Name="左主近光上下偏差H值" DataType="System.String"/>
+        <Column Name="左副近光上下偏差H值" DataType="System.String"/>
+        <Column Name="右副近光上下偏差H值" DataType="System.String"/>
+        <Column Name="右主近光上下偏差H值" DataType="System.String"/>
+        <Column Name="左主近光左右偏差值" DataType="System.String"/>
+        <Column Name="左副近光左右偏差值" DataType="System.String"/>
+        <Column Name="右副近光左右偏差值" DataType="System.String"/>
+        <Column Name="右主近光左右偏差值" DataType="System.String"/>
+        <Column Name="左主近光上下偏差值" DataType="System.String"/>
+        <Column Name="左副近光上下偏差值" DataType="System.String"/>
+        <Column Name="右副近光上下偏差值" DataType="System.String"/>
+        <Column Name="右主近光上下偏差值" DataType="System.String"/>
+        <Column Name="制动初速度值" DataType="System.String"/>
+        <Column Name="制动距离值" DataType="System.String"/>
+        <Column Name="制动稳定性值" DataType="System.String"/>
+        <Column Name="制动协调时间" DataType="System.String"/>
+        <Column Name="制动减速度值" DataType="System.String"/>
+        <Column Name="不合格项汇总" DataType="System.String"/>
+        <Column Name="稳定车速" DataType="System.String"/>
+        <Column Name="额定车速" DataType="System.String"/>
+        <Column Name="动力性评定" DataType="System.String"/>
+        <Column Name="经济性评定" DataType="System.String"/>
+        <Column Name="整车评定" DataType="System.String"/>
+        <Column Name="轮边功率" DataType="System.String"/>
+        <Column Name="档案编号" DataType="System.String"/>
+        <Column Name="制动工位照片" DataType="System.Byte[]" BindableControl="Picture"/>
+        <Column Name="灯光工位照片" DataType="System.Byte[]" BindableControl="Picture"/>
+        <Column Name="动力工位照片" DataType="System.Byte[]" BindableControl="Picture"/>
+        <Column Name="方向盘自由转动量值" DataType="System.String"/>
+        <Column Name="方向盘自由转动量判定" DataType="System.String"/>
+        <Column Name="结论" DataType="System.String"/>
+        <Column Name="二维外检项" DataType="System.String"/>
+        <Column Name="柴油评价" DataType="System.String"/>
+        <Column Name="汽油评价" DataType="System.String"/>
+        <Column Name="动力性限值" DataType="System.String"/>
+        <Column Name="经济性限值" DataType="System.String"/>
+        <Column Name="一轴制动率限值" DataType="System.String"/>
+        <Column Name="一轴不平衡率限值" DataType="System.String"/>
+        <Column Name="一轴左阻滞率限值" DataType="System.String"/>
+        <Column Name="一轴右阻滞率限值" DataType="System.String"/>
+        <Column Name="二轴制动率限值" DataType="System.String"/>
+        <Column Name="二轴不平衡率限值" DataType="System.String"/>
+        <Column Name="二轴左阻滞率限值" DataType="System.String"/>
+        <Column Name="二轴右阻滞率限值" DataType="System.String"/>
+        <Column Name="三轴制动率限值" DataType="System.String"/>
+        <Column Name="三轴不平衡率限值" DataType="System.String"/>
+        <Column Name="三轴左阻滞率限值" DataType="System.String"/>
+        <Column Name="三轴右阻滞率限值" DataType="System.String"/>
+        <Column Name="四轴制动率限值" DataType="System.String"/>
+        <Column Name="四轴不平衡率限值" DataType="System.String"/>
+        <Column Name="四轴左阻滞率限值" DataType="System.String"/>
+        <Column Name="四轴右阻滞率限值" DataType="System.String"/>
+        <Column Name="五轴制动率限值" DataType="System.String"/>
+        <Column Name="五轴不平衡率限值" DataType="System.String"/>
+        <Column Name="五轴左阻滞率限值" DataType="System.String"/>
+        <Column Name="五轴右阻滞率限值" DataType="System.String"/>
+        <Column Name="六轴制动率限值" DataType="System.String"/>
+        <Column Name="六轴不平衡率限值" DataType="System.String"/>
+        <Column Name="六轴左阻滞率限值" DataType="System.String"/>
+        <Column Name="六轴右阻滞率限值" DataType="System.String"/>
+        <Column Name="整车制动率限值" DataType="System.String"/>
+        <Column Name="整车驻车制动率限值" DataType="System.String"/>
+        <Column Name="侧滑1限值" DataType="System.String"/>
+        <Column Name="侧滑2限值" DataType="System.String"/>
+        <Column Name="高怠速HC限值" DataType="System.String"/>
+        <Column Name="高怠速CO限值" DataType="System.String"/>
+        <Column Name="高怠速λ限值" DataType="System.String"/>
+        <Column Name="低怠速HC限值" DataType="System.String"/>
+        <Column Name="低怠速CO限值" DataType="System.String"/>
+        <Column Name="光吸收率限值" DataType="System.String"/>
+        <Column Name="左外光强限值" DataType="System.String"/>
+        <Column Name="左外远光垂直偏移量H限值" DataType="System.String"/>
+        <Column Name="左外远光水平偏移量限值" DataType="System.String"/>
+        <Column Name="左外近光垂直偏移量H限值" DataType="System.String"/>
+        <Column Name="左外近光水平偏移量限值" DataType="System.String"/>
+        <Column Name="左内光强限值" DataType="System.String"/>
+        <Column Name="左内远光垂直偏移量H限值" DataType="System.String"/>
+        <Column Name="左内远光水平偏移量限值" DataType="System.String"/>
+        <Column Name="右外光强限值" DataType="System.String"/>
+        <Column Name="右外远光垂直偏移量H限值" DataType="System.String"/>
+        <Column Name="右外远光水平偏移量限值" DataType="System.String"/>
+        <Column Name="右外近光垂直偏移量H限值" DataType="System.String"/>
+        <Column Name="右外近光水平偏移量限值" DataType="System.String"/>
+        <Column Name="右内光强限值" DataType="System.String"/>
+        <Column Name="右内远光垂直偏移量H限值" DataType="System.String"/>
+        <Column Name="右内远光水平偏移量限值" DataType="System.String"/>
+        <Column Name="车速限值" DataType="System.String"/>
+        <Column Name="喇叭限值" DataType="System.String"/>
+        <Column Name="一轴制动率评价" DataType="System.String"/>
+        <Column Name="一轴不平衡率评价" DataType="System.String"/>
+        <Column Name="一轴左阻滞率评价" DataType="System.String"/>
+        <Column Name="一轴右阻滞率评价" DataType="System.String"/>
+        <Column Name="二轴制动率评价" DataType="System.String"/>
+        <Column Name="二轴不平衡率评价" DataType="System.String"/>
+        <Column Name="二轴左阻滞率评价" DataType="System.String"/>
+        <Column Name="二轴右阻滞率评价" DataType="System.String"/>
+        <Column Name="三轴制动率评价" DataType="System.String"/>
+        <Column Name="三轴不平衡率评价" DataType="System.String"/>
+        <Column Name="三轴左阻滞率评价" DataType="System.String"/>
+        <Column Name="三轴右阻滞率评价" DataType="System.String"/>
+        <Column Name="四轴制动率评价" DataType="System.String"/>
+        <Column Name="四轴不平衡率评价" DataType="System.String"/>
+        <Column Name="四轴左阻滞率评价" DataType="System.String"/>
+        <Column Name="四轴右阻滞率评价" DataType="System.String"/>
+        <Column Name="五轴制动率评价" DataType="System.String"/>
+        <Column Name="五轴不平衡率评价" DataType="System.String"/>
+        <Column Name="五轴左阻滞率评价" DataType="System.String"/>
+        <Column Name="五轴右阻滞率评价" DataType="System.String"/>
+        <Column Name="六轴制动率评价" DataType="System.String"/>
+        <Column Name="六轴不平衡率评价" DataType="System.String"/>
+        <Column Name="六轴左阻滞率评价" DataType="System.String"/>
+        <Column Name="六轴右阻滞率评价" DataType="System.String"/>
+        <Column Name="整车制动率评价" DataType="System.String"/>
+        <Column Name="整车驻车制动率评价" DataType="System.String"/>
+        <Column Name="高怠速HC评价" DataType="System.String"/>
+        <Column Name="高怠速CO评价" DataType="System.String"/>
+        <Column Name="高怠速λ评价" DataType="System.String"/>
+        <Column Name="低怠速HC评价" DataType="System.String"/>
+        <Column Name="低怠速CO评价" DataType="System.String"/>
+        <Column Name="左外灯远光光强评价" DataType="System.String"/>
+        <Column Name="左外灯远光垂直偏移量H评价" DataType="System.String"/>
+        <Column Name="左外灯远光水平偏移量评价" DataType="System.String"/>
+        <Column Name="左外灯近光垂直偏移量H评价" DataType="System.String"/>
+        <Column Name="左外灯近光水平偏移量评价" DataType="System.String"/>
+        <Column Name="左内灯远光光强评价" DataType="System.String"/>
+        <Column Name="左内灯远光垂直偏移量H评价" DataType="System.String"/>
+        <Column Name="左内灯远光水平偏移量评价" DataType="System.String"/>
+        <Column Name="右外灯远光光强评价" DataType="System.String"/>
+        <Column Name="右外灯远光垂直偏移量H评价" DataType="System.String"/>
+        <Column Name="右外灯远光水平偏移量评价" DataType="System.String"/>
+        <Column Name="右外灯近光垂直偏移量H评价" DataType="System.String"/>
+        <Column Name="右外灯近光水平偏移量评价" DataType="System.String"/>
+        <Column Name="右内灯远光光强评价" DataType="System.String"/>
+        <Column Name="右内灯远光垂直偏移量H评价" DataType="System.String"/>
+        <Column Name="右内灯远光水平偏移量评价" DataType="System.String"/>
+        <Column Name="检验结论" DataType="System.String"/>
+        <Column Name="地址" DataType="System.String"/>
+        <Column Name="公司名称" DataType="System.String"/>
+        <Column Name="联系方式" DataType="System.String"/>
+        <Column Name="唯一性认定" DataType="System.String"/>
+        <Column Name="故障信息诊断" DataType="System.String"/>
+        <Column Name="外观检查" DataType="System.String"/>
+        <Column Name="运行检查" DataType="System.String"/>
+        <Column Name="底盘检查" DataType="System.String"/>
+        <Column Name="核查评定" DataType="System.String"/>
+        <Column Name="唯一性认定判定" DataType="System.String"/>
+        <Column Name="故障信息诊断判定" DataType="System.String"/>
+        <Column Name="外观检查判定" DataType="System.String"/>
+        <Column Name="运行检查判定" DataType="System.String"/>
+        <Column Name="底盘检查判定" DataType="System.String"/>
+        <Column Name="核查评定判定" DataType="System.String"/>
+      </TableDataSource>
+    </MsSqlDataConnection>
+  </Dictionary>
+  <ReportPage Name="Page1" RawPaperSize="9" LeftMargin="0" TopMargin="0" RightMargin="0" BottomMargin="0">
+    <DataBand Name="Data1" Width="793.8" Height="1105.65">
+      <TextObject Name="Text1" Left="84.25" Top="41.45" Width="604.8" Height="47.25" Text="营运客车类型划分及等级复核表(   座    卧    双)" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 18pt"/>
+      <CheckBoxObject Name="CheckBox1" Left="462.8" Top="62.35" Width="18.9" Height="18.9" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox2" Left="536.05" Top="62.35" Width="18.9" Height="18.9" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox3" Left="606.2" Top="61.9" Width="18.9" Height="18.9" Border.Lines="All" Checked="false"/>
+      <TextObject Name="Text2" Left="22.9" Top="123.15" Width="56.7" Height="147.42" Border.Lines="All" Text="车辆信息及主要参数" HorzAlign="Center" VertAlign="Center" Font="宋体, 14pt, style=Bold"/>
+      <TextObject Name="Text3" Left="79.6" Top="123.15" Width="75.6" Height="24.57" Border.Lines="All" Text="牌照号码" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text4" Left="79.6" Top="147.72" Width="75.6" Height="24.57" Border.Lines="All" Text="厂牌型号" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text5" Left="79.6" Top="172.29" Width="75.6" Height="24.57" Border.Lines="All" Text="批次号" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text6" Left="79.6" Top="196.86" Width="75.6" Height="24.57" Border.Lines="All" Text="外廓尺寸" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text7" Left="79.6" Top="221.43" Width="75.6" Height="24.57" Border.Lines="All" Text="发动机号" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text8" Left="79.6" Top="246" Width="160.65" Height="24.57" Border.Lines="All" Text="乘客座(卧)位数" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text9" Left="155.2" Top="123.15" Width="179.55" Height="24.57" Border.Lines="All" Text="豫A" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text10" Left="334.75" Top="123.15" Width="94.5" Height="24.57" Border.Lines="All" Text="车属单位" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text11" Left="429.25" Top="123.15" Width="340.2" Height="24.57" Border.Lines="All" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text12" Left="155.2" Top="147.72" Width="179.55" Height="24.57" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text13" Left="334.75" Top="147.72" Width="94.5" Height="24.57" Border.Lines="All" Text="营运证号" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text14" Left="429.45" Top="147.72" Width="94.5" Height="24.57" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text15" Left="523.95" Top="147.72" Width="103.95" Height="24.57" Border.Lines="All" Text="技术等级" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text16" Left="627.7" Top="147.72" Width="141.75" Height="24.57" Border.Lines="All" Text="壹级" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text17" Left="155.2" Top="172.29" Width="179.55" Height="24.57" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text18" Left="334.75" Top="172.29" Width="94.5" Height="24.57" Border.Lines="All" Text="注册日期" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text19" Left="429.45" Top="172.29" Width="94.5" Height="24.57" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text20" Left="523.85" Top="172.29" Width="103.95" Height="24.57" Border.Lines="All" Text="过户日期" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text21" Left="627.7" Top="172.29" Width="141.75" Height="24.57" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text22" Left="155.2" Top="196.86" Width="207.9" Height="24.57" Border.Lines="All" Text="长     宽     高      mm" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text23" Left="363.1" Top="196.86" Width="94.5" Height="24.57" Border.Lines="All" Text="总质量" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text24" Left="457.6" Top="196.86" Width="94.5" Height="24.57" Border.Lines="All" Text="kg" HorzAlign="Right" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text25" Left="552.1" Top="196.86" Width="103.95" Height="24.57" Border.Lines="All" Text="比功率" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text26" Left="656.05" Top="196.86" Width="113.4" Height="24.57" Border.Lines="All" Text="Kw/t" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text27" Left="155.2" Top="221.43" Width="141.75" Height="24.57" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text28" Left="296.95" Top="221.43" Width="94.5" Height="24.57" Border.Lines="All" Text="底盘号码" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text29" Left="391.45" Top="221.43" Width="94.5" Height="24.57" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text30" Left="485.95" Top="221.43" Width="103.95" Height="24.57" Border.Lines="All" Text="最高车速" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text31" Left="589.9" Top="221.43" Width="179.55" Height="24.57" Border.Lines="All" Text="Km/h" HorzAlign="Right" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text32" Left="240.25" Top="246" Width="141.75" Height="24.57" Border.Lines="All" Text="人" HorzAlign="Right" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text33" Left="382" Top="246" Width="122.85" Height="24.57" Border.Lines="All" Text="匀速行驶噪声" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text34" Left="504.85" Top="246" Width="264.6" Height="24.57" Border.Lines="All" Text="dB(A)" HorzAlign="Right" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text35" Left="22.9" Top="270.57" Width="56.7" Height="97.52" Border.Lines="All" Text="客车结构" HorzAlign="Center" VertAlign="Center" Font="宋体, 14pt, style=Bold"/>
+      <TextObject Name="Text36" Left="79.6" Top="270.57" Width="94.5" Height="24.57" Border.Lines="All" Text="发动机位置" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text37" Left="79.6" Top="295.14" Width="94.5" Height="23.81" Border.Lines="All" Text="乘客门位置" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text38" Left="79.6" Top="318.95" Width="132.3" Height="24.57" Border.Lines="All" Text="全承载式车身" HorzAlign="Right" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text39" Left="79.6" Top="343.52" Width="94.5" Height="24.57" Border.Lines="All" Text="排放限值" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text40" Left="174.1" Top="270.57" Width="226.8" Height="24.57" Border.Lines="All" Text="    前      中        后 " VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text41" Left="400.9" Top="270.57" Width="94.5" Height="24.57" Border.Lines="All" Text="燃料种类" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text42" Left="495.4" Top="270.57" Width="274.05" Height="24.57" Border.Lines="All" Text="柴油       汽油       其他" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text43" Left="174.1" Top="294.98" Width="170.1" Height="23.81" Border.Lines="All" Text="   前     中     后" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text44" Left="344.2" Top="294.98" Width="75.6" Height="23.81" Border.Lines="All" Text="门结构" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text45" Left="419.8" Top="294.98" Width="179.55" Height="23.81" Border.Lines="All" Text="   单    双     折叠" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text46" Left="599.35" Top="295.14" Width="66.15" Height="23.81" Border.Lines="All" Text="通道宽" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text47" Left="665.5" Top="294.98" Width="103.95" Height="23.81" Border.Lines="All" Text="       mm" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text48" Left="287.5" Top="318.95" Width="141.75" Height="24.57" Border.Lines="All" Text=" 推拉    胶粘" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text49" Left="211.9" Top="318.95" Width="75.6" Height="24.57" Border.Lines="All" Text="车窗" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text50" Left="429.25" Top="318.95" Width="94.5" Height="24.57" Border.Lines="All" Text="行李仓容积" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text51" Left="523.75" Top="318.95" Width="113.4" Height="24.57" Border.Lines="All" Text="       m³" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text52" Left="637.15" Top="318.95" Width="132.3" Height="24.57" Border.Lines="All" Text="       m³(人)" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text53" Left="174.1" Top="343.52" Width="189" Height="24.57" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text55" Left="363.1" Top="343.52" Width="113.4" Height="24.57" Border.Lines="All" Text="燃料消耗量" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text56" Left="476.5" Top="343.52" Width="94.5" Height="24.57" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text57" Left="571" Top="343.52" Width="198.45" Height="24.57" Border.Lines="All" Text="乘客门应急控制器" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <CheckBoxObject Name="CheckBox4" Left="183.55" Top="276.35" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox5" Left="249.7" Top="276.35" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox6" Left="329.3" Top="276.35" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox7" Left="504.85" Top="276.35" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox8" Left="589.9" Top="276.35" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox9" Left="677.95" Top="276.35" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox10" Left="182.1" Top="298.7" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox11" Left="238.8" Top="298.7" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox12" Left="293.05" Top="299.25" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox13" Left="427.8" Top="298.7" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox14" Left="480.6" Top="299.25" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox15" Left="534.75" Top="299.25" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox16" Left="89.05" Top="321.6" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox17" Left="289.95" Top="323.6" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox18" Left="356.1" Top="323.6" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox19" Left="581.45" Top="346.95" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <TextObject Name="Text54" Left="22.9" Top="367.85" Width="56.7" Height="98.28" Border.Lines="All" Text="底盘配置" HorzAlign="Center" VertAlign="Center" Font="宋体, 14pt, style=Bold"/>
+      <TextObject Name="Text58" Left="79.6" Top="367.85" Width="132.3" Height="24.57" Border.Lines="All" Text="悬架" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text59" Left="211.9" Top="367.85" Width="170.1" Height="24.57" Border.Lines="All" Text="A   前独立及后气囊" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text60" Left="382" Top="367.85" Width="103.95" Height="24.57" Border.Lines="All" Text="B   全气囊" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text61" Left="485.95" Top="367.85" Width="283.5" Height="24.57" Border.Lines="All" Text="C   前独立及后为少片簧不大于四片" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text62" Left="79.6" Top="392.42" Width="132.3" Height="24.57" Border.Lines="All" Text="制动系" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text63" Left="211.9" Top="392.42" Width="170.1" Height="24.57" Border.Lines="All" Text="    前桥盘式制式器" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text64" Left="382" Top="392.42" Width="122.85" Height="24.57" Border.Lines="All" Text="   ABS(一类)" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text65" Left="505.3" Top="392.42" Width="141.75" Height="24.57" Border.Lines="All" Text="   蹄片间隙自调" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text66" Left="79.6" Top="416.99" Width="132.3" Height="24.57" Border.Lines="All" Text="车轮及轮胎" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text67" Left="211.9" Top="416.99" Width="207.9" Height="24.57" Border.Lines="All" Text="   无内胎子午线胎" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text68" Left="419.8" Top="416.99" Width="160.65" Height="24.57" Border.Lines="All" Text="   子午线胎" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text69" Left="580.45" Top="416.99" Width="189" Height="24.57" Border.Lines="All" Text="   胎压监测报警系统" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text70" Left="79.6" Top="441.56" Width="132.3" Height="24.57" Border.Lines="All" Text="动力转向" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text71" Left="211.9" Top="441.56" Width="170.1" Height="24.57" Border.Lines="All" Text="   底盘自动润滑" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text72" Left="382" Top="441.56" Width="387.45" Height="24.57" Border.Lines="All" Text="   电磁风扇离合器或其他节能风扇散热系统" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text74" Left="646.6" Top="392.42" Width="122.85" Height="24.57" Border.Lines="All" Text="缓速器" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <CheckBoxObject Name="CheckBox20" Left="93.05" Top="446.45" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox21" Left="229.8" Top="371.85" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox22" Left="398.9" Top="370.85" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox23" Left="502.4" Top="372.85" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox24" Left="222.35" Top="396.2" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox25" Left="391.45" Top="397.2" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox26" Left="514.3" Top="397.2" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox27" Left="656.05" Top="397.2" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox28" Left="219.9" Top="422.1" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox29" Left="428.7" Top="421.55" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox30" Left="587.9" Top="421.1" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox31" Left="220.35" Top="446.45" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox32" Left="389" Top="446.45" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <TextObject Name="Text73" Left="22.9" Top="466.35" Width="56.7" Height="73.71" Border.Lines="All" Text="空调控制" HorzAlign="Center" VertAlign="Center" Font="宋体, 14pt, style=Bold"/>
+      <TextObject Name="Text75" Left="79.6" Top="466.35" Width="94.5" Height="24.57" Border.Lines="All" Text="配置" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text76" Left="79.6" Top="490.78" Width="151.2" Height="24.57" Border.Lines="All" Text="人均制冷量kJ/h" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text77" Left="79.6" Top="515.35" Width="198.45" Height="24.57" Border.Lines="All" Text="温度自动控制装置" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text78" Left="174.1" Top="466.35" Width="179.55" Height="24.57" Border.Lines="All" Text="    冷        暖" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text79" Left="353.65" Top="466.35" Width="217.35" Height="24.57" Border.Lines="All" Text="强制通风换气量(人均)m³/h" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text80" Left="571" Top="466.21" Width="198.45" Height="24.57" Border.Lines="All" Text="    25m³/h     20m³/h" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text81" Left="230.8" Top="490.7" Width="198.45" Height="24.57" Border.Lines="All" Text="   2000   1900   1800" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text82" Left="429.25" Top="490.7" Width="132.3" Height="24.57" Border.Lines="All" Text="人均供热量kJ/h" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text83" Left="561.55" Top="490.7" Width="207.9" Height="24.57" Border.Lines="All" Text="   2000   1900   1800" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text84" Left="278.05" Top="515.35" Width="198.45" Height="24.57" Border.Lines="All" Text="    人工     自动" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text85" Left="476.5" Top="515.35" Width="292.95" Height="24.57" Border.Lines="All" Text="     空气净化装置(≥人均10m³/h)" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <CheckBoxObject Name="CheckBox33" Left="183.55" Top="470.8" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox34" Left="265.15" Top="470.8" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox35" Left="585.45" Top="470.8" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox36" Left="672.5" Top="470.8" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox37" Left="238.8" Top="495.7" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox38" Left="298.95" Top="496.7" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox39" Left="352.65" Top="495.7" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox40" Left="570" Top="494.7" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox41" Left="630.15" Top="495.7" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox42" Left="683.85" Top="494.7" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox43" Left="293.5" Top="520.05" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox44" Left="367.1" Top="520.05" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox45" Left="495.4" Top="520.05" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <TextObject Name="Text86" Left="22.9" Top="539.95" Width="56.7" Height="49.14" Border.Lines="All" Text="座椅" HorzAlign="Center" VertAlign="Center" Font="宋体, 14pt, style=Bold"/>
+      <TextObject Name="Text87" Left="79.6" Top="539.92" Width="85.05" Height="24.57" Border.Lines="All" Text="坐垫宽≥" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text88" Left="79.6" Top="564.49" Width="113.4" Height="24.57" Border.Lines="All" Text="  靠背角可调" HorzAlign="Right" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text89" Left="164.65" Top="539.92" Width="66.15" Height="24.57" Border.Lines="All" Text="  mm" HorzAlign="Right" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text90" Left="230.8" Top="539.92" Width="103.95" Height="24.57" Border.Lines="All" Text="座垫深度≥" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text91" Left="334.75" Top="539.92" Width="75.6" Height="24.57" Border.Lines="All" Text="   mm" HorzAlign="Right" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text92" Left="410.35" Top="539.92" Width="94.5" Height="24.57" Border.Lines="All" Text="背靠高度≥" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text93" Left="504.85" Top="539.92" Width="85.05" Height="24.57" Border.Lines="All" Text="   mm" HorzAlign="Right" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text94" Left="590.05" Top="539.92" Width="113.4" Height="24.57" Border.Lines="All" Text="同向座间距≥" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text95" Left="703.3" Top="539.92" Width="66.15" Height="24.57" Border.Lines="All" Text="   mm" HorzAlign="Right" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text96" Left="193" Top="564.49" Width="132.3" Height="24.57" Border.Lines="All" Text="座椅左右可调" HorzAlign="Right" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text97" Left="325.3" Top="564.49" Width="113.4" Height="24.57" Border.Lines="All" Text="   座椅脚蹬" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text98" Left="438.7" Top="564.49" Width="151.2" Height="24.57" Border.Lines="All" Text="安全带" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text99" Left="589.9" Top="564.49" Width="179.55" Height="24.57" Border.Lines="All" Text="三点式安全带" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <CheckBoxObject Name="CheckBox46" Left="86.05" Top="569.3" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox47" Left="200" Top="568.3" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox48" Left="333.75" Top="568.3" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox49" Left="451.15" Top="568.3" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox50" Left="603.35" Top="568.3" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <TextObject Name="Text100" Left="22.9" Top="589.2" Width="56.7" Height="98.28" Border.Lines="All" Text="卧铺" HorzAlign="Center" VertAlign="Center" Font="宋体, 14pt, style=Bold"/>
+      <TextObject Name="Text101" Left="79.6" Top="589.06" Width="94.5" Height="24.57" Border.Lines="All" Text="排列形式" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text102" Left="79.6" Top="613.63" Width="94.5" Height="24.57" Border.Lines="All" Text="铺长≥" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text103" Left="79.6" Top="638.2" Width="113.4" Height="24.57" Border.Lines="All" Text="上铺空间高≥" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text104" Left="79.6" Top="662.77" Width="132.3" Height="24.57" Border.Lines="All" Text="下铺面距地高≥" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text105" Left="174.1" Top="589.06" Width="94.5" Height="24.57" Border.Lines="All" Text="1+1" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text106" Left="268.6" Top="589.06" Width="94.5" Height="24.57" Border.Lines="All" Text="1+1+1" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text107" Left="363.1" Top="589.06" Width="94.5" Height="24.57" Border.Lines="All" Text="卧铺类型" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text108" Left="457.6" Top="589.06" Width="160.65" Height="24.57" Border.Lines="All" Text="平躺    半躺" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text109" Left="618.25" Top="589.06" Width="151.2" Height="24.57" Border.Lines="All" Text="靠背调节" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text110" Left="174.1" Top="613.63" Width="66.15" Height="24.57" Border.Lines="All" Text="   mm" HorzAlign="Right" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text111" Left="240.25" Top="613.63" Width="94.5" Height="24.57" Border.Lines="All" Text="铺宽≥" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text112" Left="334.75" Top="613.63" Width="56.7" Height="24.57" Border.Lines="All" Text="   mm" HorzAlign="Right" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text113" Left="391.45" Top="613.63" Width="122.85" Height="24.57" Border.Lines="All" Text="铺纵向间距≥" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text114" Left="514.3" Top="613.63" Width="56.7" Height="24.57" Border.Lines="All" Text="   mm" HorzAlign="Right" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text115" Left="571" Top="613.63" Width="113.4" Height="24.57" Border.Lines="All" Text="铺横向间距≥" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text116" Left="684.4" Top="613.63" Width="85.05" Height="24.57" Border.Lines="All" Text="   mm" HorzAlign="Right" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text117" Left="193" Top="638.2" Width="103.95" Height="24.57" Border.Lines="All" Text="   mm" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text118" Left="296.95" Top="638.2" Width="122.85" Height="24.57" Border.Lines="All" Text="铺间高度≥" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text119" Left="419.8" Top="638.2" Width="103.95" Height="24.57" Border.Lines="All" Text="   mm" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text120" Left="523.75" Top="638.2" Width="141.75" Height="24.57" Border.Lines="All" Text="重叠脚窝内端高≥" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text121" Left="665.5" Top="638.2" Width="103.95" Height="24.57" Border.Lines="All" Text="   mm" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text122" Left="211.9" Top="662.77" Width="103.95" Height="24.57" Border.Lines="All" Text="   mm" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text123" Left="315.85" Top="662.77" Width="113.4" Height="24.57" Border.Lines="All" Text="护栏高度≥" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text124" Left="429.25" Top="662.77" Width="113.4" Height="24.57" Border.Lines="All" Text="   mm" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text125" Left="542.65" Top="662.77" Width="113.4" Height="24.57" Border.Lines="All" Text="垫铺高度≥" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text126" Left="656.05" Top="662.77" Width="113.4" Height="24.57" Border.Lines="All" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <CheckBoxObject Name="CheckBox51" Left="183.55" Top="592.65" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox52" Left="274.05" Top="592.65" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox53" Left="467.05" Top="593.2" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox54" Left="534.2" Top="592.65" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox55" Left="637.15" Top="593.65" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <TextObject Name="Text127" Left="22.9" Top="687.34" Width="56.7" Height="73.71" Border.Lines="All" Text="其它" HorzAlign="Center" VertAlign="Center" Font="宋体, 14pt, style=Bold"/>
+      <TextObject Name="Text128" Left="79.6" Top="687.34" Width="94.5" Height="24.57" Border.Lines="All" Text="卫生间" HorzAlign="Right" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text129" Left="79.6" Top="711.91" Width="217.35" Height="24.57" Border.Lines="All" Text="发动机仓自动灭火装置" HorzAlign="Right" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text130" Left="79.6" Top="736.48" Width="236.25" Height="24.57" Border.Lines="All" Text="双层、卧铺客车侧倾稳定性" HorzAlign="Right" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text131" Left="174.1" Top="687.34" Width="113.4" Height="24.57" Border.Lines="All" Text="CAN总线" HorzAlign="Right" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text132" Left="287.5" Top="687.34" Width="160.65" Height="24.57" Border.Lines="All" Text="卫星定位系统" HorzAlign="Right" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text133" Left="448.15" Top="687.34" Width="122.85" Height="24.57" Border.Lines="All" Text="缓速器报警" HorzAlign="Right" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text134" Left="571" Top="687.34" Width="198.45" Height="24.57" Border.Lines="All" Text="自动灭火装置" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text135" Left="296.95" Top="711.91" Width="103.95" Height="24.57" Border.Lines="All" Text="应急出口" HorzAlign="Right" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text136" Left="400.9" Top="711.91" Width="94.5" Height="24.57" Border.Lines="All" Text="应急锤" HorzAlign="Right" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text137" Left="495.4" Top="711.91" Width="274.05" Height="24.57" Border.Lines="All" Text="防盗、报警装置" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text138" Left="315.85" Top="736.48" Width="189" Height="24.57" Border.Lines="All" Text="质量保证期" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <TextObject Name="Text139" Left="504.85" Top="736.48" Width="264.6" Height="24.57" Border.Lines="All" Text="防雨密封性" HorzAlign="Center" VertAlign="Bottom" Font="宋体, 12pt"/>
+      <CheckBoxObject Name="CheckBox56" Left="97.5" Top="691.15" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox57" Left="198.45" Top="693.15" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox58" Left="306.4" Top="692.15" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox59" Left="459.6" Top="692.15" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox60" Left="595.9" Top="692.15" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox61" Left="101.5" Top="716.5" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox62" Left="306.4" Top="716.5" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox63" Left="412.35" Top="716.5" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox64" Left="542.65" Top="717.5" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox65" Left="98.5" Top="741.85" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox66" Left="344.2" Top="741.85" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <CheckBoxObject Name="CheckBox67" Left="561.55" Top="741.4" Width="15.12" Height="15.12" Border.Lines="All" Checked="false"/>
+      <TextObject Name="Text140" Left="22.9" Top="761.05" Width="746.55" Height="49.14" Border.Lines="All" Text="    依据《营运客车类型划分及等级评定》(JT/T325)标准和&quot;中、高级评定表&quot;各项技术参数和服务装备要求,复核结果为:    型      级、座(卧)位数       人" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text141" Left="22.9" Top="810.19" Width="746.55" Height="75.6" Border.Lines="Left, Right, Top" Text="      复核人:                、" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text142" Left="22.9" Top="885.6" Width="746.55" Height="30.24" Border.Lines="Left, Right" Text="                                                    (复核单位盖章)" HorzAlign="Center" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text143" Left="22.9" Top="915.54" Width="746.55" Height="30.24" Border.Lines="Left, Right, Bottom" Text="   年     月     日                                              " HorzAlign="Right" VertAlign="Center" Font="宋体, 12pt"/>
+      <TextObject Name="Text144" Left="22.9" Top="945.78" Width="746.55" Height="28.35" Text="    说明:此表一式三份,汽车综合性能检测机构、道路运输业户和道路运输管理机构各留存一份" VertAlign="Center" Font="宋体, 12pt, style=Bold"/>
+      <LineObject Name="Line1" Left="174.1" Top="799.45" Width="26.46"/>
+      <LineObject Name="Line2" Left="222.8" Top="799.45" Width="35.91"/>
+      <LineObject Name="Line3" Left="382" Top="799.45" Width="37.8"/>
+      <LineObject Name="Line4" Left="145.75" Top="853.7" Width="113.4"/>
+      <LineObject Name="Line5" Left="278.05" Top="853.7" Width="122.85"/>
+    </DataBand>
+  </ReportPage>
+</Report>

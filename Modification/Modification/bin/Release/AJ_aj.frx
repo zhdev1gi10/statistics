@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="03/07/2017 22:05:52" ReportInfo.Modified="06/29/2017 22:09:48" ReportInfo.CreatorVersion="2013.2.5.0">
+  <Dictionary>
+    <MsSqlDataConnection Name="Connection" ConnectionString="rijcmlqHwzMSgwTFaHpjtG3vsOj8U5VwE7WaYmeVwIiYDCEkUHThi75YL6pmiwzyK4DPVYR1FR3bj8Cn0DG5Mtfuxh3vIzPvT4A63IFDl7A0DbFeCpFCUUdKtcTfCJ+x1eYMJr3N2J99jbxWuWTa/zrwddQSRBhC9pXGDMCOHrfGv+8ii8Mtb1tHtSucAZpJTZkGjOD">
+      <TableDataSource Name="Data_Modification1" DataType="System.Int32" Enabled="true" TableName="Data_Modification">
+        <Column Name="发动机号码" DataType="System.String"/>
+        <Column Name="底盘号码" DataType="System.String"/>
+        <Column Name="营运证号" DataType="System.String"/>
+        <Column Name="出厂日期" DataType="System.String"/>
+        <Column Name="车身颜色" DataType="System.String"/>
+        <Column Name="车主单位" DataType="System.String"/>
+        <Column Name="登记日期" DataType="System.String"/>
+        <Column Name="车辆类型" DataType="System.String"/>
+        <Column Name="型号" DataType="System.String"/>
+        <Column Name="检验项目" DataType="System.String"/>
+        <Column Name="检验数据" DataType="System.String"/>
+        <Column Name="序号" DataType="System.Int64"/>
+      </TableDataSource>
+    </MsSqlDataConnection>
+  </Dictionary>
+  <ReportPage Name="Page1" RawPaperSize="9" LeftMargin="0" TopMargin="0" RightMargin="0" BottomMargin="0" FirstPageSource="15" OtherPagesSource="15" Guides="737.1,661.5,661.5,661.5,661.5,661.5,670.95,661.5,661.5,661.5,689.85,708.75,718.2,727.65,727.65">
+    <ReportTitleBand Name="ReportTitle1" Width="793.8" Height="546.1">
+      <TextObject Name="Text1" Left="151.2" Width="472.5" Height="37.8" Text="道路运输车辆综合性能检验报告单" VertAlign="Center" Font="宋体, 20pt, style=Bold"/>
+      <TextObject Name="Text2" Left="56.7" Top="101.6" Width="680.6" Height="18.9" Border.Lines="All" Text="一、单车(牵引车)基本信息" VertAlign="Center" Font="宋体, 10pt, style=Bold"/>
+      <TextObject Name="Text3" Left="56.7" Top="120.45" Width="94.5" Height="18.9" Border.Lines="All" Text="号牌号码" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text4" Left="151.2" Top="120.45" Width="94.5" Height="18.9" Border.Lines="All" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text5" Left="245.7" Top="120.45" Width="94.5" Height="18.9" Border.Lines="All" Text="委托人" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text6" Left="340.2" Top="120.45" Width="397.1" Height="18.9" Border.Lines="All" Text="[Data_Modification1.车主单位]" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text7" Left="56.7" Top="138.8" Width="94.5" Height="18.9" Border.Lines="All" Text="车辆类型" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text8" Left="151.2" Top="138.8" Width="94.5" Height="18.9" Border.Lines="All" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text9" Left="245.7" Top="138.8" Width="94.5" Height="18.9" Border.Lines="All" Text="品牌/型号" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text10" Left="340.2" Top="138.8" Width="94.5" Height="18.9" Border.Lines="All" Text="[Data_Modification1.型号]" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text11" Left="434.7" Top="138.8" Width="94.5" Height="18.9" Border.Lines="All" Text="营运证号" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text12" Left="529.2" Top="138.8" Width="208.1" Height="18.9" Border.Lines="All" Text="[Data_Modification1.营运证号]" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text13" Left="56.7" Top="158.15" Width="94.5" Height="18.9" Border.Lines="All" Text="注册登记日期" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text14" Left="151.2" Top="158.15" Width="94.5" Height="18.9" Border.Lines="All" Text="[Data_Modification1.登记日期]" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text15" Left="245.7" Top="158.15" Width="94.5" Height="18.9" Border.Lines="All" Text="出厂年月" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text16" Left="340.2" Top="158.15" Width="94.5" Height="18.9" Border.Lines="All" Text="[Data_Modification1.出厂日期]" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text17" Left="434.7" Top="158.15" Width="94.5" Height="18.9" Border.Lines="All" Text="车身颜色" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text18" Left="529.2" Top="158.15" Width="208.1" Height="18.9" Border.Lines="All" Text="[Data_Modification1.车身颜色]" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text19" Left="56.7" Top="177.5" Width="94.5" Height="30.24" Border.Lines="All" Text="车辆识别代码" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text20" Left="151.2" Top="177.5" Width="94.5" Height="30.24" Border.Lines="All" Text="[Data_Modification1.底盘号码]" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text21" Left="245.7" Top="177.5" Width="94.5" Height="30.24" Border.Lines="All" Text="发动机号码" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text22" Left="340.2" Top="177.5" Width="94.5" Height="30.24" Border.Lines="All" Text="[Data_Modification1.发动机号码]" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text23" Left="434.7" Top="177.5" Width="94.5" Height="30.24" Border.Lines="All" Text="行政区域" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text24" Left="529.2" Top="177.5" Width="208.1" Height="30.24" Border.Lines="All" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text25" Left="56.7" Top="207.6" Width="680.6" Height="18.9" Border.Lines="All" Text="二、挂车基本信息" VertAlign="Center" Font="宋体, 10pt, style=Bold"/>
+      <TextObject Name="Text26" Left="56.7" Top="225.55" Width="94.5" Height="18.9" Border.Lines="All" Text="号牌号码" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text27" Left="151.2" Top="225.55" Width="94.5" Height="18.9" Border.Lines="All" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text28" Left="245.7" Top="225.55" Width="94.5" Height="18.9" Border.Lines="All" Text="委托人" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text29" Left="340.2" Top="225.55" Width="397.1" Height="18.9" Border.Lines="All" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text30" Left="56.7" Top="244.35" Width="94.5" Height="18.9" Border.Lines="All" Text="车辆类型" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text31" Left="151.2" Top="244.35" Width="94.5" Height="18.9" Border.Lines="All" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text32" Left="245.7" Top="244.35" Width="94.5" Height="18.9" Border.Lines="All" Text="品牌/型号" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text33" Left="340.2" Top="244.35" Width="94.5" Height="18.9" Border.Lines="All" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text34" Left="434.7" Top="244.35" Width="94.5" Height="18.9" Border.Lines="All" Text="营运证号" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text35" Left="529.2" Top="244.35" Width="208.1" Height="18.9" Border.Lines="All" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text36" Left="56.7" Top="262.7" Width="94.5" Height="18.9" Border.Lines="All" Text="注册登记日期" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text37" Left="151.2" Top="262.7" Width="94.5" Height="18.9" Border.Lines="All" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text38" Left="245.7" Top="262.7" Width="94.5" Height="18.9" Border.Lines="All" Text="出厂年月" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text39" Left="340.2" Top="262.7" Width="94.5" Height="18.9" Border.Lines="All" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text40" Left="434.7" Top="262.7" Width="94.5" Height="18.9" Border.Lines="All" Text="车辆识别代码" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text41" Left="529.2" Top="262.7" Width="208.1" Height="18.9" Border.Lines="All" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text42" Left="56.7" Top="282.05" Width="94.5" Height="18.9" Border.Lines="All" Text="有效行驶证件" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text43" Left="151.2" Top="282.05" Width="586.1" Height="18.9" Border.Lines="All" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text44" Left="56.7" Top="301" Width="680.6" Height="18.9" Border.Lines="All" Text="三、检验业务信息" VertAlign="Center" Font="宋体, 10pt, style=Bold"/>
+      <TextObject Name="Text45" Left="56.7" Top="319.55" Width="94.5" Height="18.9" Border.Lines="All" Text="检验类别" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text46" Left="151.2" Top="319.55" Width="94.5" Height="18.9" Border.Lines="All" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text47" Left="245.7" Top="319.55" Width="94.5" Height="18.9" Border.Lines="All" Text="业务类型" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text48" Left="340.2" Top="319.55" Width="94.5" Height="18.9" Border.Lines="All" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text49" Left="434.7" Top="319.55" Width="94.5" Height="18.9" Border.Lines="All" Text="检验日期" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text50" Left="529.2" Top="319.55" Width="208.1" Height="18.9" Border.Lines="All" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text51" Left="56.7" Top="338.45" Width="680.6" Height="18.9" Border.Lines="All" Text="四、人工检验结果" VertAlign="Center" Font="宋体, 10pt, style=Bold"/>
+      <TextObject Name="Text52" Left="56.7" Top="357.25" Width="94.5" Height="18.9" Border.Lines="All" Text="序号" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text53" Left="151.2" Top="357.25" Width="94.5" Height="18.9" Border.Lines="All" Text="检验项目" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text54" Left="245.7" Top="357.25" Width="94.5" Height="18.9" Border.Lines="All" Text="判定" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text55" Left="340.2" Top="357.25" Width="397.1" Height="18.9" Border.Lines="All" Text="不符合项目" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text56" Left="56.7" Top="376.15" Width="94.5" Height="18.9" Border.Lines="All" Text="1" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text57" Left="151.2" Top="376.15" Width="94.5" Height="18.9" Border.Lines="All" Text="唯一性认定" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text58" Left="245.7" Top="376.15" Width="94.5" Height="18.9" Border.Lines="All" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text59" Left="340.2" Top="376.15" Width="397.1" Height="18.9" Border.Lines="All" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text60" Left="56.7" Top="395.05" Width="94.5" Height="18.9" Border.Lines="All" Text="2" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text61" Left="151.2" Top="395.05" Width="94.5" Height="18.9" Border.Lines="All" Text="故障信息诊断" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text62" Left="245.7" Top="395.05" Width="94.5" Height="18.9" Border.Lines="All" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text63" Left="340.2" Top="395.05" Width="397.1" Height="18.9" Border.Lines="All" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text64" Left="56.7" Top="413.95" Width="94.5" Height="18.9" Border.Lines="All" Text="3" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text65" Left="151.2" Top="413.95" Width="94.5" Height="18.9" Border.Lines="All" Text="外观检查" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text66" Left="245.7" Top="413.95" Width="94.5" Height="18.9" Border.Lines="All" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text67" Left="340.2" Top="413.95" Width="397.1" Height="18.9" Border.Lines="All" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text68" Left="56.7" Top="432.85" Width="94.5" Height="18.9" Border.Lines="All" Text="4" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text69" Left="151.2" Top="432.85" Width="94.5" Height="18.9" Border.Lines="All" Text="运行检查" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text70" Left="245.7" Top="432.85" Width="94.5" Height="18.9" Border.Lines="All" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text71" Left="340.2" Top="432.85" Width="397.1" Height="18.9" Border.Lines="All" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text72" Left="56.7" Top="452.2" Width="94.5" Height="18.9" Border.Lines="All" Text="5" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text73" Left="151.2" Top="452.2" Width="94.5" Height="18.9" Border.Lines="All" Text="底盘检查" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text74" Left="245.7" Top="452.2" Width="94.5" Height="18.9" Border.Lines="All" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text75" Left="340.2" Top="452.2" Width="397.1" Height="18.9" Border.Lines="All" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text76" Left="56.7" Top="470.55" Width="94.5" Height="18.9" Border.Lines="All" Text="6" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text77" Left="151.2" Top="470.55" Width="94.5" Height="18.9" Border.Lines="All" Text="核查评定" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text78" Left="245.7" Top="470.55" Width="94.5" Height="18.9" Border.Lines="All" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text79" Left="340.2" Top="470.55" Width="397.1" Height="18.9" Border.Lines="All" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text80" Left="56.7" Top="489.1" Width="680.4" Height="18.9" Border.Lines="All" Text="五、性能检验结果" VertAlign="Center" Font="宋体, 10pt, style=Bold"/>
+      <TextObject Name="Text82" Left="576.65" Top="66.15" Width="132.3" Height="18.9" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text81" Left="453.8" Top="66.15" Width="94.5" Height="18.9" Text="报告编号" VertAlign="Center" Font="宋体, 10pt, style=Bold"/>
+      <TextObject Name="Text103" Left="-9450" Top="-9450" Width="680.4" Height="26.46" Border.Lines="All" Text="六、备注" VertAlign="Center" Font="宋体, 10pt, style=Bold"/>
+      <TextObject Name="Text104" Left="-9450" Top="-9424.1" Width="680.4" Height="18.9" Border.Lines="All" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text105" Left="-9450" Top="-9404.65" Width="680.4" Height="26.46" Border.Lines="All" Text="七、检验结论" VertAlign="Center" Font="宋体, 10pt, style=Bold"/>
+      <TextObject Name="Text106" Left="-9450" Top="-9377.85" Width="680.4" Height="18.9" Border.Lines="All" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text107" Left="-9450" Top="-9358.95" Width="680.4" Height="18.9" Border.Lines="Left, Right, Top" Text="授权签字人：                                                检验机构名称(盖章)" VertAlign="Center" Font="宋体, 10pt, style=Bold"/>
+      <TextObject Name="Text108" Left="-9450" Top="-9339.6" Width="680.4" Height="18.9" Border.Lines="Left, Right, Bottom" Text="                                                                   年  月   日" VertAlign="Center" Font="宋体, 10pt, style=Bold"/>
+      <TextObject Name="Text115" Left="56.7" Top="507.75" Width="28.35" Height="37.8" Border.Lines="All" Text="序号" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text116" Left="85.05" Top="508.3" Width="160.65" Height="37.8" Border.Lines="All" Text="检验项目" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text117" Left="245.7" Top="508.3" Width="45.36" Height="37.8" Border.Lines="All" Text="检验数据" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text118" Left="291.06" Top="508.3" Width="68.04" Height="37.8" Border.Lines="All" Text="标准限值" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text119" Left="359.1" Top="508.3" Width="37.8" Height="37.8" Border.Lines="All" Text="判定" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text130" Left="396.9" Top="508.3" Width="28.35" Height="37.8" Border.Lines="All" Text="序号" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text131" Left="425.25" Top="507.85" Width="160.65" Height="37.8" Border.Lines="All" Text="检验项目" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text132" Left="585.9" Top="507.85" Width="45.36" Height="37.8" Border.Lines="All" Text="检验数据" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text133" Left="631.15" Top="507.85" Width="68.04" Height="37.8" Border.Lines="All" Text="标准限值" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text134" Left="699.3" Top="507.85" Width="37.8" Height="37.8" Border.Lines="All" Text="判定" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+    </ReportTitleBand>
+    <DataBand Name="Data1" Top="550.1" Width="340.2" Height="18.9" CanGrow="true" DataSource="Data_Modification1" Columns.Count="2" Columns.Width="340.2">
+      <TextObject Name="Text126" Left="85.05" Width="160.65" Height="18.9" Border.Lines="All" Text="[Data_Modification1.检验项目]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text125" Left="56.7" Width="28.35" Height="18.9" Border.Lines="All" Text="[Data_Modification1.序号]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text127" Left="245.7" Width="45.36" Height="18.9" Border.Lines="All" Text="[Data_Modification1.检验数据]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text128" Left="291.06" Width="68.04" Height="18.9" Border.Lines="All" Text="[Data_Modification1.车身颜色]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text129" Left="359.1" Width="37.8" Height="18.9" Border.Lines="All" Text="[Data_Modification1.序号]" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt"/>
+    </DataBand>
+    <ReportSummaryBand Name="ReportSummary1" Top="573" Width="793.8" Height="292.95" KeepWithData="true">
+      <TextObject Name="Text109" Left="56.7" Width="680.4" Height="18.9" Border.Lines="All" Text="六、备注" VertAlign="Center" Font="宋体, 10pt, style=Bold"/>
+      <TextObject Name="Text110" Left="56.7" Top="18.9" Width="680.4" Height="28.35" Border.Lines="All" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text111" Left="56.7" Top="47.25" Width="680.4" Height="18.9" Border.Lines="All" Text="七、检验结论" VertAlign="Center" Font="宋体, 10pt, style=Bold"/>
+      <TextObject Name="Text112" Left="56.7" Top="66.05" Width="680.4" Height="37.8" Border.Lines="All" VertAlign="Center" Font="宋体, 10pt"/>
+      <TextObject Name="Text113" Left="56.7" Top="104.3" Width="680.4" Height="18.9" Border.Lines="Left, Right, Top" Text="授权签字人：                                                检验机构名称(盖章)" VertAlign="Center" Font="宋体, 10pt, style=Bold"/>
+      <TextObject Name="Text114" Left="56.7" Top="122.65" Width="680.4" Height="18.9" Border.Lines="Left, Right, Bottom" Text="                                                                   年  月   日" HorzAlign="Center" VertAlign="Center" Font="宋体, 10pt, style=Bold"/>
+    </ReportSummaryBand>
+  </ReportPage>
+</Report>

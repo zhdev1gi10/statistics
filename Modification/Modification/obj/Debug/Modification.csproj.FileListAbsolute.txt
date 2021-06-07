@@ -1,0 +1,278 @@
+D:\AJWJ\Report\Modification\Modification\bin\Debug\Modification.exe.config
+D:\AJWJ\Report\Modification\Modification\obj\Debug\Modification.csprojResolveAssemblyReference.cache
+D:\AJWJ\Report\Modification\Modification\obj\Debug\Modification.Form1.resources
+D:\AJWJ\Report\Modification\Modification\obj\Debug\Modification.Properties.Resources.resources
+D:\AJWJ\Report\Modification\Modification\obj\Debug\Modification.csproj.GenerateResource.Cache
+D:\AJWJ\Report\Modification\Modification\bin\Debug\Modification.exe
+D:\AJWJ\Report\Modification\Modification\bin\Debug\Modification.pdb
+D:\AJWJ\Report\Modification\Modification\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\AJWJ\Report\Modification\Modification\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\AJWJ\Report\Modification\Modification\obj\Debug\Modification.exe
+D:\AJWJ\Report\Modification\Modification\obj\Debug\Modification.pdb
+D:\AJWJ\Report\Modification\Modification\obj\Debug\Modification.Login.resources
+D:\AJWJ\Report\Modification\Modification\obj\Debug\Modification.Registe.resources
+G:\Report\Modification\Modification\bin\Debug\Modification.exe.config
+G:\Report\Modification\Modification\obj\Debug\Modification.exe
+G:\Report\Modification\Modification\obj\Debug\Modification.pdb
+G:\Report\Modification\Modification\bin\Debug\Modification.exe
+G:\Report\Modification\Modification\bin\Debug\Modification.pdb
+G:\Report\Modification\Modification\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+G:\Report\Modification\Modification\bin\Debug\Microsoft.SqlServer.Types.dll
+G:\Report\Modification\Modification\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+G:\Report\Modification\Modification\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+G:\Report\Modification\Modification\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+G:\Report\Modification\Modification\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+G:\Report\Modification\Modification\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+G:\Report\Modification\Modification\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+G:\Report\Modification\Modification\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+G:\Report\Modification\Modification\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+G:\Report\Modification\Modification\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+G:\Report\Modification\Modification\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+G:\Report\Modification\Modification\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+G:\Report\Modification\Modification\obj\Debug\Modification.Form1.resources
+G:\Report\Modification\Modification\obj\Debug\Modification.Login.resources
+G:\Report\Modification\Modification\obj\Debug\Modification.Properties.Resources.resources
+G:\Report\Modification\Modification\obj\Debug\Modification.Registe.resources
+G:\Report\Modification\Modification\obj\Debug\Modification.csproj.GenerateResource.Cache
+G:\Report\Modification\Modification\bin\Debug\FastReport.dll
+G:\Report\Modification\Modification\bin\Debug\FastReport.Bars.dll
+G:\Report\Modification\Modification\bin\Debug\FastReport.Editor.dll
+G:\Report\Modification\Modification\bin\Debug\FastReport.xml
+G:\Report\Modification\Modification\obj\Debug\Modification.csprojResolveAssemblyReference.cache
+J:\新郑\Modification\Modification\bin\Debug\Modification.exe.config
+J:\新郑\Modification\Modification\obj\Debug\Modification.exe
+J:\新郑\Modification\Modification\obj\Debug\Modification.pdb
+J:\新郑\Modification\Modification\bin\Debug\Modification.exe
+J:\新郑\Modification\Modification\bin\Debug\Modification.pdb
+J:\新郑\Modification\Modification\bin\Debug\FastReport.dll
+J:\新郑\Modification\Modification\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+J:\新郑\Modification\Modification\bin\Debug\FastReport.Bars.dll
+J:\新郑\Modification\Modification\bin\Debug\FastReport.Editor.dll
+J:\新郑\Modification\Modification\bin\Debug\Microsoft.SqlServer.Types.dll
+J:\新郑\Modification\Modification\bin\Debug\FastReport.xml
+J:\新郑\Modification\Modification\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+J:\新郑\Modification\Modification\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+J:\新郑\Modification\Modification\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+J:\新郑\Modification\Modification\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+J:\新郑\Modification\Modification\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+J:\新郑\Modification\Modification\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+J:\新郑\Modification\Modification\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+J:\新郑\Modification\Modification\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+J:\新郑\Modification\Modification\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+J:\新郑\Modification\Modification\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+J:\新郑\Modification\Modification\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+J:\新郑\Modification\Modification\obj\Debug\Modification.Form1.resources
+J:\新郑\Modification\Modification\obj\Debug\Modification.Login.resources
+J:\新郑\Modification\Modification\obj\Debug\Modification.Properties.Resources.resources
+J:\新郑\Modification\Modification\obj\Debug\Modification.Registe.resources
+J:\新郑\Modification\Modification\obj\Debug\Modification.csproj.GenerateResource.Cache
+J:\新郑\Modification\Modification\obj\Debug\Modification.csprojResolveAssemblyReference.cache
+G:\Report\新建文件夹\Modification\Modification\bin\Debug\Modification.exe.config
+G:\Report\新建文件夹\Modification\Modification\obj\Debug\Modification.exe
+G:\Report\新建文件夹\Modification\Modification\obj\Debug\Modification.pdb
+G:\Report\新建文件夹\Modification\Modification\bin\Debug\Modification.exe
+G:\Report\新建文件夹\Modification\Modification\bin\Debug\Modification.pdb
+G:\Report\新建文件夹\Modification\Modification\bin\Debug\FastReport.dll
+G:\Report\新建文件夹\Modification\Modification\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+G:\Report\新建文件夹\Modification\Modification\bin\Debug\FastReport.Bars.dll
+G:\Report\新建文件夹\Modification\Modification\bin\Debug\FastReport.Editor.dll
+G:\Report\新建文件夹\Modification\Modification\bin\Debug\Microsoft.SqlServer.Types.dll
+G:\Report\新建文件夹\Modification\Modification\bin\Debug\FastReport.xml
+G:\Report\新建文件夹\Modification\Modification\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+G:\Report\新建文件夹\Modification\Modification\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+G:\Report\新建文件夹\Modification\Modification\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+G:\Report\新建文件夹\Modification\Modification\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+G:\Report\新建文件夹\Modification\Modification\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+G:\Report\新建文件夹\Modification\Modification\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+G:\Report\新建文件夹\Modification\Modification\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+G:\Report\新建文件夹\Modification\Modification\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+G:\Report\新建文件夹\Modification\Modification\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+G:\Report\新建文件夹\Modification\Modification\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+G:\Report\新建文件夹\Modification\Modification\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+G:\Report\新建文件夹\Modification\Modification\obj\Debug\Modification.csprojResolveAssemblyReference.cache
+G:\Report\新建文件夹\Modification\Modification\obj\Debug\Modification.Form1.resources
+G:\Report\新建文件夹\Modification\Modification\obj\Debug\Modification.Login.resources
+G:\Report\新建文件夹\Modification\Modification\obj\Debug\Modification.Properties.Resources.resources
+G:\Report\新建文件夹\Modification\Modification\obj\Debug\Modification.Registe.resources
+G:\Report\新建文件夹\Modification\Modification\obj\Debug\Modification.csproj.GenerateResource.Cache
+G:\Report\最全的文档\Modification\Modification\bin\Debug\Modification.exe.config
+G:\Report\最全的文档\Modification\Modification\obj\Debug\Modification.exe
+G:\Report\最全的文档\Modification\Modification\obj\Debug\Modification.pdb
+G:\Report\最全的文档\Modification\Modification\bin\Debug\Modification.exe
+G:\Report\最全的文档\Modification\Modification\bin\Debug\Modification.pdb
+G:\Report\最全的文档\Modification\Modification\bin\Debug\FastReport.dll
+G:\Report\最全的文档\Modification\Modification\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+G:\Report\最全的文档\Modification\Modification\bin\Debug\FastReport.Bars.dll
+G:\Report\最全的文档\Modification\Modification\bin\Debug\FastReport.Editor.dll
+G:\Report\最全的文档\Modification\Modification\bin\Debug\Microsoft.SqlServer.Types.dll
+G:\Report\最全的文档\Modification\Modification\bin\Debug\FastReport.xml
+G:\Report\最全的文档\Modification\Modification\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+G:\Report\最全的文档\Modification\Modification\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+G:\Report\最全的文档\Modification\Modification\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+G:\Report\最全的文档\Modification\Modification\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+G:\Report\最全的文档\Modification\Modification\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+G:\Report\最全的文档\Modification\Modification\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+G:\Report\最全的文档\Modification\Modification\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+G:\Report\最全的文档\Modification\Modification\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+G:\Report\最全的文档\Modification\Modification\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+G:\Report\最全的文档\Modification\Modification\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+G:\Report\最全的文档\Modification\Modification\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+G:\Report\最全的文档\Modification\Modification\obj\Debug\Modification.Form1.resources
+G:\Report\最全的文档\Modification\Modification\obj\Debug\Modification.Login.resources
+G:\Report\最全的文档\Modification\Modification\obj\Debug\Modification.Properties.Resources.resources
+G:\Report\最全的文档\Modification\Modification\obj\Debug\Modification.Registe.resources
+G:\Report\最全的文档\Modification\Modification\obj\Debug\Modification.csproj.GenerateResource.Cache
+G:\Report\最全的文档\Modification\Modification\obj\Debug\Modification.csprojResolveAssemblyReference.cache
+E:\Modification\Modification\bin\Debug\Modification.exe.config
+E:\Modification\Modification\obj\Debug\Modification.exe
+E:\Modification\Modification\obj\Debug\Modification.pdb
+E:\Modification\Modification\bin\Debug\Modification.exe
+E:\Modification\Modification\bin\Debug\Modification.pdb
+E:\Modification\Modification\bin\Debug\FastReport.Bars.dll
+E:\Modification\Modification\bin\Debug\FastReport.Editor.dll
+E:\Modification\Modification\bin\Debug\FastReport.xml
+E:\Modification\Modification\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Modification\Modification\obj\Debug\Modification.csprojResolveAssemblyReference.cache
+E:\Modification\Modification\obj\Debug\Modification.Form1.resources
+E:\Modification\Modification\obj\Debug\Modification.Login.resources
+E:\Modification\Modification\obj\Debug\Modification.Properties.Resources.resources
+E:\Modification\Modification\obj\Debug\Modification.Registe.resources
+E:\Modification\Modification\obj\Debug\Modification.csproj.GenerateResource.Cache
+E:\Report\综检站文档\获嘉综检\Modification\Modification\bin\Debug\Modification.exe.config
+E:\Report\综检站文档\获嘉综检\Modification\Modification\obj\Debug\Modification.exe
+E:\Report\综检站文档\获嘉综检\Modification\Modification\obj\Debug\Modification.pdb
+E:\Report\综检站文档\获嘉综检\Modification\Modification\bin\Debug\Modification.exe
+E:\Report\综检站文档\获嘉综检\Modification\Modification\bin\Debug\Modification.pdb
+E:\Report\综检站文档\获嘉综检\Modification\Modification\bin\Debug\FastReport.Bars.dll
+E:\Report\综检站文档\获嘉综检\Modification\Modification\bin\Debug\FastReport.Editor.dll
+E:\Report\综检站文档\获嘉综检\Modification\Modification\bin\Debug\FastReport.xml
+E:\Report\综检站文档\获嘉综检\Modification\Modification\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Report\综检站文档\获嘉综检\Modification\Modification\obj\Debug\Modification.csprojResolveAssemblyReference.cache
+E:\Report\综检站文档\获嘉综检\Modification\Modification\obj\Debug\Modification.Form1.resources
+E:\Report\综检站文档\获嘉综检\Modification\Modification\obj\Debug\Modification.Login.resources
+E:\Report\综检站文档\获嘉综检\Modification\Modification\obj\Debug\Modification.Properties.Resources.resources
+E:\Report\综检站文档\获嘉综检\Modification\Modification\obj\Debug\Modification.Registe.resources
+E:\Report\综检站文档\获嘉综检\Modification\Modification\obj\Debug\Modification.csproj.GenerateResource.Cache
+C:\Users\DELL\Desktop\Modification\Modification\bin\Debug\Modification.exe.config
+C:\Users\DELL\Desktop\Modification\Modification\obj\Debug\Modification.exe
+C:\Users\DELL\Desktop\Modification\Modification\obj\Debug\Modification.pdb
+C:\Users\DELL\Desktop\Modification\Modification\bin\Debug\Modification.exe
+C:\Users\DELL\Desktop\Modification\Modification\bin\Debug\Modification.pdb
+C:\Users\DELL\Desktop\Modification\Modification\obj\Debug\Modification.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Desktop\Modification\Modification\obj\Debug\Modification.Form1.resources
+C:\Users\DELL\Desktop\Modification\Modification\obj\Debug\Modification.Login.resources
+C:\Users\DELL\Desktop\Modification\Modification\obj\Debug\Modification.Properties.Resources.resources
+C:\Users\DELL\Desktop\Modification\Modification\obj\Debug\Modification.Registe.resources
+C:\Users\DELL\Desktop\Modification\Modification\obj\Debug\Modification.csproj.GenerateResource.Cache
+E:\Report\综检站文档\中牟综检\Modification\Modification\bin\Debug\Modification.exe.config
+E:\Report\综检站文档\中牟综检\Modification\Modification\obj\Debug\Modification.exe
+E:\Report\综检站文档\中牟综检\Modification\Modification\obj\Debug\Modification.pdb
+E:\Report\综检站文档\中牟综检\Modification\Modification\bin\Debug\Modification.exe
+E:\Report\综检站文档\中牟综检\Modification\Modification\bin\Debug\Modification.pdb
+E:\Report\综检站文档\中牟综检\Modification\Modification\obj\Debug\Modification.Form1.resources
+E:\Report\综检站文档\中牟综检\Modification\Modification\obj\Debug\Modification.Login.resources
+E:\Report\综检站文档\中牟综检\Modification\Modification\obj\Debug\Modification.Properties.Resources.resources
+E:\Report\综检站文档\中牟综检\Modification\Modification\obj\Debug\Modification.Registe.resources
+E:\Report\综检站文档\中牟综检\Modification\Modification\obj\Debug\Modification.csproj.GenerateResource.Cache
+E:\Report\综检站文档\中牟综检\Modification\Modification\obj\Debug\Modification.csprojResolveAssemblyReference.cache
+E:\Report\综检站文档\中牟综检\Modification\Modification\bin\Debug\FastReport.Bars.dll
+E:\Report\综检站文档\中牟综检\Modification\Modification\bin\Debug\FastReport.Editor.dll
+C:\Users\DELL\Desktop\Modification\Modification\bin\Debug\FastReport.Bars.dll
+C:\Users\DELL\Desktop\Modification\Modification\bin\Debug\FastReport.Editor.dll
+C:\Users\DELL\Desktop\Modification\Modification\bin\Debug\FastReport.xml
+C:\Users\DELL\Desktop\加外检\Modification\Modification\bin\Debug\Modification.exe.config
+C:\Users\DELL\Desktop\加外检\Modification\Modification\obj\Debug\Modification.exe
+C:\Users\DELL\Desktop\加外检\Modification\Modification\obj\Debug\Modification.pdb
+C:\Users\DELL\Desktop\加外检\Modification\Modification\bin\Debug\Modification.exe
+C:\Users\DELL\Desktop\加外检\Modification\Modification\bin\Debug\Modification.pdb
+C:\Users\DELL\Desktop\加外检\Modification\Modification\obj\Debug\Modification.Form1.resources
+C:\Users\DELL\Desktop\加外检\Modification\Modification\obj\Debug\Modification.Login.resources
+C:\Users\DELL\Desktop\加外检\Modification\Modification\obj\Debug\Modification.Properties.Resources.resources
+C:\Users\DELL\Desktop\加外检\Modification\Modification\obj\Debug\Modification.Registe.resources
+C:\Users\DELL\Desktop\加外检\Modification\Modification\obj\Debug\Modification.csproj.GenerateResource.Cache
+C:\Users\DELL\Desktop\加外检\Modification\Modification\bin\Debug\FastReport.Editor.dll
+C:\Users\DELL\Desktop\加外检\Modification\Modification\bin\Debug\FastReport.Bars.dll
+C:\Users\DELL\Desktop\加外检\Modification\Modification\bin\Debug\NPOI.dll
+C:\Users\DELL\Desktop\加外检\Modification\Modification\bin\Debug\NPOI.OOXML.dll
+C:\Users\DELL\Desktop\加外检\Modification\Modification\obj\Debug\Modification.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Desktop\加外检\备份\Modification\Modification\bin\Debug\Modification.exe.config
+C:\Users\DELL\Desktop\加外检\备份\Modification\Modification\obj\Debug\Modification.exe
+C:\Users\DELL\Desktop\加外检\备份\Modification\Modification\obj\Debug\Modification.pdb
+C:\Users\DELL\Desktop\加外检\备份\Modification\Modification\bin\Debug\Modification.exe
+C:\Users\DELL\Desktop\加外检\备份\Modification\Modification\bin\Debug\Modification.pdb
+C:\Users\DELL\Desktop\加外检\备份\Modification\Modification\bin\Debug\FastReport.Bars.dll
+C:\Users\DELL\Desktop\加外检\备份\Modification\Modification\bin\Debug\FastReport.Editor.dll
+C:\Users\DELL\Desktop\加外检\备份\Modification\Modification\bin\Debug\NPOI.dll
+C:\Users\DELL\Desktop\加外检\备份\Modification\Modification\bin\Debug\NPOI.OOXML.dll
+C:\Users\DELL\Desktop\加外检\备份\Modification\Modification\obj\Debug\Modification.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Desktop\加外检\备份\Modification\Modification\obj\Debug\Modification.Form1.resources
+C:\Users\DELL\Desktop\加外检\备份\Modification\Modification\obj\Debug\Modification.Login.resources
+C:\Users\DELL\Desktop\加外检\备份\Modification\Modification\obj\Debug\Modification.Properties.Resources.resources
+C:\Users\DELL\Desktop\加外检\备份\Modification\Modification\obj\Debug\Modification.Registe.resources
+C:\Users\DELL\Desktop\加外检\备份\Modification\Modification\obj\Debug\Modification.csproj.GenerateResource.Cache
+C:\Users\DELL\Desktop\加外检\备份\Modification - 副本\Modification\bin\Debug\Modification.exe.config
+C:\Users\DELL\Desktop\加外检\备份\Modification - 副本\Modification\obj\Debug\Modification.exe
+C:\Users\DELL\Desktop\加外检\备份\Modification - 副本\Modification\obj\Debug\Modification.pdb
+C:\Users\DELL\Desktop\加外检\备份\Modification - 副本\Modification\bin\Debug\Modification.exe
+C:\Users\DELL\Desktop\加外检\备份\Modification - 副本\Modification\bin\Debug\Modification.pdb
+C:\Users\DELL\Desktop\加外检\备份\Modification - 副本\Modification\bin\Debug\FastReport.Bars.dll
+C:\Users\DELL\Desktop\加外检\备份\Modification - 副本\Modification\bin\Debug\FastReport.Editor.dll
+C:\Users\DELL\Desktop\加外检\备份\Modification - 副本\Modification\bin\Debug\NPOI.dll
+C:\Users\DELL\Desktop\加外检\备份\Modification - 副本\Modification\bin\Debug\NPOI.OOXML.dll
+C:\Users\DELL\Desktop\加外检\备份\Modification - 副本\Modification\obj\Debug\Modification.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Desktop\加外检\备份\Modification - 副本\Modification\obj\Debug\Modification.Form1.resources
+C:\Users\DELL\Desktop\加外检\备份\Modification - 副本\Modification\obj\Debug\Modification.Login.resources
+C:\Users\DELL\Desktop\加外检\备份\Modification - 副本\Modification\obj\Debug\Modification.Properties.Resources.resources
+C:\Users\DELL\Desktop\加外检\备份\Modification - 副本\Modification\obj\Debug\Modification.Registe.resources
+C:\Users\DELL\Desktop\加外检\备份\Modification - 副本\Modification\obj\Debug\Modification.csproj.GenerateResource.Cache
+C:\Users\DELL\Desktop\加外检\备份\备份\Modification - 副本\Modification\bin\Debug\Modification.exe.config
+C:\Users\DELL\Desktop\加外检\备份\备份\Modification - 副本\Modification\obj\Debug\Modification.exe
+C:\Users\DELL\Desktop\加外检\备份\备份\Modification - 副本\Modification\obj\Debug\Modification.pdb
+C:\Users\DELL\Desktop\加外检\备份\备份\Modification - 副本\Modification\bin\Debug\Modification.exe
+C:\Users\DELL\Desktop\加外检\备份\备份\Modification - 副本\Modification\bin\Debug\Modification.pdb
+C:\Users\DELL\Desktop\加外检\备份\备份\Modification - 副本\Modification\bin\Debug\FastReport.Bars.dll
+C:\Users\DELL\Desktop\加外检\备份\备份\Modification - 副本\Modification\bin\Debug\FastReport.Editor.dll
+C:\Users\DELL\Desktop\加外检\备份\备份\Modification - 副本\Modification\bin\Debug\NPOI.dll
+C:\Users\DELL\Desktop\加外检\备份\备份\Modification - 副本\Modification\bin\Debug\NPOI.OOXML.dll
+C:\Users\DELL\Desktop\加外检\备份\备份\Modification - 副本\Modification\obj\Debug\Modification.csprojResolveAssemblyReference.cache
+C:\Users\DELL\Desktop\加外检\备份\备份\Modification - 副本\Modification\obj\Debug\Modification.Form1.resources
+C:\Users\DELL\Desktop\加外检\备份\备份\Modification - 副本\Modification\obj\Debug\Modification.Login.resources
+C:\Users\DELL\Desktop\加外检\备份\备份\Modification - 副本\Modification\obj\Debug\Modification.Properties.Resources.resources
+C:\Users\DELL\Desktop\加外检\备份\备份\Modification - 副本\Modification\obj\Debug\Modification.Registe.resources
+C:\Users\DELL\Desktop\加外检\备份\备份\Modification - 副本\Modification\obj\Debug\Modification.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\加外检\备份\备份\Modification - 副本\Modification\bin\Debug\Modification.exe.config
+C:\Users\Administrator\Desktop\加外检\备份\备份\Modification - 副本\Modification\obj\Debug\Modification.exe
+C:\Users\Administrator\Desktop\加外检\备份\备份\Modification - 副本\Modification\obj\Debug\Modification.pdb
+C:\Users\Administrator\Desktop\加外检\备份\备份\Modification - 副本\Modification\bin\Debug\Modification.exe
+C:\Users\Administrator\Desktop\加外检\备份\备份\Modification - 副本\Modification\bin\Debug\Modification.pdb
+C:\Users\Administrator\Desktop\加外检\备份\备份\Modification - 副本\Modification\bin\Debug\FastReport.Bars.dll
+C:\Users\Administrator\Desktop\加外检\备份\备份\Modification - 副本\Modification\bin\Debug\FastReport.Editor.dll
+C:\Users\Administrator\Desktop\加外检\备份\备份\Modification - 副本\Modification\bin\Debug\NPOI.dll
+C:\Users\Administrator\Desktop\加外检\备份\备份\Modification - 副本\Modification\bin\Debug\NPOI.OOXML.dll
+C:\Users\Administrator\Desktop\加外检\备份\备份\Modification - 副本\Modification\obj\Debug\Modification.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\加外检\备份\备份\Modification - 副本\Modification\obj\Debug\Modification.Form1.resources
+C:\Users\Administrator\Desktop\加外检\备份\备份\Modification - 副本\Modification\obj\Debug\Modification.Login.resources
+C:\Users\Administrator\Desktop\加外检\备份\备份\Modification - 副本\Modification\obj\Debug\Modification.Properties.Resources.resources
+C:\Users\Administrator\Desktop\加外检\备份\备份\Modification - 副本\Modification\obj\Debug\Modification.Registe.resources
+C:\Users\Administrator\Desktop\加外检\备份\备份\Modification - 副本\Modification\obj\Debug\Modification.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\程序文件\加外检\备份\备份\Modification - 副本\Modification\bin\Debug\Modification.exe.config
+C:\Users\Administrator\Desktop\程序文件\加外检\备份\备份\Modification - 副本\Modification\obj\Debug\Modification.exe
+C:\Users\Administrator\Desktop\程序文件\加外检\备份\备份\Modification - 副本\Modification\obj\Debug\Modification.pdb
+C:\Users\Administrator\Desktop\程序文件\加外检\备份\备份\Modification - 副本\Modification\bin\Debug\Modification.exe
+C:\Users\Administrator\Desktop\程序文件\加外检\备份\备份\Modification - 副本\Modification\bin\Debug\Modification.pdb
+C:\Users\Administrator\Desktop\程序文件\加外检\备份\备份\Modification - 副本\Modification\bin\Debug\FastReport.Bars.dll
+C:\Users\Administrator\Desktop\程序文件\加外检\备份\备份\Modification - 副本\Modification\bin\Debug\FastReport.Editor.dll
+C:\Users\Administrator\Desktop\程序文件\加外检\备份\备份\Modification - 副本\Modification\bin\Debug\NPOI.dll
+C:\Users\Administrator\Desktop\程序文件\加外检\备份\备份\Modification - 副本\Modification\bin\Debug\NPOI.OOXML.dll
+C:\Users\Administrator\Desktop\程序文件\加外检\备份\备份\Modification - 副本\Modification\obj\Debug\Modification.Form1.resources
+C:\Users\Administrator\Desktop\程序文件\加外检\备份\备份\Modification - 副本\Modification\obj\Debug\Modification.Login.resources
+C:\Users\Administrator\Desktop\程序文件\加外检\备份\备份\Modification - 副本\Modification\obj\Debug\Modification.Properties.Resources.resources
+C:\Users\Administrator\Desktop\程序文件\加外检\备份\备份\Modification - 副本\Modification\obj\Debug\Modification.Registe.resources
+C:\Users\Administrator\Desktop\程序文件\加外检\备份\备份\Modification - 副本\Modification\obj\Debug\Modification.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\程序文件\加外检\备份\备份\Modification - 副本\Modification\obj\Debug\Modification.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\综检\综检打印\Modification\Modification\bin\Debug\Modification.exe.config
+C:\Users\Administrator\Desktop\综检\综检打印\Modification\Modification\obj\Debug\Modification.exe
+C:\Users\Administrator\Desktop\综检\综检打印\Modification\Modification\obj\Debug\Modification.pdb
+D:\gitk\Modification\Modification\bin\Debug\Modification.exe.config
+D:\gitk\Modification\Modification\obj\Debug\Modification.exe
+D:\gitk\Modification\Modification\obj\Debug\Modification.pdb
