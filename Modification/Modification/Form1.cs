@@ -68,7 +68,7 @@ namespace Modification
         public void ClearText()
         {
             fid.Visible = false;
-            cllx.Text = "";
+            //cllx.Text = "";
             jylb.Text = "";
             qzdz.Text = "";
             ywlx.Text = "";
